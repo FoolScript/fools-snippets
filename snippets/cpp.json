@@ -1,0 +1,680 @@
+{
+  "C++ Info": {
+    "prefix": ["foolsInfo", "languageInfo", "info"],
+    "body": [
+      "// Typing: Statically typed",
+      "// Paradigm: Multi-paradigm: procedural, object-oriented, functional, generic, imperative",
+      "// Compilation: Compiled",
+      "// Concurrency: Supports multi-threading"
+    ],
+    "description": "General information about C++."
+  },
+  "C++ Entry Point": {
+    "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
+    "body": [
+      "// C++ Entry Point",
+      "// To compile and run this program, use: `g++ filename.cpp -o output && ./output`",
+      "",
+      "#include <iostream>",
+      "",
+      "int main() {",
+      "    std::cout << \"Hello, World!\" << std::endl;",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates the entry point of a C++ application."
+  },
+
+  "C++ Project Structure (High-Level)": {
+    "prefix": ["foolsStructure", "structure", "architecture"],
+    "body": [
+      "// Recommended High-Level C++ Project Structure:",
+      "",
+      "// - src/",
+      "//   For Feature or Module-based Organization:",
+      "//   - rendering/",
+      "//     - Contains source code for rendering features.",
+      "//   - physics/",
+      "//     - Contains source code for physics features.",
+      "//   - networking/",
+      "//     - Contains source code for networking features.",
+      "//   For File Type-based Organization:",
+      "//   - cpp/",
+      "//     - Contains all .cpp implementation files.",
+      "//   - h/",
+      "//     - Contains all .h header files.",
+      "//   - Contains all source code.",
+      "// - include/",
+      "//   - Contains header files.",
+      "// - build/",
+      "//   - Output directory for compiled files.",
+      "// - lib/",
+      "//   - Contains external libraries (if not using a package manager).",
+      "// - test/",
+      "//   - Contains unit tests.",
+      "",
+      "// Note:",
+      "// - This is a basic structure; adjust based on project complexity and preferences."
+    ],
+    "description": "Explains a high-level project structure for C++."
+  },
+
+  "C++ Mathematical Operators": {
+    "prefix": ["foolsOperators", "operators", "mathDocs"],
+    "body": [
+      "// C++ Mathematical Operators",
+      "// Addition: +",
+      "// Subtraction: -",
+      "// Multiplication: *",
+      "// Exponentiation: **",
+      "// Division: /",
+      "// Modulus: %",
+      "// Increment: ++",
+      "// Decrement: --",
+      "// Assignment: =",
+      "// Addition assignment: +=",
+      "// Subtraction assignment: -=",
+      "// Multiplication assignment: *=",
+      "// Division assignment: /=",
+      "// Modulus assignment: %="
+    ],
+    "description": "Lists the mathematical operators in C++."
+  },
+  "C++ Equal To": {
+    "prefix": ["foolsEqual", "equal"],
+    "body": ["=="],
+    "description": "C++ equal to operator."
+  },
+  "C++ Not Equal To": {
+    "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
+    "body": ["!="],
+    "description": "C++ not equal to operator."
+  },
+  "C++ Boolean Operators": {
+    "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
+    "body": [
+      "// C++ Boolean Operators",
+      "// Logical AND: &&",
+      "// Logical OR: ||",
+      "// Logical NOT: !",
+      "// Equality: ==",
+      "// Inequality: !=",
+      "// Greater than: >",
+      "// Less than: <",
+      "// Greater than or equal to: >=",
+      "// Less than or equal to: <="
+    ],
+    "description": "Lists the boolean operators in C++."
+  },
+  "C++ Types": {
+    "prefix": [
+      "foolsTypes",
+      "types",
+      "allTypes",
+      "languageTypes",
+      "builtInTypes",
+      "dataTypes"
+    ],
+    "body": [
+      "$BLOCK_COMMENT_START",
+      "C++ is a statically typed language.",
+      "",
+      "Types in C++ include:",
+      "- int: Integer",
+      "- float: Single-precision floating-point number",
+      "- double: Double-precision floating-point number",
+      "- char: Character",
+      "- bool: Boolean",
+      "- std::string: String class from the Standard Library",
+      "- int[10]: Array of integers with size 10",
+      "- std::vector<int>: Vector of integers from the Standard Library",
+      "- std::map<K, V>: Map (associative array) from the Standard Library",
+      "- struct MyStruct: Custom data structure with named fields",
+      "- enum MyEnum: Enumeration type",
+      "- void: Type representing the absence of a value",
+      "- auto: Type inferred by the compiler",
+      "- nullptr: Type of the null pointer",
+      "- decltype: Type specifier for the type of an expression",
+      "",
+      "Read more here: https://learn.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-170",
+      "$BLOCK_COMMENT_END"
+    ],
+    "description": "Lists the types in C++."
+  },
+
+  "C++ Type Check": {
+    "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
+    "body": ["typeid(${1:variable})"],
+    "description": "Gets the type of a variable in C++."
+  },
+  "C++ This Type Check": {
+    "prefix": ["thisTypeCheck", "thisType", "getThisType"],
+    "body": ["typeid($CLIPBOARD).name()"],
+    "description": "Gets the type of the variable in the clipboard in C++."
+  },
+  "C++ Type Comparison": {
+    "prefix": ["foolsTypeCompare", "compareTypes"],
+    "body": [
+      "// Check if two variables have the same type:",
+      "if (typeid(${1:variable1}) == typeid(${2:variable2})) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Compares the types of two variables in C++."
+  },
+  "C++ Type Conversion": {
+    "prefix": ["foolsTypeConvert", "foolsConvert", "foolsTypeCast"],
+    "body": [
+      "// C++ Type Conversion:",
+      "",
+      "// Implicit conversions (compiler performs automatically):",
+      "// - Smaller integer types to larger integer types (e.g., int to long).",
+      "// - Integers to floating-point types (e.g., int to double).",
+      "",
+      "// Explicit conversions (using casts):",
+      "// - static_cast<Type>(expression): For safe conversions within compatible types.",
+      "// - dynamic_cast<Type>(expression): For safe conversions between polymorphic types.",
+      "// - const_cast<Type>(expression): For removing constness.",
+      "// - reinterpret_cast<Type>(expression): For low-level reinterpretations of data.",
+      "",
+      "// Example:",
+      "// int x = 5;",
+      "// double y = static_cast<double>(x);"
+    ],
+    "description": "Explains type conversion in C++."
+  },
+  "C++ String Type": {
+    "prefix": [
+      "foolsTypesString",
+      "stringType",
+      "typeString",
+      "textType",
+      "typeText"
+    ],
+    "body": ["std::string"],
+    "description": "The C++ string type."
+  },
+  "C++ Integer Type": {
+    "prefix": ["foolsTypesInt", "intType", "typeInt"],
+    "body": ["int"],
+    "description": "The C++ int type."
+  },
+  "C++ Double Type": {
+    "prefix": [
+      "foolsTypesNum",
+      "numberType",
+      "typeNumber",
+      "doubleType",
+      "typeDouble"
+    ],
+    "body": ["double"],
+    "description": "The C++ double type."
+  },
+  "C++ Float Type": {
+    "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
+    "body": ["float"],
+    "description": "The C++ float type."
+  },
+  "C++ Boolean Type": {
+    "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
+    "body": ["bool"],
+    "description": "The C++ bool type."
+  },
+  "C++ Boolean True": {
+    "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
+    "body": ["true"],
+    "description": "The C++ true boolean value."
+  },
+  "C++ Boolean False": {
+    "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
+    "body": ["false"],
+    "description": "The C++ false boolean value."
+  },
+  "C++ Map Type": {
+    "prefix": [
+      "foolsTypesMap",
+      "mapType",
+      "typeMap",
+      "hashmapType",
+      "structType",
+      "dictType",
+      "typeDict",
+      "typeScruct"
+    ],
+    "body": ["std::map<${1:keyType}, ${2:valueType}>"],
+    "description": "The C++ map type."
+  },
+  "C++ List Type": {
+    "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
+    "body": ["std::vector<${1:type}>"],
+    "description": "The C++ list type."
+  },
+  "C++ Character Type": {
+    "prefix": ["foolsTypesChar"],
+    "body": ["char"],
+    "description": "The C++ char type."
+  },
+  "C++ Date Type": {
+    "prefix": [
+      "foolsTypesDate",
+      "dateType",
+      "typeDate",
+      "timeType",
+      "timestampType",
+      "dateTimeType"
+    ],
+    "body": ["#include <chrono>\n\nstd::chrono::system_clock::time_point"],
+    "description": "C++ doesn't have a built-in Date type. Use std::chrono for date and time operations."
+  },
+  "C++ Null Type": {
+    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "body": ["nullptr"],
+    "description": "The C++ null type."
+  },
+  "C++ Dynamic Type": {
+    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "body": ["std::any"],
+    "description": "The C++ dynamic type."
+  },
+  "C++ Date Now": {
+    "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
+    "body": ["std::chrono::system_clock::now()"],
+    "description": "Gets the current date and time in C++ using std::chrono."
+  },
+  "C++ Interpolate String": {
+    "prefix": [
+      "foolsInterpolate",
+      "interpolate",
+      "variableExpansion",
+      "variableSubstitution",
+      "stringPlaceholders",
+      "stringInterpolation"
+    ],
+    "body": ["std::string ${1:myString} = \"${2:Your message here}\";"],
+    "description": "Creates an interpolated string in C++."
+  },
+  "C++ Concatenate Strings": {
+    "prefix": ["foolsConcat", "concatenate", "combine"],
+    "body": ["std::string ${1:myString} = ${2:\"Hello, \"} + ${3:\"world!\"};"],
+    "description": "Concatenates two strings in C++."
+  },
+  "C++ Create Variable": {
+    "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
+    "body": ["${1:type} ${2:myVar} = ${3:value};"],
+    "description": "Creates a variable in C++."
+  },
+
+  "C++ Variable Declaration Syntax": {
+    "prefix": [
+      "foolsVarSyntax",
+      "variableSyntax",
+      "howToVariables",
+      "letSyntax"
+    ],
+    "body": [
+      "// C++ Variable Declaration Syntax:",
+      "",
+      "// - auto: (Scope: Block)",
+      "//   - Type is automatically inferred by the compiler.",
+      "//   - Preferred for most variable declarations.",
+      "",
+      "// - type: (Scope: Block)",
+      "//   - Explicitly specify the variable's type.",
+      "//   - Use when auto deduction is not desired or not possible.",
+      "",
+      "// - const: (Scope: Block)",
+      "//   - Cannot be reassigned or redeclared.",
+      "//   - Use for values that should remain constant.",
+      "",
+      "// Note:",
+      "// - C++ does not have a direct equivalent to 'var' or 'let'.",
+      "// - Use 'auto' for most variable declarations.",
+      "// - Use 'const' for values that should not change."
+    ],
+    "description": "Explains C++ variable declaration syntax"
+  },
+  "C++ Create Typed Variable": {
+    "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
+    "body": ["${1:Type} ${2:myVar} = $3;"],
+    "description": "Creates a typed variable in C++."
+  },
+  "C++ Create Nullable Variable": {
+    "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
+    "body": ["std::optional<${1:Type}> ${2:myVar} = $3;"],
+    "description": "Creates a nullable variable in C++ using std::optional."
+  },
+  "C++ Create Integer Variable": {
+    "prefix": [
+      "foolsVarInt",
+      "integer",
+      "int",
+      "variableInt",
+      "intVariable",
+      "createInt"
+    ],
+    "body": ["int ${1:myInt} = ${2:value};"],
+    "description": "Creates an integer variable in C++."
+  },
+  "C++ Create Double Variable": {
+    "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
+    "body": ["double ${1:myDouble} = ${2:value};"],
+    "description": "Creates a double variable in C++."
+  },
+  "C++ Create Float Variable": {
+    "prefix": ["foolsVarNumAlt", "float", "variableFloat", "floatVariable"],
+    "body": ["float ${1:myFloat} = ${2:value};"],
+    "description": "Creates a float variable in C++."
+  },
+  "C++ Create Boolean Variable": {
+    "prefix": [
+      "foolsVarBool",
+      "variableBool",
+      "bool",
+      "boolVariable",
+      "createBool"
+    ],
+    "body": ["bool ${1:myBool} = ${2:value};"],
+    "description": "Creates a boolean variable in C++."
+  },
+  "C++ Create String Variable": {
+    "prefix": [
+      "foolsVarString",
+      "string",
+      "stringVariable",
+      "variableString",
+      "text",
+      "createString",
+      "createText"
+    ],
+    "body": ["std::string ${1:myString} = ${2:value};"],
+    "description": "Creates a string variable in C++."
+  },
+  "C++ Create Multi-Line String Variable": {
+    "prefix": [
+      "foolsVarStringMulti",
+      "multiLineString",
+      "varStringMulti",
+      "stringVariableMulti",
+      "createMultiLineString"
+    ],
+    "body": [
+      "std::string ${1:myString} = R\"(${2:Your multi-line message here})\";"
+    ],
+    "description": "Creates a multi-line string variable in C++."
+  },
+  "C++ Create List Variable": {
+    "prefix": [
+      "foolsVarList",
+      "createList",
+      "listVariable",
+      "arrayVariable",
+      "variableList",
+      "variableArray",
+      "list",
+      "array"
+    ],
+    "body": ["std::vector<${1:type}> ${2:myList} = {${3:values}};"],
+    "description": "Creates a list variable in C++."
+  },
+  "C++ Create Map Variable": {
+    "prefix": [
+      "foolsVarMap",
+      "createMap",
+      "createStruct",
+      "variableMap",
+      "variableStruct",
+      "mapVariable",
+      "structVariable",
+      "dictVariable",
+      "variableDict",
+      "createDict"
+    ],
+    "body": [
+      "std::map<${1:keyType}, ${2:valueType}> ${3:myMap} = {",
+      "  {${4:key1}, ${5:value1}},",
+      "  {${6:key2}, ${7:value2}},",
+      "  // Add more key-value pairs here",
+      "};"
+    ],
+    "description": "Creates a map variable in C++."
+  },
+  "C++ Create Date Variable": {
+    "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
+    "body": [
+      "#include <chrono>",
+      "",
+      "auto ${1:myDate} = std::chrono::system_clock::now();"
+    ],
+    "description": "Creates a date variable in C++ using std::chrono."
+  },
+
+  "C++ Generate List": {
+    "prefix": ["foolsGenList", "generateList", "listGen"],
+    "body": [
+      "std::vector<${1:type}> ${2:listName}( ${3:size}, ${4:initialValue} );"
+    ],
+    "description": "Generates a list (vector) of a specific size and initial value in C++."
+  },
+  "C++ Generate Map": {
+    "prefix": ["foolsGenMap", "generateMap"],
+    "body": [
+      "// C++ does not have a built-in way to generate a map with a specific number of key-value pairs.",
+      "// You can use a loop or a custom function to achieve this."
+    ],
+    "description": "Explains how to generate a map in C++."
+  },
+  "C++ Create Constant": {
+    "prefix": ["foolsConst", "constant"],
+    "body": ["const ${1:type} ${2:myConst} = ${3:value};"],
+    "description": "Creates a constant variable in C++."
+  },
+  "C++ Static Variable": {
+    "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
+    "body": [
+      "static ${2:type} ${3:myStaticVar} = ${4:value};",
+      "",
+      "// Access the static variable",
+      "// MyClass::${3:myStaticVar}"
+    ],
+    "description": "Creates a static variable in a C++ class."
+  },
+  "C++ Print": {
+    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
+    "body": [
+      "#include <iostream>",
+      "",
+      "std::cout << ${1:\"Your message here\"} << std::endl;"
+    ],
+    "description": "Prints a message to the console in C++."
+  },
+  "C++ Print Multi": {
+    "prefix": ["foolsPrintMulti", "printMultiLine"],
+    "body": [
+      "#include <iostream>",
+      "",
+      "std::cout << ${1:\"Line 1\"} << std::endl",
+      "          << ${2:\"Line 2\"} << std::endl",
+      "          << ${3:\"Line 3\"} << std::endl;"
+    ],
+    "description": "Prints a multi-line message to the console in C++."
+  },
+  "C++ For Loop": {
+    "prefix": ["foolsForLoop", "forLoop", "forX"],
+    "body": [
+      "for (int ${1:i} = 0; $1 < ${2:10}; $1++) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Creates a for loop that iterates through a set of numbers with the index in C++."
+  },
+  "C++ For...In Loop": {
+    "prefix": ["foolsForInLoop", "forIn", "forOf"],
+    "body": [
+      "for (auto ${1:item} : ${2:iterable}) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Iterates over an iterable object in C++."
+  },
+  "C++ While Loop": {
+    "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
+    "body": ["while (${1:condition}) {", "  // Your code here", "}"],
+    "description": "Creates a while loop in C++."
+  },
+  "C++ Do...While Loop": {
+    "prefix": ["foolsDoWhileLoop", "doWhile"],
+    "body": ["do {", "  // Your code here", "} while (${1:condition});"],
+    "description": "Creates a do...while loop in C++."
+  },
+  "C++ Switch Statement": {
+    "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
+    "body": [
+      "switch (${1:variable}) {",
+      "  case ${2:value1}:",
+      "    // Your code here",
+      "    break;",
+      "  case ${3:value2}:",
+      "    // Your code here",
+      "    break;",
+      "  default:",
+      "    // Your code here",
+      "}"
+    ],
+    "description": "Creates a switch statement in C++."
+  },
+  "C++ Function": {
+    "prefix": [
+      "foolsFunc",
+      "function",
+      "subprogram",
+      "procedure",
+      "subroutine",
+      "method"
+    ],
+    "body": [
+      "void ${2:myFunction}(${3:}) {",
+      "  ${4:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function in C++."
+  },
+  "C++ Function Args": {
+    "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
+    "body": [
+      "// In C++, you can use default arguments in function definitions.",
+      "void ${2:myFunction}(${3:Type} ${4:arg1}, ${5:Type} ${6:arg2} = ${7:defaultValue}) {",
+      "    ${8:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function with arguments in C++, including an argument with a default value in the definition."
+  },
+  "C++ Function Named Args": {
+    "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
+    "body": [
+      "// C++ does not support named arguments in the same way as some other languages."
+    ],
+    "description": "C++ does not support named arguments in the same way as some other languages."
+  },
+  "C++ Lambda and Anonymous Function": {
+    "prefix": [
+      "foolsFuncLambda",
+      "foolsFuncAnon",
+      "foolsLambda",
+      "foolsFuncArrow",
+      "anonFunc",
+      "anonymous",
+      "functionLiteral"
+    ],
+    "body": [
+      "auto ${1:myLambda} = [](${2:parameters}) -> ${3:returnType} {",
+      "  // Your code here",
+      "};",
+      "",
+      "// Or without assigning to a variable:",
+      "[](${2:parameters}) -> ${3:returnType} {",
+      "  ${3:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a lambda function in C++. Can also represent an anonymous function."
+  },
+  "C++ Function Syntax": {
+    "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
+    "body": [
+      "// C++ Function Syntax",
+      "// Basic function: returnType functionName(parameters) { ... }",
+      "// Function with arguments: returnType functionName(arg1Type arg1, arg2Type arg2, ...) { ... }",
+      "// C++ does not support named arguments in the same way as some other languages."
+    ],
+    "description": "Outlines the syntax for functions in C++."
+  },
+  "C++ Comment": {
+    "prefix": ["foolsComment", "comment", "note"],
+    "body": ["// ${1:Your comment here}"],
+    "description": "Creates a single-line comment in C++."
+  },
+  "C++ Multi-Line Comment": {
+    "prefix": [
+      "foolsCommentMulti",
+      "multiLineComment",
+      "commentMultiLine",
+      "blockComment"
+    ],
+    "body": ["/*", " * ${1:Your comment here}", " */"],
+    "description": "Creates a multi-line comment in C++."
+  },
+  "C++ Throw Exception": {
+    "prefix": ["foolsThrow", "throwError", "throwException"],
+    "body": ["throw ${1:Exception('Your message here')};"],
+    "description": "Throws an exception in C++."
+  },
+  "C++ Try Catch": {
+    "prefix": ["foolsTryCatch", "tryCatch"],
+    "body": [
+      "try {",
+      "  // Your code here",
+      "} catch (${1:exceptionType} ${2:exception}) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Creates a try...catch block in C++."
+  },
+  "C++ Enum": {
+    "prefix": ["foolsEnum", "enum"],
+    "body": [
+      "enum class ${1:MyEnum} {",
+      "  ${2:value1},",
+      "  ${3:value2},",
+      "  // Add more values here",
+      "};"
+    ],
+    "description": "Creates an enum in C++."
+  },
+  "C++ Class": {
+    "prefix": ["foolsClass", "class", "objectTemplate"],
+    "body": ["class ${1:MyClass} {", "  // Your code here", "};"],
+    "description": "Creates a class in C++."
+  },
+  "C++ If Statement": {
+    "prefix": ["foolsIf", "ifStatement"],
+    "body": ["if (${1:condition}) {", "  // Your code here", "}"],
+    "description": "Creates an if statement in C++."
+  },
+  "C++ If Else Statement": {
+    "prefix": ["foolsIfElse", "ifElseStatement"],
+    "body": [
+      "if (${1:condition}) {",
+      "  // Your code here",
+      "} else if (${2:condition}) {",
+      "  // Your code here",
+      "} else {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Creates an if...else statement in C++."
+  },
+  "C++ Ternary Operator": {
+    "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
+    "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
+    "description": "Creates a ternary operator in C++."
+  }
+}

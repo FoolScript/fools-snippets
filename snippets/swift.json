@@ -1,0 +1,555 @@
+{
+  "Swift Info": {
+    "prefix": ["foolsInfo", "languageInfo", "info"],
+    "body": [
+      "Typing: Statically typed",
+      "Paradigm: Multi-paradigm: object-oriented, functional, imperative, block-structured",
+      "Compilation: Compiled",
+      "Concurrency: Supports multi-threading and concurrent programming with Grand Central Dispatch (GCD) and async/await"
+    ],
+    "description": "Provides general information about the Swift programming language."
+  },
+  "Swift Entry Point": {
+    "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
+    "body": [
+      "// Swift Entry Point",
+      "// To run this program, use: `swift filename.swift`",
+      "",
+      "import Foundation",
+      "",
+      "print(\"Hello, World!\")"
+    ],
+    "description": "Describes the entry point of a Swift application."
+  },
+  "Swift Project Structure (High-Level)": {
+    "prefix": ["foolsStructure", "structure", "architecture"],
+    "body": [
+      "// Recommended High-Level Swift Project Structure:",
+      "",
+      "// - /Sources",
+      "//   - Contains the Swift source files.",
+      "//   - Organize by feature or functionality in different directories.",
+      "",
+      "// - /Tests",
+      "//   - Contains Swift test files.",
+      "//   - Organize tests to mirror the structure of the /Sources directory.",
+      "",
+      "// - Package.swift",
+      "//   - The manifest file for Swift Package Manager.",
+      "",
+      "// - /Resources",
+      "//   - Non-code resources like images, data files, etc.",
+      "",
+      "// - /Documentation",
+      "//   - Documentation files for the project.",
+      "",
+      "// - /Scripts",
+      "//   - Utility scripts for building, running, etc.",
+      "",
+      "// Note:",
+      "// - This structure is common for projects managed with Swift Package Manager.",
+      "// - For Xcode projects, the structure might be different, typically organized within an .xcodeproj file."
+    ],
+    "description": "Explains a high-level project structure for Swift."
+  },
+
+  "Swift Mathematical Operators": {
+    "prefix": ["foolsOperators", "operators", "mathDocs"],
+    "body": [
+      "// Swift Mathematical Operators",
+      "// Addition: +",
+      "// Subtraction: -",
+      "// Multiplication: *",
+      "// Division: /",
+      "// Modulus (Remainder): %",
+      "// Exponentiation: **",
+      "// Increment: Use += 1",
+      "// Decrement: Use -= 1",
+      "// Assignment: =",
+      "// Addition assignment: +=",
+      "// Subtraction assignment: -=",
+      "// Multiplication assignment: *=",
+      "// Division assignment: /=",
+      "// Modulus assignment: %=",
+      "// Exponentiation assignment: **="
+    ],
+    "description": "Lists the mathematical operators in Swift."
+  },
+  "Swift Equal To": {
+    "prefix": ["foolsEqual", "equal"],
+    "body": ["=="],
+    "description": "Swift equal to operator."
+  },
+  "Swift Not Equal To": {
+    "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
+    "body": ["!="],
+    "description": "Swift not equal to operator."
+  },
+  "Swift Boolean Operators": {
+    "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
+    "body": [
+      "// Swift Boolean Operators",
+      "// Logical AND: &&",
+      "// Logical OR: ||",
+      "// Logical NOT: !",
+      "// Equality: ==",
+      "// Inequality: !=",
+      "// Greater than: >",
+      "// Less than: <",
+      "// Greater than or equal to: >=",
+      "// Less than or equal to: <="
+    ],
+    "description": "Lists the boolean operators in Swift."
+  },
+  "Swift Type Check": {
+    "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
+    "body": ["type(of: ${1:variable})"],
+    "description": "Gets the type of a variable in Swift."
+  },
+  "Swift This Type Check": {
+    "prefix": ["thisTypeCheck", "thisType", "getThisType"],
+    "body": ["type(of: $CLIPBOARD)"],
+    "description": "Gets the type of the variable in the clipboard in Swift."
+  },  
+  "Swift Type Comparison": {
+    "prefix": ["foolsTypeCompare", "compareTypes"],
+    "body": [
+      "// Check if two variables have the same type:",
+      "if type(of: ${1:variable1}) == type(of: ${2:variable2}) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Compares the types of two variables in Swift."
+  },
+  "Swift Type Conversion": {
+    "prefix": ["foolsTypeCast", "convert", "cast"],
+    "body": [
+      "// Swift Type Conversion:",
+      "",
+      "// Swift emphasizes explicit type conversions for safety.",
+      "",
+      "// Explicit conversions:",
+      "// - variable as? TargetType  // Safe cast (returns nil if conversion fails)",
+      "// - TargetType(variable)  // Forced cast (can crash if conversion fails)",
+      "",
+      "// Note:",
+      "// - Use safe casts (as?) whenever possible.",
+      "// - Only use forced casts (TargetType()) when you are certain the conversion will succeed."
+    ],
+    "description": "Explains type conversion in Swift."
+  },
+
+  "Swift Types": {
+    "prefix": [
+      "foolsTypes",
+      "types",
+      "allTypes",
+      "languageTypes",
+      "builtInTypes",
+      "dataTypes"
+    ],
+    "body": [
+      "$BLOCK_COMMENT_START",
+      "Swift is a statically typed language.",
+      "",
+      "Types in Swift include:",
+      "- Int, UInt: Signed and unsigned integers",
+      "- Float, Double: Floating-point numbers",
+      "- Bool: Boolean",
+      "- String: Textual data",
+      "- Character: A single character",
+      "- Array<Element>: An ordered collection of elements",
+      "- Dictionary<Key, Value>: A collection of key-value pairs",
+      "- Set<Element>: An unordered collection of unique elements",
+      "- Optional<Type>: An optional value of Type",
+      "- Tuple: A group of values",
+      "- Enum: An enumeration",
+      "- Struct: A structure",
+      "- Class: A class",
+      "- Protocol: A protocol",
+      "- Closure: A closure or lambda function",
+      "",
+      "Read more here: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types/",
+      "$BLOCK_COMMENT_END"
+    ],
+    "description": "Lists the types in Swift."
+  },
+  "Swift String Type": {
+    "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
+    "body": ["String"],
+    "description": "The Swift String type."
+  },
+  "Swift Integer Type": {
+    "prefix": ["foolsTypesInt", "intType", "typeInt"],
+    "body": ["Int"],
+    "description": "The Swift Int type."
+  },
+  "Swift Double Type": {
+    "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
+    "body": ["Double"],
+    "description": "The Swift Double type."
+  },
+  "Swift Float Type": {
+    "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
+    "body": ["Float"],
+    "description": "The Swift Float type."
+  },
+  "Swift Boolean Type": {
+    "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
+    "body": ["Bool"],
+    "description": "The Swift Bool type."
+  },
+  "Swift Boolean True": {
+    "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
+    "body": ["true"],
+    "description": "The Swift true value."
+  },
+  "Swift Boolean False": {
+    "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
+    "body": ["false"],
+    "description": "The Swift false value."
+  },
+  "Swift Date Type": {
+    "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
+    "body": ["Date"],
+    "description": "The Swift Date struct."
+  },
+  "Swift Map Type": {
+    "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
+    "body": ["Dictionary<${1:KeyType}, ${2:ValueType}>"],
+    "description": "The Swift Dictionary type, equivalent to a map."
+  },
+  "Swift List Type": {
+    "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
+    "body": ["Array<${1:Type}>"],
+    "description": "The Swift Array type, equivalent to a list."
+  },
+  "Swift Date Now": {
+    "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
+    "body": ["Date()"],
+    "description": "Gets the current date and time in Swift."
+  },
+  "Swift Null Type": {
+    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "body": ["nil"],
+    "description": "The Swift nil value."
+  },
+  "Swift Character Type": {
+    "prefix": ["foolsTypesChar"],
+    "body": ["Character"],
+    "description": "The Swift Character type."
+  },
+  "Swift Dynamic Type": {
+    "prefix": ["foolsTypesAny", "dynamicType", "anyType", "typesDynamic", "typesAny"],
+    "body": ["Any"],
+    "description": "The Swift Any type."
+  },
+  "Swift Interpolate String": {
+    "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
+    "body": ["\"\\(${1:variable})\""],
+    "description": "Interpolates a variable into a string in Swift."
+  },
+  "Swift Concatenate Strings": {
+    "prefix": ["foolsConcat", "concatenate", "combine"],
+    "body": ["\"${1:string1}\" + \"${2:string2}\""],
+    "description": "Concatenates two strings in Swift."
+  },
+  "Swift Create Variable": {
+    "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
+    "body": ["var ${1:myVar} = $2;"],
+    "description": "Creates a variable in Swift using the var keyword."
+  },
+  "Variable Declaration Syntax": {
+    "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
+    "body": [
+      "// Swift Variable Declaration Syntax:",
+      "",
+      "// - var: (Scope: Block or Global)",
+      "//   - Declares a mutable variable.",
+      "//   - Use for variables that need to be reassigned.",
+      "",
+      "// - let: (Scope: Block or Global)",
+      "//   - Declares an immutable variable.",
+      "//   - Preferred for values that should remain constant.",
+      "",
+      "// Note:",
+      "// - Use 'let' by default for values that won't change.",
+      "// - Use 'var' only when you need to reassign the variable."
+    ],
+    "description": "Explains Swift variable declaration syntax"
+  },
+  "Swift Create Typed Variable": {
+    "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
+    "body": ["var ${1:myVar}: ${2:Type} = $3"],
+    "description": "Creates a typed variable in Swift."
+  },
+  "Swift Create Nullable Variable": {
+    "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
+    "body": ["var ${1:myVar}: ${2:Type}? = $3"],
+    "description": "Creates a nullable variable in Swift."
+  },
+  "Swift Create String Variable": {
+    "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
+    "body": ["var ${1:myString} = ${2:'Your string here'};"],
+    "description": "Creates a string variable in Swift."
+  },
+  "Swift Create Multi-Line String Variable": {
+    "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
+    "body": [
+      "var ${1:myString} = \"\"\"",
+      "${2:Line 1}",
+      "${3:Line 2}",
+      "${4:Line 3}",
+      "\"\"\";"
+    ],
+    "description": "Creates a multi-line string variable in Swift."
+  },
+  "Swift Create Integer Variable": {
+    "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
+    "body": ["var ${1:myInt} = ${2:0};"],
+    "description": "Creates an integer variable in Swift."
+  },
+  "Swift Create Double Variable": {
+    "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
+    "body": ["var ${1:myDouble} = ${2:0.0};"],
+    "description": "Creates a double variable in Swift."
+  },
+  "Swift Create Float Variable": {
+    "prefix": ["foolsVarNumAlt", "float", "variableFloat", "floatVariable"],
+    "body": ["var ${1:myFloat} = ${2:0.0}f;"],
+    "description": "Creates a float variable in Swift."
+  },
+  "Swift Create Boolean Variable": {
+    "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
+    "body": ["var ${1:myBool} = ${2:true};"],
+    "description": "Creates a boolean variable in Swift."
+  },
+  "Swift Create Date Variable": {
+    "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
+    "body": ["let ${1:myDate} = Date()"],
+    "description": "Creates a date variable in Swift."
+  },
+  "Swift Create List Variable": {
+    "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
+    "body": ["var ${1:myArray} = [${2:'item1'}, ${3:'item2'}, ${4:'item3'}];"],
+    "description": "Creates an array variable in Swift."
+  },
+  "Swift Create Dictionary Variable": {
+    "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
+    "body": [
+      "var ${1:myDictionary} = [",
+      "  ${2:'key1'}: ${3:'value1'},",
+      "  ${4:'key2'}: ${5:'value2'}",
+      "];"
+    ],
+    "description": "Creates a dictionary variable in Swift."
+  },
+  "Swift Create Constant": {
+    "prefix": ["foolsConst", "constant"],
+    "body": ["let ${1:myConst} = $2;"],
+    "description": "Creates a constant variable in Swift using the let keyword."
+  },
+  "Swift Static Variable": {
+    "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
+    "body": [
+      "static ${2:var} ${3:myStaticVar} = ${4:value};",
+      "",
+      "// Access the static variable",
+      "// MyClass.${3:myStaticVar}"
+    ],
+    "description": "Creates a static variable in a Swift class."
+  },
+  "Swift Generate Array": {
+    "prefix": ["foolsGenList", "generateList", "listGen"],
+    "body": [
+      "var ${1:myArray} = Array(repeating: ${2:'item'}, count: ${3:5});"
+    ],
+    "description": "Generates an array of a specific length in Swift."
+  },
+  "Swift Generate Dictionary": {
+    "prefix": ["foolsGenMap", "generateMap"],
+    "body": [
+      "var ${1:myDictionary} = ",
+      "Dictionary(uniqueKeysWithValues: zip([${2:'key1'}, ${3:'key",
+      "2'}], [${4:'value1'}, ${5:'value2'}]));"
+    ],
+    "description": "Generates a dictionary with a specific number of key-value pairs in Swift."
+  },
+  "Swift Print": {
+   "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
+    "body": ["print(${1:\"Your message here\"})"],
+    "description": "Prints a message to the console in Swift."
+  },
+  "Swift Print Multi": {
+    "prefix": ["foolsPrintMulti", "printMultiLine"],
+    "body": [
+      "print(\"\"\"",
+      "${1:Line 1}",
+      "${2:Line 2}",
+      "${3:Line 3}",
+      "\"\"\")"
+    ],
+    "description": "Prints a multi-line message to the console in Swift."
+  },
+  "Swift For Loop": {
+    "prefix": ["foolsForLoop", "forLoop", "forX"],
+    "body": ["for ${1:i} in ${2:0..<10} {", "  // Your code here", "}"],
+    "description": "Creates a for loop that iterates through a set of numbers with the index in Swift."
+  },
+  "Swift For...In Loop": {
+    "prefix": ["foolsForInLoop", "forIn", "forOf"],
+    "body": [
+      "for ${1:item} in ${2:iterable} {",
+      "  ${3:// Your code here}",
+      "}"
+    ],
+    "description": "Iterates over an iterable object in Swift."
+  },
+  "Swift While Loop": {
+    "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
+    "body": ["while ${1:condition} {", "  ${2:// Your code here}", "}"],
+    "description": "Creates a while loop in Swift."
+  },
+  "Swift Switch Statement": {
+    "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
+    "body": [
+      "switch ${1:variable} {",
+      "  case ${2:value1}:",
+      "    ${3:// Your code here}",
+      "    break",
+      "  case ${4:value2}:",
+      "    ${5:// Your code here}",
+      "    break",
+      "  default:",
+      "    ${6:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a switch statement in Swift."
+  },
+  "Swift Function": {
+    "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
+    "body": [
+      "func ${2:myFunction}(${3:}) -> ${1:Void} {",
+      "    ${4:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function in Swift."
+  },
+  "Swift Function Args": {
+    "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
+    "body": [
+      "// In Swift, functions can have arguments with default values.",
+      "func ${2:myFunction}(${3:arg1}: ${4:Type1}, ${5:arg2}: ${6:Type2} = ${7:defaultValue}) -> ${1:Void} {",
+      "    ${8:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function with arguments in Swift, including an argument with a default value."
+  },
+  "Swift Function Named Args": {
+    "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
+    "body": [
+      "func ${2:myFunction}(${3:arg1Name} ${3:arg1}: ${4:Type1}, ${5:arg2Name} ${5:arg2}: ${6:Type2}) -> ${1:Void} {",
+      "    ${7:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function with named arguments in Swift."
+  },
+  "Swift Closure": {
+    "prefix": ["foolsLambda", "foolsClosure", "foolsFuncLambda", "cortFuncArrow"],
+    "body": [
+      "let ${1:myClosure} = { (${2:parameters}) -> ${3:ReturnType} in",
+      "  ${4:return expression}",
+      "}"
+    ],
+    "description": "Creates a closure (lambda function) in Swift."
+  },
+  "Swift Anonymous Function": {
+    "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
+    "body": [
+      "{ (${1:parameters}) -> ${2:ReturnType} in",
+      "    ${3:// Your code here}",
+      "}"
+    ],
+    "description": "Creates an anonymous function (closure) in Swift."
+  },
+  "Swift Function Syntax": {
+    "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
+    "body": [
+      "// Swift Function Syntax",
+      "// Basic function: func functionName(parameters) -> ReturnType { ... }",
+      "// Function with arguments: func functionName(arg1: Type1, arg2: Type2, ...) -> ReturnType { ... }",
+      "// Function with named arguments: func functionName(arg1Name arg1: Type1, arg2Name arg2: Type2, ...) -> ReturnType { ... }"
+    ],
+    "description": "Outlines the syntax for functions in Swift."
+  },
+  "Swift Comment": {
+    "prefix": ["foolsComment", "comment", "note"],
+    "body": ["// ${1:Your comment here}"],
+    "description": "Creates a single-line comment in Swift."
+  },
+  "Swift Multi-Line Comment": {
+    "prefix": [
+      "foolsCommentMulti",
+      "multiLineComment",
+      "commentMultiLine",
+      "blockComment"
+    ],
+    "body": ["/*", " * ${1:Your comment here}", " */"],
+    "description": "Creates a multi-line comment in Swift."
+  },
+  "Swift Throw Exception": {
+    "prefix": ["foolsThrow", "throwError", "throwException"],
+    "body": ["throw ${1:Error('Your message here')};"],
+    "description": "Throws an exception in Swift."
+  },
+  "Swift Try Catch": {
+    "prefix": ["foolsTryCatch", "tryCatch"],
+    "body": [
+      "do {",
+      "  ${1:// Your code here}",
+      "} catch ${2:exception} {",
+      "  ${3:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a try...catch block in Swift."
+  },
+  "Swift Enum": {
+    "prefix": ["foolsEnum", "enum"],
+    "body": [
+      "enum ${1:MyEnum} {",
+      "  ${2:value1},",
+      "  ${3:value2},",
+      "  // Add more values here",
+      "}"
+    ],
+    "description": "Creates an enum in Swift."
+  },
+  "Swift Class": {
+    "prefix": ["foolsClass", "class", "objectTemplate"],
+    "body": ["class ${1:MyClass} {", "  ${2:// Your code here}", "}"],
+    "description": "Creates a class in Swift."
+  },
+  "Swift If Statement": {
+    "prefix": ["foolsIf", "ifStatement"],
+    "body": ["if ${1:condition} {", "  ${2:// Your code here}", "}"],
+    "description": "Creates an if statement in Swift."
+  },
+  "Swift If Else Statement": {
+    "prefix": ["foolsIfElse", "ifElseStatement"],
+    "body": [
+      "if ${1:condition} {",
+      "  ${2:// Your code here}",
+      "} else if ${3:condition} {",
+      "  ${4:// Your code here}",
+      "} else {",
+      "  ${5:// Your code here}",
+      "}"
+    ],
+    "description": "Creates an if...else statement in Swift."
+  },
+  "Swift Ternary Operator": {
+    "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
+    "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
+    "description": "Creates a ternary operator in Swift."
+  }
+}

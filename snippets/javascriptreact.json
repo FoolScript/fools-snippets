@@ -1,0 +1,538 @@
+{
+  "JavaScript Info": {
+    "prefix": ["foolsInfo", "languageInfo", "info"],
+    "body": [
+      "Typing: Dynamically typed",
+      "Paradigm: Multi-paradigm: event-driven, functional, imperative, prototype-based",
+      "Compilation: Interpreted or just-in-time compiled",
+      "Concurrency: Event loop model with support for asynchronous programming using callbacks, promises, and async/await"
+    ],
+    "description": "Provides general information about the JavaScript programming language."
+  },
+  "JavaScript Entry Point": {
+    "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
+    "body": [
+      "// JavaScript Entry Point",
+      "// To run this program, use: `node filename.js`",
+      "",
+      "console.log('Hello, World!');"
+    ],
+    "description": "Describes the entry point of a JavaScript application."
+  },
+  "JavaScript with React Project Structure (High-Level)": {
+    "prefix": ["foolsStructure", "structure", "architecture"],
+    "body": [
+      "// Recommended High-Level JavaScript with React Project Structure:",
+      "",
+      "// - public/",
+      "//   - Contains the HTML file and static assets like images and fonts.",
+      "",
+      "// - src/",
+      "//   - App.jsx: The root React component.",
+      "//   - index.tsx: Entry point that renders the React app.",
+      "//   - /components/",
+      "//     - Reusable UI components.",
+      "//   - /containers/",
+      "//     - Components connected to the Redux store or context providers.",
+      "//   - /hooks/",
+      "//     - Custom React hooks.",
+      "//   - /pages/",
+      "//     - Components representing pages or routes.",
+      "//   - /utils/",
+      "//     - Utility functions and helpers.",
+      "//   - /services/",
+      "//     - API calls, data fetching, and other services.",
+      "//   - /store/",
+      "//     - Redux store, actions, and reducers.",
+      "//   - /styles/",
+      "//     - CSS/SCSS files or styled-components.",
+      "",
+      "// - .env files",
+      "//   - Environment-specific configurations.",
+      "",
+      "// - package.json",
+      "//   - Project metadata and dependencies.",
+      "",
+      "// Note:",
+      "// - This structure is common for larger React applications and can be scaled according to the project size.",
+      "// - Smaller projects might not need separate directories for hooks, services, or containers."
+    ],
+    "description": "Explains a high-level project structure for JavaScript with React."
+  }
+,  
+  "JavaScript Mathematical Operators": {
+    "prefix": ["foolsOperators", "operators", "mathDocs"],
+    "body": [
+      "// JavaScript Mathematical Operators",
+      "// Addition: +",
+      "// Subtraction: -",
+      "// Multiplication: *",
+      "// Exponentiation: **",
+      "// Division: /",
+      "// Modulus (Remainder): %",
+      "// Increment: ++",
+      "// Decrement: --",
+      "// Assignment: =",
+      "// Addition assignment: +=",
+      "// Subtraction assignment: -=",
+      "// Multiplication assignment: *=",
+      "// Division assignment: /=",
+      "// Modulus assignment: %="
+    ],
+    "description": "Lists the mathematical operators in JavaScript."
+  },
+  
+  "JavaScript Equal To": {
+    "prefix": ["foolsEqual", "equal"],
+    "body": ["==="],
+    "description": "JavaScript strict equal to operator."
+  },
+  "JavaScript Not Equal To": {
+    "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
+    "body": ["!=="],
+    "description": "JavaScript strict not equal to operator."
+  },
+  "JavaScript Boolean Operators": {
+    "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
+    "body": [
+      "// JavaScript Boolean Operators",
+      "// Logical AND: &&",
+      "// Logical OR: ||",
+      "// Logical NOT: !",
+      "// Equality: ==",
+      "// Strict Equality: ===",
+      "// Inequality: !=",
+      "// Strict Inequality: !==",
+      "// Greater than: >",
+      "// Less than: <",
+      "// Greater than or equal to: >=",
+      "// Less than or equal to: <="
+    ],
+    "description": "Lists the boolean operators in JavaScript."
+  },
+  "JavaScript Type Check": {
+    "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
+    "body": ["typeof ${1:variable}"],
+    "description": "Gets the type of a variable in JavaScript."
+  },
+  "JavaScript This Type Check": {
+    "prefix": ["thisTypeCheck", "thisType", "getThisType"],
+    "body": ["typeof $CLIPBOARD"],
+    "description": "Gets the type of the variable in the clipboard in JavaScript."
+  },  
+  "JavaScript Type Comparison": {
+    "prefix": ["foolsTypeCompare", "compareTypes"],
+    "body": [
+      "// Check if two variables have the same type:",
+      "if (typeof ${1:variable1} === typeof ${2:variable2}) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Compares the types of two variables in JavaScript."
+  },
+  "JavaScript Type Conversion": {
+    "prefix": ["foolsTypeConvert", "convert", "cast"],
+    "body": [
+      "// JavaScript Type Conversion:",
+      "",
+      "// Implicit conversions (JavaScript performs automatically):",
+      "// - Can be unpredictable, especially with loose equality (==).",
+      "",
+      "// Explicit conversions:",
+      "// - Number(variable)  // Converts to number",
+      "// - String(variable)  // Converts to string",
+      "// - Boolean(variable)  // Converts to boolean",
+      "// - parseInt(string)  // Converts string to integer",
+      "// - parseFloat(string)  // Converts string to floating-point number",
+      "",
+      "// Note:",
+      "// - Be aware of implicit conversions and use explicit conversions when necessary for clarity and control."
+    ],
+    "description": "Explains type conversion in JavaScript."
+  },
+  "JavaScript Types": {
+    "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
+    "body": [
+      "$BLOCK_COMMENT_START",
+      "JavaScript is a dynamically typed language. It does not have static types.",
+      "",
+      "Types in JavaScript include:",
+      "- Number: for both integers and floating-point numbers",
+      "- String: for text",
+      "- Boolean: for true/false values",
+      "- Object: for key-value pairs",
+      "- Array: for ordered lists",
+      "- Function: for executable functions",
+      "- Symbol: for unique identifiers",
+      "- null: for absence of value",
+      "- undefined: for uninitialized variables",
+      "$BLOCK_COMMENT_END"
+    ],
+    "description": "Explains that JavaScript is dynamically typed and lists its built-in types."
+  },
+  "JavaScript String Type": {
+    "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
+    "body": ["let text = \"John Doe\";"],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Boolean Type": {
+    "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
+    "body": ["let flag = Boolean($1);"],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Boolean True": {
+    "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
+    "body": ["true;"],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Boolean False": {
+    "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
+    "body": ["false;"],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Null Type": {
+    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "body": ["null"],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Int Type": {
+    "prefix": ["foolsTypesInt", "intType", "typeInt"],
+    "body": ["let integer = Math.floor($1);"],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Number Type": {
+    "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
+    "body": ["let number = $1;"],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Date Type": {
+    "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
+    "body": ["Date"],
+    "description": "JavaScript uses the Date object for date and time operations."
+  },
+  "JavaScript Map Type": {
+    "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
+    "body": ["new Map()"],
+    "description": "The JavaScript Map type."
+  },
+  "JavaScript List Type": {
+    "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
+    "body": ["[]"],
+    "description": "The JavaScript array type, commonly used as a list."
+  },
+  "JavaScript Dynamic Type": {
+    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "body": [
+      "// There is no specific syntax for declaring a variable with a dynamic type in JavaScript."
+    ],
+    "description": "JavaScript does not have types."
+  },
+  "JavaScript Date Now": {
+    "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
+    "body": ["new Date()"],
+    "description": "Gets the current date and time in JavaScript."
+  },
+  "JavaScript Interpolate String": {
+    "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
+    "body": ["let text = `Hello, ${1:name}!`;"],
+    "description": "Interpolates a string in JavaScript."
+  },
+  "JavaScript Concatenate String": {
+    "prefix": ["foolsConcat", "concatenate", "combine"],
+    "body": ["let text = 'Hello, ' + ${1:name} + '!';"],
+    "description": "Concatenates a string in JavaScript."
+  },
+  "JavaScript Create Variable": {
+    "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
+    "body": ["let ${1:myVar} = $2;"],
+    "description": "Creates a variable in JavaScript using the let keyword."
+  },
+  "Variable Declaration Syntax": {
+    "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
+    "body": [
+      "// JavaScript Variable Declaration Syntax:",
+      "",
+      "// - var: (Scope: Function or Global)",
+      "//   - Can be reassigned and redeclared within its scope.",
+      "//   - Use with caution due to potential scoping issues.",
+      "",
+      "// - let: (Scope: Block)",
+      "//   - Can be reassigned but not redeclared within its scope.",
+      "//   - Preferred for variables that need to be reassigned.",
+      "",
+      "// - const: (Scope: Block)",
+      "//   - Cannot be reassigned or redeclared.",
+      "//   - Use for values that should remain constant.",
+      "",
+      "// Note:",
+      "// - Use 'let' for most variable declarations.",
+      "// - Use 'const' for values that should not change."
+    ],
+    "description": "Explains JavaScript variable declaration syntax"
+  },
+  "JavaScript Create Typed Variable": {
+    "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
+    "body": ["let ${1:myVar} = $2; // Note: JavaScript is dynamically typed."],
+    "description": "Creates a variable in JavaScript."
+  },
+  "JavaScript Create Nullable Variable": {
+    "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
+    "body": ["let ${1:myVar} = null;"],
+    "description": "Creates a nullable variable in JavaScript."
+  },
+  "JavaScript Create String Variable": {
+    "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
+    "body": ["let ${1:myString} = \"${2:Your string here}\";"],
+    "description": "Creates a string variable in JavaScript."
+  },
+  "JavaScript Create Multi-Line String Variable": {
+    "prefix": ["foolsVarMultiString", "multiString", "variableMultiString", "multiStringVariable", "multilineText"],
+    "body": [
+      "let ${1:myString} = `",
+      "${2:Line 1}",
+      "${3:Line 2}",
+      "${4:Line 3}",
+      "`;"
+    ],
+    "description": "Creates a multi-line string variable in JavaScript."
+  },
+  "JavaScript Create Number Variable": {
+    "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
+    "body": ["let ${1:myNumber} = ${2:0};"],
+    "description": "Creates a number variable in JavaScript."
+  },
+  "JavaScript Create Boolean Variable": {
+    "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
+    "body": ["let ${1:myBoolean} = ${2:true};"],
+    "description": "Creates a boolean variable in JavaScript."
+  },
+  "JavaScript Create Date Variable": {
+    "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
+    "body": [
+      "let ${1:myDate} = new Date(${2:year}, ${3:month} - 1, ${4:day});"
+    ],
+    "description": "Creates a date variable in JavaScript."
+  },
+  "JavaScript Create Array Variable": {
+    "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
+    "body": ["let ${1:myList} = [${2:'item1'}, ${3:'item2'}];"],
+    "description": "Creates an array (list) variable in JavaScript."
+  },
+  "JavaScript Create Map Variable (Object)": {
+    "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
+    "body": [
+      "let ${1:myObject} = {",
+      "  ${2:'key1'}: ${3:'value1'},",
+      "  ${4:'key2'}: ${5:'value2'}",
+      "};"
+    ],
+    "description": "Creates an object variable in JavaScript."
+  },
+  "JavaScript Create Map Variable": {
+    "prefix": "foolsVarMapAlt",
+    "body": [
+      "let ${1:myMap} = new Map([",
+      "  [${2:'key1'}, ${3:'value1'}],",
+      "  [${4:'key2'}, ${5:'value2'}]",
+      "]);"
+    ],
+    "description": "Creates a map variable in JavaScript."
+  },
+  "JavaScript Create Constant": {
+    "prefix": ["foolsConst", "constant"],
+    "body": ["const ${1:myConst} = $2;"],
+    "description": "Creates a constant variable in JavaScript using the const keyword."
+  },
+  "JavaScript Static Variable": {
+    "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
+    "body": [
+      "static ${3:myStaticVar} = ${4:value};",
+      "",
+      "// Access the static variable",
+      "// MyClass.${3:myStaticVar}"
+    ],
+    "description": "Creates a static variable in a JavaScript class."
+  },
+  "JavaScript Generate Object Map": {
+    "prefix": ["foolsGenMap", "generateMap"],
+    "body": [
+      "const ${1:myMap} = Object.fromEntries(",
+      "  Array.from({ length: ${2:length} }, (_, index) => [`key${index}`, `value${index}`])",
+      ");"
+    ],
+    "description": "Generates an object map with a specific number of key-value pairs in JavaScript."
+  },
+  "JavaScript Generate Array": {
+    "prefix": ["foolsGenList", "generateList", "listGen"],
+    "body": [
+      "const ${1:myList} = Array.from({ length: ${2:length} }, (_, index) => ${3:'item'} + index);"
+    ],
+    "description": "Generates an array (list) of a specific length in JavaScript."
+  },
+  "JavaScript Print": {
+   "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
+    "body": ["console.log(${1:'Your message here'});"],
+    "description": "Prints a message to the console in JavaScript."
+  },
+  "JavaScript Print Multi": {
+    "prefix": ["foolsPrintMulti", "printMultiLine"],
+    "body": [
+      "console.log(`",
+      "${1:Line 1}",
+      "${2:Line 2}",
+      "${3:Line 3}",
+      "`);"
+    ],
+    "description": "Prints a multi-line message to the console in JavaScript."
+  },
+  "JavaScript For Loop": {
+    "prefix": ["foolsForLoop", "forLoop", "forX"],
+    "body": [
+      "for (let ${1:i} = 0; $1 < ${2:10}; $1++) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Creates a for loop that iterates through a set of numbers with the index in JavaScript."
+  },
+  "JavaScript For...Of Loop": {
+    "prefix": ["foolsForInLoop", "forIn", "forOf"],
+    "body": [
+      "for (const item of ${1:iterable}) {",
+      "  ${2:// Your code here}",
+      "}"
+    ],
+    "description": "Iterates over an iterable object in JavaScript."
+  },
+  "JavaScript While Loop": {
+    "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
+    "body": ["while (${1:condition}) {", "  ${2:// Your code here}", "}"],
+    "description": "Creates a while loop in JavaScript."
+  },
+  "JavaScript Switch Statement": {
+    "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
+    "body": [
+      "switch (${1:variable}) {",
+      "  case ${2:value1}:",
+      "    ${3:// Your code here}",
+      "    break;",
+      "  case ${4:value2}:",
+      "    ${5:// Your code here}",
+      "    break;",
+      "  default:",
+      "    ${6:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a switch statement in JavaScript."
+  },
+  "JavaScript Function": {
+    "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
+    "body": [
+      "function ${2:myFunction}(${3:}) {",
+      "  ${4:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function in JavaScript."
+  },
+  "JavaScript Function Args": {
+    "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
+    "body": [
+      "// In JavaScript, functions can have arguments with default values.",
+      "function ${2:myFunction}(${3:arg1}, ${4:arg2} = ${5:defaultValue}) {",
+      "  ${6:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function with arguments in JavaScript, including an argument with a default value."
+  },
+  "JavaScript Function Named Args": {
+    "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
+    "body": [
+      "function ${2:myFunction}({${3:arg1}, ${4:arg2}}) {",
+      "  ${5:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function with named arguments in JavaScript using object destructuring."
+  },
+  "JavaScript Arrow Function": {
+    "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
+    "body": [
+      "const ${2:myFunction} = (${3:parameters}) => {",
+      "  ${4:// Your code here}",
+      "};"
+    ],
+    "description": "Creates an arrow function in JavaScript."
+  },
+  "JavaScript Anonymous Function": {
+    "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
+    "body": ["function(${1:parameters}) {", "  ${2:// Your code here}", "};"],
+    "description": "Creates an anonymous function in JavaScript."
+  },
+  "JavaScript Function Syntax": {
+    "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
+    "body": [
+      "// JavaScript Function Syntax",
+      "// Basic function: function functionName(parameters) { ... }",
+      "// Function with arguments: function functionName(arg1, arg2, ...) { ... }",
+      "// Function with named arguments (using object destructuring): function functionName({arg1, arg2, ...}) { ... }"
+    ],
+    "description": "Outlines the syntax for functions in JavaScript."
+  },
+  "JSX Comment": {
+    "prefix": ["foolsComment", "comment", "note"],
+    "body": ["{/* ${1:Your comment here} */}"],
+    "description": "Creates a comment in JSX."
+  },
+  "JSX Multi-Line Comment": {
+    "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
+    "body": ["{/*", " * ${1:Your comment here}", " */}"],
+    "description": "Creates a multi-line comment in JSX."
+  },
+  "JavaScript Throw Exception": {
+    "prefix": ["foolsThrow", "throwError", "throwException"],
+    "body": ["throw new Error('Your message here');"],
+    "description": "Throws an exception in JavaScript."
+  },
+  "JavaScript Try Catch": {
+    "prefix": ["foolsTryCatch", "tryCatch"],
+    "body": [
+      "try {",
+      "  ${1:// Your code here}",
+      "} catch (${2:exception}) {",
+      "  ${3:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a try...catch block in JavaScript."
+  },
+  "JavaScript Class": {
+    "prefix": ["foolsClass", "class", "objectTemplate"],
+    "body": ["class ${1:MyClass} {", "  ${2:// Your code here}", "}"],
+    "description": "Creates a class in JavaScript."
+  },
+  "JavaScript If Statement": {
+    "prefix": ["foolsIf", "ifStatement"],
+    "body": ["if (${1:condition}) {", "  ${2:// Your code here}", "}"],
+    "description": "Creates an if statement in JavaScript."
+  },
+  "JavaScript If Else Statement": {
+    "prefix": ["foolsIfElse", "ifElseStatement"],
+    "body": [
+      "if (${1:condition}) {",
+      "  ${2:// Your code here}",
+      "} else if (${3:condition}) {",
+      "  ${4:// Your code here}",
+      "} else {",
+      "  ${5:// Your code here}",
+      "}"
+    ],
+    "description": "Creates an if...else statement in JavaScript."
+  },
+  "JavaScript Ternary Operator": {
+    "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
+    "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
+    "description": "Creates a ternary operator in JavaScript."
+  },
+  "JavaScript Lambda": {
+    "prefix": "foolsLambda",
+    "body": ["const ${1:myLambda} = (${2:parameters}) => ${3:expression};"],
+    "description": "Creates a lambda function in JavaScript."
+  }
+}

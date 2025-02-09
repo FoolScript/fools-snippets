@@ -1,0 +1,450 @@
+{
+  "R Info": {
+    "prefix": ["foolsInfo", "languageInfo", "info"],
+    "body": [
+      "# Typing: Dynamically typed",
+      "# Paradigm: Multi-paradigm: functional, object-oriented, procedural, statistical",
+      "# Compilation: Interpreted",
+      "# Concurrency: Supports multi-threading with packages like 'parallel'"
+    ],
+    "description": "Provides general information about the R programming language."
+  },
+
+  "R Entry Point": {
+    "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
+    "body": [
+      "# R Entry Point",
+      "# To run this program, use: `Rscript filename.R`",
+      "",
+      "# Your code here"
+    ],
+    "description": "Creates the entry point of an R application."
+  },
+  "R Project Structure (High-Level)": {
+    "prefix": ["foolsStructure", "structure", "architecture"],
+    "body": [
+      "# Recommended High-Level R Project Structure:",
+      "",
+      "# - /",
+      "#   - README.md: Project description and instructions.",
+      "#   - .Rproj: RStudio project file.",
+      "",
+      "# - R/",
+      "#   - Contains R script files (.R).",
+      "#   - Organize by feature or functionality, for example:",
+      "#     - data_preprocessing.R",
+      "#     - statistical_models.R",
+      "#     - visualization.R",
+      "",
+      "# - data/",
+      "#   - Raw and processed data files.",
+      "",
+      "# - docs/",
+      "#   - Documentation files, including analysis reports.",
+      "",
+      "# - tests/",
+      "#   - Test scripts for your R functions.",
+      "",
+      "# - man/",
+      "#   - Documentation for your functions, if you are building an R package.",
+      "",
+      "# - vignettes/",
+      "#   - Longer form documentation, such as tutorials or extended use cases.",
+      "",
+      "# Note:",
+      "# - This structure can be adapted based on the scale and needs of the project.",
+      "# - Use RStudio projects to manage workspace settings and project-specific options."
+    ],
+    "description": "Explains a high-level project structure for R."
+  },  
+
+  "R Mathematical Operators": {
+    "prefix": ["foolsOperators", "operators", "mathDocs"],
+    "body": [
+      "# R Mathematical Operators",
+      "# Addition: +",
+      "# Subtraction: -",
+      "# Multiplication: *",
+      "# Exponentiation: ^",
+      "# Division: /",
+      "# Modulus (Remainder): %%",
+      "# Integer Division: %/%",
+      "# Assignment: <- or =",
+      "# Addition assignment: +=",
+      "# Subtraction assignment: -=",
+      "# Multiplication assignment: *=",
+      "# Division assignment: /=",
+      "# Modulus assignment: %%=",
+      "# Exponentiation assignment: ^="
+    ],
+    "description": "Lists the mathematical operators in R."
+  },
+  "R Equal To": {
+    "prefix": ["foolsEqual", "equal"],
+    "body": ["=="],
+    "description": "R equal to operator."
+  },
+  "R Not Equal To": {
+    "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
+    "body": ["!="],
+    "description": "R not equal to operator."
+  },
+  "R Boolean Operators": {
+    "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
+    "body": [
+      "# R Boolean Operators",
+      "# Logical AND: & or &&",
+      "# Logical OR: | or ||",
+      "# Logical NOT: !",
+      "# Equality: ==",
+      "# Inequality: !=",
+      "# Greater than: >",
+      "# Less than: <",
+      "# Greater than or equal to: >=",
+      "# Less than or equal to: <="
+    ],
+    "description": "Lists the boolean operators in R."
+  },
+  "R Type Check": {
+    "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
+    "body": ["class(${1:variable})"],
+    "description": "Gets the type of a variable in R."
+  },
+  "R This Type Check": {
+    "prefix": ["thisTypeCheck", "thisType", "getThisType"],
+    "body": ["class($CLIPBOARD)"],
+    "description": "Gets the class of the variable in the clipboard in R."
+  },  
+  "R Type Comparison": {
+    "prefix": ["foolsTypeCompare", "compareTypes"],
+    "body": [
+      "# Check if two variables have the same type:",
+      "if (identical(class(${1:variable1}), class(${2:variable2}))) {",
+      "  # Your code here",
+      "}"
+    ],
+    "description": "Compares the types of two variables in R."
+  },
+  "R Type Conversion": {
+    "prefix": ["foolsTypeCast", "convert", "cast"],
+    "body": [
+      "# R Type Conversion:",
+      "",
+      "# Implicit conversions (R performs automatically):",
+      "# - Can be unpredictable, especially with loose equality (==).",
+      "",
+      "# Explicit conversions:",
+      "# - as.integer(variable)  // Converts to integer",
+      "# - as.double(variable)  // Converts to double",
+      "# - as.character(variable)  // Converts to string",
+      "# - as.logical(variable)  // Converts to boolean",
+      "# - ... (Various conversion functions in base R and packages)",
+      "",
+      "# Note:",
+      "# - Be aware of implicit conversions and use explicit conversions when necessary for clarity and control."
+    ],
+    "description": "Explains type conversion in R."
+  },
+  "R Types": {
+    "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
+    "body": [
+      "$BLOCK_COMMENT_START",
+      "R is a dynamically typed language.",
+      "",
+      "Some common types in R include:",
+      "- numeric: Numeric data type (includes integers and floating-point numbers)",
+      "- character: String",
+      "- logical: Boolean",
+      "- vector: One-dimensional array",
+      "- list: Ordered collection of elements",
+      "- data.frame: Two-dimensional data structure",
+      "- matrix: Two-dimensional array",
+      "- factor: Categorical data",
+      "- NULL: Represents the absence of a value",
+      "- function: Function object",
+      "$BLOCK_COMMENT_END"
+    ],
+    "description": "Lists some common types in R."
+  },
+
+  "R String Type": {
+    "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
+    "body": ["character"],
+    "description": "The R character type."
+  },
+
+  "R Integer Type": {
+    "prefix": ["foolsTypesInt", "intType", "typeInt"],
+    "body": [
+      "# R uses 'numeric' for both integers and floating-point numbers."
+    ],
+    "description": "R uses 'numeric' for both integers and floating-point numbers."
+  },
+
+  "R Double Type": {
+    "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
+    "body": [
+      "# R uses 'numeric' for both integers and floating-point numbers."
+    ],
+    "description": "R uses 'numeric' for both integers and floating-point numbers."
+  },
+
+  "R Boolean Type": {
+    "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
+    "body": ["logical"],
+    "description": "The R logical type."
+  },
+
+  "R Boolean True": {
+    "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
+    "body": ["TRUE"],
+    "description": "The R TRUE value."
+  },
+
+  "R Boolean False": {
+    "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
+    "body": ["FALSE"],
+    "description": "The R FALSE value."
+  },
+
+  "R Date Type": {
+    "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
+    "body": ["Date"],
+    "description": "The R Date class."
+  },
+
+  "R Map Type": {
+    "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
+    "body": [
+      "# R does not have a built-in Map type. Use lists or data.frames for similar functionality."
+    ],
+    "description": "Explains the absence of a built-in Map type in R."
+  },
+
+  "R List Type": {
+    "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
+    "body": ["list"],
+    "description": "The R list type."
+  },
+
+  "R Date Now": {
+    "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
+    "body": ["Sys.Date()"],
+    "description": "Gets the current date in R."
+  },
+
+  "R Null Type": {
+    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "body": ["NULL"],
+    "description": "The R NULL value."
+  },
+
+  "R Dynamic Type": {
+        "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "body": ["# R is a dynamically typed language."],
+    "description": "R is a dynamically typed language."
+  },
+
+  "R Create Variable": {
+    "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
+    "body": ["${1:my_var} <- $2"],
+    "description": "Creates a variable in R."
+  },
+
+  "R Create Typed Variable": {
+    "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
+    "body": [
+      "# Note: R is dynamically typed; explicit type annotations are not used.",
+      "${1:my_var} <- $2"
+    ],
+    "description": "Creates a variable in R with a comment about dynamic typing."
+  },
+
+  "R Interpolate String": {
+    "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
+    "body": ["paste0(\"Your string here \", ${1:variable})"],
+    "description": "Interpolates a variable into a string in R."
+  },
+
+  "R Concatenate String": {
+    "prefix": ["foolsConcat", "concatenate", "combine"],
+    "body": ["paste(${1:\"string1\"}, ${2:\"string2\"}, sep = \"\")"],
+    "description": "Concatenates strings in R."
+  },
+
+  "R Create String Variable": {
+    "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
+    "body": ["${1:my_string} <- '${2:Your string here}'"],
+    "description": "Creates a string variable in R."
+  },
+
+  "R Create Multiline String Variable": {
+    "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
+    "body": [
+      "${1:my_string} <- paste0(",
+      "${2:\"Line 1\",",
+      "${3:\"Line 2\",",
+      "${4:\"Line 3\")"
+    ],
+    "description": "Creates a multi-line string variable in R."
+  },
+
+  "R Create Integer Variable": {
+    "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
+    "body": ["${1:my_int} <- ${2:0}"],
+    "description": "Creates an integer variable in R."
+  },
+
+  "R Create Double Variable": {
+    "prefix": ["foolsVarDouble", "double", "doubleVariable", "variableDouble", "createDouble"],
+    "body": ["${1:my_double} <- ${2:0.0}"],
+    "description": "Creates a double variable in R."
+  },
+
+  "R Create Boolean Variable": {
+    "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
+    "body": ["${1:my_bool} <- ${2:TRUE}"],
+    "description": "Creates a boolean variable in R."
+  },
+
+  "R Create Array Variable": {
+    "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
+    "body": ["${1:my_array} <- c(${2:items})"],
+    "description": "Creates an array variable in R."
+  },
+
+  "R Create List Variable": {
+    "prefix": "foolsVarListAlt",
+    "body": ["${1:my_list} <- list(${2:items})"],
+    "description": "Creates a list variable in R."
+  },
+
+  "R Create Date Variable": {
+    "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
+    "body": ["${1:my_date} <- as.Date('${2:YYYY-MM-DD}')"],
+    "description": "Creates a date variable in R."
+  },
+
+  "R Create Constant": {
+    "prefix": ["foolsConst", "constant"],
+    "body": ["${1:MY_CONST} <- $2"],
+    "description": "Creates a constant variable in R."
+  },
+
+  "R Print": {
+   "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
+    "body": ["print(${1:'Your message here'})"],
+    "description": "Prints a message to the console in R."
+  },
+
+  "R Print Multi": {
+    "prefix": ["foolsPrintMulti", "printMultiLine"],
+    "body": ["cat(${1:\"Line 1\",", "${2:\"Line 2\",", "${3:\"Line 3\")"],
+    "description": "Prints a multi-line message to the console in R."
+  },
+
+  "R For Loop": {
+    "prefix": ["foolsForLoop", "forLoop", "forX"],
+    "body": ["for (${1:i} in ${2:1:10}) {", "  # Your code here", "}"],
+    "description": "Creates a for loop that iterates through a set of numbers with the index in R."
+  },
+
+  "R For Each Loop": {
+    "prefix": ["foolsForEachLoop", "forEach"],
+    "body": ["for (item in ${1:iterable}) {", "  # Your code here", "}"],
+    "description": "Iterates over an iterable object in R."
+  },
+
+  "R While Loop": {
+    "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
+    "body": ["while (${1:condition}) {", "  # Your code here", "}"],
+    "description": "Creates a while loop in R."
+  },
+
+  "R If Statement": {
+    "prefix": ["foolsIf", "ifStatement"],
+    "body": ["if (${1:condition}) {", "  # Your code here", "}"],
+    "description": "Creates an if statement in R."
+  },
+
+  "R If Else Statement": {
+    "prefix": ["foolsIfElse", "ifElseStatement"],
+    "body": [
+      "if (${1:condition}) {",
+      "  # Your code here",
+      "} else {",
+      "  # Your code here",
+      "}"
+    ],
+    "description": "Creates an if...else statement in R."
+  },
+
+  "R Function": {
+    "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
+    "body": [
+      "${2:my_function} <- function(${3:}) {",
+      "  ${4:# Your code here}",
+      "}"
+    ],
+    "description": "Creates a function in R."
+  },
+
+  "R Function Args": {
+    "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
+    "body": [
+      "# In R, functions can have arguments with default values.",
+      "${2:my_function} <- function(${3:arg1}, ${4:arg2} = ${5:'defaultVal'}) {",
+      "  ${6:# Your code here}",
+      "}"
+    ],
+    "description": "Creates a function with arguments in R, including an argument with a default value."
+  },
+
+  "R Comment": {
+    "prefix": ["foolsComment", "comment", "note"],
+    "body": ["# ${1:Your comment here}"],
+    "description": "Creates a single-line comment in R."
+  },
+
+  "R Multi-Line Comment": {
+    "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
+    "body": ["${1:comment}"],
+    "description": "Creates a multi-line comment in R."
+  },
+  "R Throw Exception": {
+    "prefix": ["foolsThrow", "throwError", "throwException"],
+    "body": ["stop(${1:'Your message here'})"],
+    "description": "Throws an exception in R."
+  },
+  "R Try Catch": {
+    "prefix": ["foolsTryCatch", "tryCatch"],
+    "body": [
+      "tryCatch({",
+      "  # Your code here",
+      "}, error = function(e) {",
+      "  # Your code here",
+      "})"
+    ],
+    "description": "Creates a try...catch block in R."
+  },
+  "R Enum": {
+    "prefix": ["foolsEnum", "enum"],
+    "body": [
+      "# R does not have a built-in enum type. Use a list or vector instead."
+    ],
+    "description": "Explains the absence of a built-in enum type in R."
+  },
+  "R Class": {
+    "prefix": ["foolsClass", "class", "objectTemplate"],
+    "body": [
+      "# R does not have a built-in class type. Use a list or vector instead."
+    ],
+    "description": "Explains the absence of a built-in class type in R."
+  },
+
+  "R Ternary Operator": {
+    "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
+    "body": ["ifelse(${1:condition}, ${2:trueValue}, ${3:falseValue})"],
+    "description": "Creates a ternary operator in R."
+  }
+}

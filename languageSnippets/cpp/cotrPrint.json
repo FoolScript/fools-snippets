@@ -1,0 +1,11 @@
+{
+  "C++ Print": {
+   "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
+    "body": [
+      "#include <iostream>",
+      "",
+      "std::cout << ${1:\"Your message here\"} << std::endl;"
+    ],
+    "description": "Prints a message to the console in C++."
+  }
+}

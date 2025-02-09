@@ -1,0 +1,7 @@
+{
+  "C++ If Statement": {
+    "prefix": ["foolsFlowIf", "foolsIf"],
+    "body": ["if (${1:condition}) {", "  // Your code here", "}"],
+    "description": "Creates an if statement in C++."
+  }
+}

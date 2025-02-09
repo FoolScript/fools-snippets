@@ -1,0 +1,7 @@
+{
+  "C++ Throw Exception": {
+    "prefix": ["foolsErrorThrow", "foolsThrow"],
+    "body": ["throw ${1:Exception('Your message here')};"],
+    "description": "Throws an exception in C++."
+  }
+}

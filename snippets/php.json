@@ -1,0 +1,532 @@
+{
+  "PHP Info": {
+    "prefix": ["foolsInfo", "languageInfo", "info"],
+    "body": [
+      "Typing: Dynamically typed",
+      "Paradigm: Multi-paradigm: imperative, object-oriented, procedural, reflective",
+      "Compilation: Interpreted",
+      "Concurrency: Supports multi-threading with extensions like pthreads, but traditionally single-threaded"
+    ],
+    "description": "Provides general information about the PHP programming language."
+  },
+  "PHP Entry Point": {
+    "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
+    "body": [
+      "// PHP Entry Point",
+      "// To run this program, use: `php filename.php`",
+      "",
+      "<?php",
+      "echo 'Hello, World!';",
+      "?>"
+    ],
+    "description": "Creates the entry point of a PHP application."
+  },
+  "PHP Project Structure (High-Level)": {
+    "prefix": ["foolsStructure", "structure", "architecture"],
+    "body": [
+      "// Recommended High-Level PHP Project Structure:",
+      "",
+      "// - public/",
+      "//   - Contains the entry point of the application (e.g., index.php) and static files.",
+      "",
+      "// - src/",
+      "//   - Contains the PHP source files and classes.",
+      "//   - Organize by feature or component.",
+      "",
+      "// - vendor/",
+      "//   - Contains third-party dependencies managed by Composer.",
+      "",
+      "// - config/",
+      "//   - Configuration files for the application.",
+      "",
+      "// - templates/",
+      "//   - View templates for the application (if using a traditional MVC structure).",
+      "",
+      "// - resources/",
+      "//   - Other resources like language files, not directly accessed by the public.",
+      "",
+      "// - tests/",
+      "//   - Unit and functional tests for the application.",
+      "",
+      "// - storage/",
+      "//   - Used for logs, cache, and other generated files.",
+      "",
+      "// Note:",
+      "// - This structure can be adapted based on the framework or libraries you are using.",
+      "// - Ensure that the public directory is the document root for the web server to secure application internals."
+    ],
+    "description": "Explains a high-level project structure for PHP."
+  },
+
+  "PHP Mathematical Operators": {
+    "prefix": ["foolsOperators", "operators", "mathDocs"],
+    "body": [
+      "// PHP Mathematical Operators",
+      "// Addition: +",
+      "// Subtraction: -",
+      "// Multiplication: *",
+      "// Exponentiation: **",
+      "// Division: /",
+      "// Modulus (Remainder): %",
+      "// Increment: ++",
+      "// Decrement: --",
+      "// Assignment: =",
+      "// Addition assignment: +=",
+      "// Subtraction assignment: -=",
+      "// Multiplication assignment: *=",
+      "// Division assignment: /=",
+      "// Modulus assignment: %="
+    ],
+    "description": "Lists the mathematical operators in PHP."
+  },
+  "PHP Equal To": {
+    "prefix": ["foolsEqual", "equal"],
+    "body": ["=="],
+    "description": "PHP equal to operator."
+  },
+  "PHP Not Equal To": {
+    "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
+    "body": ["!="],
+    "description": "PHP not equal to operator."
+  },
+  "PHP Boolean Operators": {
+    "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
+    "body": [
+      "// PHP Boolean Operators",
+      "// Logical AND: && or and",
+      "// Logical OR: || or or",
+      "// Logical NOT: !",
+      "// Equality: ==",
+      "// Identity (Strict Equality): ===",
+      "// Inequality: !=",
+      "// Non-identity (Strict Inequality): !==",
+      "// Greater than: >",
+      "// Less than: <",
+      "// Greater than or equal to: >=",
+      "// Less than or equal to: <="
+    ],
+    "description": "Lists the boolean operators in PHP."
+  },
+  "PHP Type Check": {
+    "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
+    "body": ["gettype(${1:variable})"],
+    "description": "Gets the type of a variable in PHP."
+  },
+  "PHP This Type Check": {
+    "prefix": ["thisTypeCheck", "thisType", "getThisType"],
+    "body": ["gettype($CLIPBOARD)"],
+    "description": "Gets the type of the variable in the clipboard in PHP."
+  },  
+  "PHP Type Comparison": {
+    "prefix": ["foolsTypeCompare", "compareTypes"],
+    "body": [
+      "// Check if two variables have the same type:",
+      "if (gettype(${1:variable1}) === gettype(${2:variable2})) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Compares the types of two variables in PHP."
+  },
+  "PHP Type Conversion": {
+    "prefix": ["foolsTypeCast", "convert", "cast"],
+    "body": [
+      "// PHP Type Conversion:",
+      "",
+      "// Implicit conversions (PHP performs automatically):",
+      "// - Can be unpredictable, especially with loose equality (==).",
+      "",
+      "// Explicit conversions (using casts):",
+      "// - (Type)variable  // C-style cast",
+      "",
+      "// Conversion functions:",
+      "// - intval(variable)  // Converts to integer",
+      "// - floatval(variable)  // Converts to float",
+      "// - strval(variable)  // Converts to string",
+      "// - boolval(variable)  // Converts to boolean",
+      "",
+      "// Note:",
+      "// - Be aware of implicit conversions and use explicit conversions when necessary for clarity and control."
+    ],
+    "description": "Explains type conversion in PHP."
+  },
+  "PHP Types": {
+    "prefix": [
+      "foolsTypes",
+      "types",
+      "allTypes",
+      "languageTypes",
+      "builtInTypes",
+      "dataTypes"
+    ],
+    "body": [
+      "$BLOCK_COMMENT_START",
+      "PHP is a dynamically typed language.",
+      "",
+      "Types in PHP include:",
+      "- int: Integer",
+      "- float: Floating-point number",
+      "- string: A sequence of characters",
+      "- bool: Boolean",
+      "- array: An ordered map",
+      "- object: An instance of a class",
+      "- resource: Holds a reference to an external resource",
+      "- NULL: Represents a variable with no value",
+      "- callable: A type that can be called, such as a function or a method",
+      "- iterable: A type that can be iterated over, such as an array or an object implementing the Traversable interface",
+      "- mixed: Indicates that a parameter may accept multiple (but not all) types",
+      "- void: Indicates that a function does not return a value",
+      "- never: Indicates that a function does not return normally (it either throws an exception or terminates the script)",
+      "$BLOCK_COMMENT_END"
+    ],
+    "description": "Lists all types in PHP."
+  },
+  "PHP String Type": {
+    "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
+    "body": ["string"],
+    "description": "The PHP string type."
+  },
+  "PHP Integer Type": {
+    "prefix": ["foolsTypesInt", "intType", "typeInt"],
+    "body": ["int"],
+    "description": "The PHP int type."
+  },
+  "PHP Float Type": {
+    "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
+    "body": ["float"],
+    "description": "The PHP float type."
+  },
+  "PHP Boolean Type": {
+    "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
+    "body": ["bool"],
+    "description": "The PHP bool type."
+  },
+  "PHP Boolean True": {
+    "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
+    "body": ["true"],
+    "description": "The PHP true value."
+  },
+  "PHP Boolean False": {
+    "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
+    "body": ["false"],
+    "description": "The PHP false value."
+  },
+  "PHP Null Type": {
+    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "body": ["null"],
+    "description": "The PHP null value."
+  },
+  "PHP Date Type": {
+    "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
+    "body": ["DateTime"],
+    "description": "The PHP DateTime type."
+  },
+  "PHP Map Type": {
+    "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
+    "body": ["// In PHP, associative arrays are used as maps."],
+    "description": "Explains the use of associative arrays as maps in PHP."
+  },
+  "PHP List Type": {
+    "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
+    "body": ["// In PHP, indexed arrays are used as lists."],
+    "description": "Explains the use of indexed arrays as lists in PHP."
+  },
+  "PHP Dynamic Type": {
+    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "body": ["// PHP is a dynamically typed language."],
+    "description": "Explains that PHP is a dynamically typed language."
+  },
+  "PHP Create Variable": {
+    "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
+    "body": ["$${1:myVar} = $2;"],
+    "description": "Creates a variable in PHP."
+  },
+  "Variable Declaration Syntax": {
+    "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
+    "body": [
+      "// PHP Variable Declaration Syntax:",
+      "",
+      "// - $: (Scope: Global or Function)",
+      "//   - Variables start with a dollar sign.",
+      "//   - Can be reassigned and redeclared within their scope.",
+      "//   - Use with caution due to potential scoping issues.",
+      "",
+      "// - const: (Scope: Global)",
+      "//   - Cannot be reassigned or redeclared.",
+      "//   - Use for values that should remain constant.",
+      "",
+      "// Note:",
+      "// - PHP does not have a direct equivalent to 'let'.",
+      "// - Use '$' for most variable declarations.",
+      "// - Use 'const' for values that are known at compile time."
+    ],
+    "description": "Explains PHP variable declaration syntax"
+  },
+  "PHP Create Typed Variable": {
+    "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
+    "body": [
+      "// PHP is a dynamically typed language, which means that by default there is no need to specify the type",
+      "//  of a variable, as this will be determined at runtime.",
+      "//  However, it is possible to statically type some aspect of the language via the use of type declarations.",
+      "${1:Type} $${2:myVar} = $3;"
+    ],
+    "description": "Creates a typed variable in PHP."
+  },
+  "PHP Create Nullable Variable": {
+    "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
+    "body": ["${1:Type}? $${2:myVar} = $3;"],
+    "description": "Creates a nullable variable in PHP."
+  },
+  "PHP Create String Variable": {
+    "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
+    "body": ["$${1:myString} = '${2:Your string here}';"],
+    "description": "Creates a string variable in PHP."
+  },
+  "PHP Create Multi-Line String Variable": {
+    "prefix": ["foolsVarMultiString", "multiString", "variableMultiString", "multiStringVariable", "multilineText"],
+    "body": ["$${1:myString} = <<<EOT", "${2:Your string here}", "EOT;"],
+    "description": "Creates a multi-line string variable in PHP."
+  },
+  "PHP Interpolate String": {
+    "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
+    "body": ["'Your string here \\${${1:variable}}'"],
+    "description": "Interpolates a variable into a string in PHP."
+  },
+  "PHP Concatenate Strings": {
+    "prefix": ["foolsConcat", "concatenate", "combine"],
+    "body": ["'${1:string1}' . '${2:string2}'"],
+    "description": "Concatenates two strings in PHP."
+  },
+  "PHP Create Integer Variable": {
+    "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
+    "body": ["$${1:myInt} = ${2:0};"],
+    "description": "Creates an integer variable in PHP."
+  },
+  "PHP Create Float Variable": {
+        "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
+
+    "body": ["$${1:myFloat} = ${2:0.0};"],
+    "description": "Creates a float variable in PHP."
+  },
+  "PHP Create Boolean Variable": {
+    "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
+    "body": ["$${1:myBool} = ${2:true};"],
+    "description": "Creates a boolean variable in PHP."
+  },
+  "PHP Create Array Variable": {
+    "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
+    "body": ["$${1:myArray} = [${2:items}];"],
+    "description": "Creates an array variable in PHP."
+  },
+  "PHP Create Map Variable": {
+    "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
+    "body": ["$${1:myMap} = [${2:key} => ${3:value}];"],
+    "description": "Creates a map variable in PHP."
+  },
+  "PHP Create Date Variable": {
+    "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
+    "body": ["$${1:myDate} = new DateTime('${2:Y-m-d}');"],
+    "description": "Creates a date variable in PHP."
+  },
+  "PHP Create Constant": {
+    "prefix": ["foolsConst", "constant"],
+    "body": ["const $${1:myConst} = $2;"],
+    "description": "Creates a constant variable in PHP using the const keyword."
+  },
+  "PHP Static Variable": {
+    "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
+    "body": ["static $${1:myStaticVar} = $2;"],
+    "description": "Creates a static variable in a PHP class."
+  },
+  "PHP Generate Array": {
+    "prefix": ["foolsGenList", "generateList", "listGen"],
+    "body": ["$${1:myArray} = range(${2:0}, ${3:10});"],
+    "description": "Generates an array of a specific length in PHP."
+  },
+  "PHP Generate Map": {
+    "prefix": ["foolsGenMap", "generateMap"],
+    "body": [
+      "$${1:myMap} = array_combine(range(${2:0}, ${3:10}), range(${4:0}, ${5:10}));"
+    ],
+    "description": "Generates a map with a specific number of key-value pairs in PHP."
+  },
+  "PHP Print": {
+   "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
+    "body": ["print('${1:Your message here}');"],
+    "description": "Prints a message to the console in PHP."
+  },
+  "PHP Print Multi": {
+    "prefix": ["foolsPrintMulti", "printMultiLine"],
+    "body": [
+      "echo <<<EOT",
+      "${1:Line 1}",
+      "${2:Line 2}",
+      "${3:Line 3}",
+      "EOT;"
+    ],
+    "description": "Prints a multi-line message to the console in PHP."
+  },
+  "PHP For Loop": {
+    "prefix": ["foolsForLoop", "forLoop", "forX"],
+    "body": [
+      "for ($${1:i} = 0; $1 < ${2:10}; $1++) {",
+      "  // Your code here",
+      "}"
+    ],
+    "description": "Creates a for loop that iterates through a set of numbers with the index in PHP."
+  },
+  "PHP For Each Loop": {
+    "prefix": ["foolsForEachLoop", "forEach"],
+    "body": [
+      "foreach ($${1:iterable} as $${2:item}) {",
+      "  ${3:// Your code here}",
+      "}"
+    ],
+    "description": "Iterates over an iterable object in PHP."
+  },
+  "PHP While Loop": {
+    "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
+    "body": ["while ($${1:condition}) {", "  ${2:// Your code here}", "}"],
+    "description": "Creates a while loop in PHP."
+  },
+  "PHP Do While Loop": {
+    "prefix": ["foolsDoWhileLoop", "doWhile"],
+    "body": ["do {", "  ${1:// Your code here}", "} while ($${2:condition});"],
+    "description": "Creates a do...while loop in PHP."
+  },
+  "PHP Switch Statement": {
+    "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
+    "body": [
+      "switch ($${1:variable}) {",
+      "  case ${2:value1}:",
+      "    ${3:// Your code here}",
+      "    break;",
+      "  case ${4:value2}:",
+      "    ${5:// Your code here}",
+      "    break;",
+      "  default:",
+      "    ${6:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a switch statement in PHP."
+  },
+  "PHP Function": {
+    "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
+    "body": [
+      "function ${2:myFunction}(${3:}) {",
+      "  ${4:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function in PHP."
+  },
+  "PHP Function Args": {
+    "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
+    "body": [
+      "// In PHP, functions can have arguments with default values.",
+      "function ${2:myFunction}(${3:$arg1}, ${4:$arg2} = '${5:defaultVal}') {",
+      "  ${6:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a function with arguments in PHP, including an argument with a default value."
+  },
+  "PHP Function Named Args": {
+    "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
+    "body": [
+      "// Note: PHP does not support named arguments in function definitions."
+    ],
+    "description": "Note about named arguments in PHP."
+  },
+  "PHP Arrow Function": {
+    "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
+    "body": [
+      "$${2:myFunction} = fn(${3:parameters}) => ${4:// Your code here};"
+    ],
+    "description": "Creates an arrow function in PHP."
+  },
+  "PHP Anonymous Function": {
+    "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
+    "body": [
+      "$${2:myFunction} = function(${3:parameters}) {",
+      "    ${4:// Your code here}",
+      "};"
+    ],
+    "description": "Creates an anonymous function in PHP."
+  },
+  "PHP Lambda Function": {
+    "prefix": ["foolsFuncLambda", "foolsLambda"],
+    "body": ["function (${1:parameters}) => ${2:expression}"],
+    "description": "Creates a lambda function in PHP."
+  },
+  "PHP Function Syntax": {
+    "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
+    "body": [
+      "// PHP Function Syntax",
+      "// Basic function: function functionName(parameters) { ... }",
+      "// Function with arguments: function functionName($arg1, $arg2, ...) { ... }",
+      "// Note: PHP does not support named arguments in function definitions."
+    ],
+    "description": "Outlines the syntax for functions in PHP."
+  },
+  "PHP Comment": {
+    "prefix": ["foolsComment", "comment", "note"],
+    "body": ["// ${1:Your comment here}"],
+    "description": "Creates a single-line comment in PHP."
+  },
+  "PHP Multi-Line Comment": {
+    "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
+    "body": ["/*", " * ${1:Your comment here}", " */"],
+    "description": "Creates a multi-line comment in PHP."
+  },
+  "PHP Throw Exception": {
+    "prefix": ["foolsThrow", "throwError", "throwException"],
+    "body": ["throw new ${1:Exception}('${2:Your message here}');"],
+    "description": "Throws an exception in PHP."
+  },
+  "PHP Try Catch": {
+    "prefix": ["foolsTryCatch", "tryCatch"],
+    "body": [
+      "try {",
+      "  ${1:// Your code here}",
+      "} catch (${2:Exception} $${3:e}) {",
+      "  ${4:// Your code here}",
+      "}"
+    ],
+    "description": "Creates a try...catch block in PHP."
+  },
+  "PHP Class": {
+    "prefix": ["foolsClass", "class", "objectTemplate"],
+    "body": ["class ${1:MyClass} {", "  ${2:// Your code here}", "}"],
+    "description": "Creates a class in PHP."
+  },
+  "PHP Enum": {
+    "prefix": ["foolsEnum", "enum"],
+    "body": [
+      "abstract class ${1:MyEnum} {",
+      "  const ${2:VALUE1} = ${3:0};",
+      "  const ${4:VALUE2} = ${5:1};",
+      "  // Add more values here",
+      "}"
+    ],
+    "description": "Creates an enum in PHP."
+  },
+  "PHP If Statement": {
+    "prefix": ["foolsIf", "ifStatement"],
+    "body": ["if (${1:condition}) {", "  ${2:// Your code here}", "}"],
+    "description": "Creates an if statement in PHP."
+  },
+  "PHP If Else Statement": {
+    "prefix": ["foolsIfElse", "ifElseStatement"],
+    "body": [
+      "if (${1:condition}) {",
+      "  ${2:// Your code here}",
+      "} else {",
+      "  ${3:// Your code here}",
+      "}"
+    ],
+    "description": "Creates an if...else statement in PHP."
+  },
+  "PHP Ternary Operator": {
+    "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
+    "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
+    "description": "Creates a ternary operator in PHP."
+  }
+}

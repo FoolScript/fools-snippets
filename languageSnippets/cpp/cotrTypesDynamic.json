@@ -1,0 +1,7 @@
+{
+  "C++ Dynamic Type": {
+    "prefix": ["foolsTypesDynamic", "typesDynamic"],
+    "body": ["std::any"],
+    "description": "The C++ dynamic type."
+  }
+}
