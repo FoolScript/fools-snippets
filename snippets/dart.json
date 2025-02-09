@@ -237,7 +237,7 @@
   },
   "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
-    "body": ["${1|var,bool,String,int,double,num,List<Map<String\\, dynamic>>,Map<String\\, dynamic>,dynamic,Set<String>|} = $2;"],
+    "body": ["${1|var,bool,String,int,double,num,List<Map<String\\, dynamic>>,Map<String\\, dynamic>,dynamic,Set<String>|} ${2:myVariable} = $3;"],
     "description": "Creates a variable in Dart using the var keyword."
   },
   "Variable Declaration Syntax": {
