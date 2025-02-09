@@ -2,15 +2,20 @@
   "name": "fools-snippets",
   "displayName": "fools-snippets",
   "description": "Snippets for Fools",
+  "repository": "https://github.com/FoolScript/fools-snippets",
+  "icon": "joker.png",
   "version": "0.0.1",
+  "sponsor": {
+    "url": "https://github.com/sponsors/jtmuller5"
+  },
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.87.0"
   },
   "keywords": [
     "dart",
     "typescript",
     "snippets",
-    "pseduo-code",
+    "pseudo-code",
     "polyglot",
     "foolscript"
   ],
