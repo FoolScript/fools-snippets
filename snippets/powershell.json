@@ -1,5 +1,5 @@
 {
-  "PowerShell Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "# Typing: Dynamically typed",
@@ -10,7 +10,7 @@
     "description": "Provides general information about the PowerShell scripting language."
   },
 
-  "PowerShell Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "# PowerShell Entry Point",
@@ -21,7 +21,7 @@
     "description": "Creates the entry point of a PowerShell script."
   },
 
-  "PowerShell Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "# PowerShell Mathematical Operators",
@@ -43,19 +43,19 @@
     "description": "Lists the mathematical operators in PowerShell."
   },
 
-  "PowerShell Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["-eq"],
-    "description": "PowerShell equal to operator."
+    "description": "FoolScript equal to operator."
   },
 
-  "PowerShell Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["-ne"],
-    "description": "PowerShell not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
 
-  "PowerShell Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "# PowerShell Boolean Operators",
@@ -72,18 +72,18 @@
     "description": "Lists the boolean operators in PowerShell."
   },
 
-  "PowerShell Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable}.GetType()"],
     "description": "Gets the type of a variable in PowerShell."
   },
-  "PowerShell This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["$CLIPBOARD.GetType().FullName"],
     "description": "Gets the full type name of the variable in the clipboard in PowerShell."
   },
 
-  "PowerShell Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "# Check if two variables have the same type:",
@@ -94,7 +94,7 @@
     "description": "Compares the types of two variables in PowerShell."
   },
 
-  "PowerShell Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "# PowerShell Type Conversion:",
@@ -112,7 +112,7 @@
     "description": "Explains type conversion in PowerShell."
   },
 
-  "PowerShell Types": {
+  "FoolScript Types": {
     "prefix": [
       "foolsTypes",
       "types",
@@ -123,7 +123,7 @@
     ],
     "body": [
       "$BLOCK_COMMENT_START",
-      "PowerShell is a dynamically typed language.",
+      "FoolScript is a dynamically typed language.",
       "",
       "Some common types in PowerShell include:",
       "- [int]: Integer",
@@ -142,7 +142,7 @@
     "description": "Lists some common types in PowerShell."
   },
 
-  "PowerShell String Type": {
+  "FoolScript String Type": {
     "prefix": [
       "foolsTypesString",
       "stringType",
@@ -154,13 +154,13 @@
     "description": "The PowerShell string type."
   },
 
-  "PowerShell Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["[int]"],
     "description": "The PowerShell int type."
   },
 
-  "PowerShell Double Type": {
+  "FoolScript Double Type": {
     "prefix": [
       "foolsTypesNum",
       "number",
@@ -174,25 +174,25 @@
     "description": "The PowerShell double type."
   },
 
-  "PowerShell Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["[bool]"],
     "description": "The PowerShell bool type."
   },
 
-  "PowerShell Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["$true"],
     "description": "The PowerShell true value."
   },
 
-  "PowerShell Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["$false"],
     "description": "The PowerShell false value."
   },
 
-  "PowerShell Date Type": {
+  "FoolScript Date Type": {
     "prefix": [
       "foolsTypesDate",
       "dateType",
@@ -205,7 +205,7 @@
     "description": "The PowerShell datetime type."
   },
 
-  "PowerShell Map Type": {
+  "FoolScript Map Type": {
     "prefix": [
       "foolsTypesMap",
       "mapType",
@@ -220,25 +220,25 @@
     "description": "The PowerShell hashtable type, equivalent to a map."
   },
 
-  "PowerShell List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["[array]"],
     "description": "The PowerShell array type, equivalent to a list."
   },
 
-  "PowerShell Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["Get-Date"],
     "description": "Gets the current date and time in PowerShell."
   },
 
-  "PowerShell Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "foolsNull"],
     "body": ["$null"],
     "description": "The PowerShell null value."
   },
 
-  "PowerShell Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": [
       "foolsTypesDynamic",
       "typeDynamic",
@@ -247,28 +247,28 @@
       "anyType"
     ],
     "body": ["# PowerShell is a dynamically typed language."],
-    "description": "PowerShell is a dynamically typed language."
+    "description": "FoolScript is a dynamically typed language."
   },
 
-  "PowerShell Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["$${1:myVar} = $2"],
     "description": "Creates a variable in PowerShell."
   },
 
-  "PowerShell Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["[${1:Type}] $${2:myVar} = $3"],
     "description": "Creates a typed variable in PowerShell."
   },
 
-  "PowerShell Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["$${1:myVar} = $null"],
     "description": "Creates a nullable variable in PowerShell."
   },
 
-  "PowerShell Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": [
       "foolsInterpolate",
       "interpolate",
@@ -281,13 +281,13 @@
     "description": "Interpolates a variable into a string in PowerShell."
   },
 
-  "PowerShell Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["\"${1:string1}\" + \"${2:string2}\""],
     "description": "Concatenates two strings in PowerShell."
   },
 
-  "PowerShell Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": [
       "foolsVarString",
       "string",
@@ -301,7 +301,7 @@
     "description": "Creates a string variable in PowerShell."
   },
 
-  "PowerShell Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": [
       "foolsVarStringMulti",
       "multiLineString",
@@ -319,7 +319,7 @@
     "description": "Creates a multi-line string variable in PowerShell."
   },
 
-  "PowerShell Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": [
       "foolsVarInt",
       "integer",
@@ -332,7 +332,7 @@
     "description": "Creates an integer variable in PowerShell."
   },
 
-  "PowerShell Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "prefix": [
       "foolsVarNum",
       "number",
@@ -346,7 +346,7 @@
     "description": "Creates a double variable in PowerShell."
   },
 
-  "PowerShell Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": [
       "foolsVarBool",
       "variableBool",
@@ -358,7 +358,7 @@
     "description": "Creates a boolean variable in PowerShell."
   },
 
-  "PowerShell Create Array Variable": {
+  "FoolScript Create Array Variable": {
     "prefix": [
       "foolsVarList",
       "createList",
@@ -373,7 +373,7 @@
     "description": "Creates an array variable in PowerShell."
   },
 
-  "PowerShell Create Hash Table Variable": {
+  "FoolScript Create Hash Table Variable": {
     "prefix": [
       "foolsVarMap",
       "createMap",
@@ -396,7 +396,7 @@
     "description": "Creates a hash table variable in PowerShell."
   },
 
-  "PowerShell Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "$${1:myDate} = Get-Date -Year ${2:year} -Month ${3:month} -Day ${4:day}"
@@ -404,19 +404,19 @@
     "description": "Creates a date variable in PowerShell."
   },
 
-  "PowerShell Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["$${1:myConst} = $2"],
     "description": "Creates a constant variable in PowerShell."
   },
 
-  "PowerShell Print": {
+  "FoolScript Print": {
     "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["Write-Host ${1:'Your message here'}"],
     "description": "Prints a message to the console in PowerShell."
   },
 
-  "PowerShell Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "Write-Host @\"",
@@ -428,7 +428,7 @@
     "description": "Prints a multi-line message to the console in PowerShell."
   },
 
-  "PowerShell For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop"],
     "body": [
       "for ($${1:i} = 0; $1 -lt ${2:10}; $1++) {",
@@ -438,7 +438,7 @@
     "description": "Creates a for loop that iterates through a set of numbers with the index in PowerShell."
   },
 
-  "PowerShell For Each Loop": {
+  "FoolScript For Each Loop": {
     "prefix": ["foolsForEachLoop", "foolsForIn"],
     "body": [
       "foreach ($${1:item} in ${2:iterable}) {",
@@ -448,13 +448,13 @@
     "description": "Iterates over an iterable object in PowerShell."
   },
 
-  "PowerShell While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  # Your code here", "}"],
     "description": "Creates a while loop in PowerShell."
   },
 
-  "PowerShell Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "switch (${1:variable}) {",
@@ -474,7 +474,7 @@
     "description": "Creates a switch statement in PowerShell."
   },
 
-  "PowerShell Function": {
+  "FoolScript Function": {
     "prefix": [
       "foolsFunc",
       "function",
@@ -495,7 +495,7 @@
     "description": "Creates a function in PowerShell."
   },
 
-  "PowerShell Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "# In PowerShell, functions can have arguments with default values.",
@@ -511,7 +511,7 @@
     "description": "Creates a function with arguments in PowerShell, including an argument with a default value."
   },
 
-  "PowerShell Named Arguments Function": {
+  "FoolScript Named Arguments Function": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "function ${2:MyFunction} {",
@@ -527,13 +527,13 @@
     "description": "Creates a function with named arguments in PowerShell."
   },
 
-  "PowerShell Arrow Function": {
+  "FoolScript Arrow Function": {
     "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
     "body": ["{${1:parameters} ->", "    ${2:# Your code here}", "}"],
     "description": "Represents an arrow function-like syntax using a script block in PowerShell."
   },
 
-  "PowerShell Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": [
       "foolsFuncAnon",
       "anonFunc",
@@ -552,13 +552,13 @@
     "description": "Creates an anonymous function (script block) in PowerShell."
   },
 
-  "PowerShell Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["# ${1:Your comment here}"],
     "description": "Creates a single-line comment in PowerShell."
   },
 
-  "PowerShell Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": [
       "foolsCommentMulti",
       "multiLineComment",
@@ -569,13 +569,13 @@
     "description": "Creates a multi-line comment in PowerShell."
   },
 
-  "PowerShell Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["throw '${1:Your message here}'"],
     "description": "Throws an exception in PowerShell."
   },
 
-  "PowerShell Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "try {",
@@ -587,19 +587,19 @@
     "description": "Creates a try...catch block in PowerShell."
   },
 
-  "PowerShell Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["class ${1:MyClass} {", "  # Your code here", "}"],
     "description": "Creates a class in PowerShell."
   },
 
-  "PowerShell If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  # Your code here", "}"],
     "description": "Creates an if statement in PowerShell."
   },
 
-  "PowerShell If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if (${1:condition}) {",
@@ -611,13 +611,13 @@
     "description": "Creates an if...else statement in PowerShell."
   },
 
-  "PowerShell Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in PowerShell."
   },
 
-  "PowerShell Function Arguments": {
+  "FoolScript Function Arguments": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "# In PowerShell, functions can have arguments with default values.",
@@ -633,7 +633,7 @@
     "description": "Creates a function with arguments in PowerShell, including an argument with a default value."
   },
 
-  "PowerShell Lambda Function (Script Block)": {
+  "FoolScript Lambda Function (Script Block)": {
     "prefix": ["foolsFuncLambda", "lambda", "functionLiteral"],
     "body": [
       "# PowerShell does not have a 'lambda' keyword.",
@@ -651,7 +651,7 @@
     "description": "Creates a script block (similar to a lambda function) in PowerShell."
   },
 
-  "PowerShell Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "# PowerShell Function Syntax",
@@ -676,13 +676,13 @@
     "description": "Outlines the syntax for functions in PowerShell."
   },
 
-  "PowerShell Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": ["1..${1:length} | ForEach-Object { ${2:'item'} + $_ }"],
     "description": "Generates a list of a specific length in PowerShell."
   },
 
-  "PowerShell Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "# PowerShell does not have a built-in way to generate a map with a specific number of key-value pairs.",
@@ -691,7 +691,7 @@
     "description": "Explains how to generate a map in PowerShell."
   },
 
-  "PowerShell Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "# Recommended High-Level PowerShell Project Structure:",
@@ -724,7 +724,7 @@
     ],
     "description": "Explains a high-level project structure for PowerShell."
   },
-  "PowerShell Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "# PowerShell does not have static variables in the same way as some other languages.",
@@ -733,7 +733,7 @@
     "description": "Explains alternatives to static variables in PowerShell."
   },
 
-  "PowerShell Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "prefix": [
       "foolsVarSyntax",
       "variableSyntax",

@@ -1,5 +1,5 @@
 {
-  "Ruby Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "Typing: Dynamically typed",
@@ -9,7 +9,7 @@
     ],
     "description": "Provides general information about the Ruby programming language."
   },
-  "Ruby Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "# Ruby Entry Point",
@@ -19,7 +19,7 @@
     ],
     "description": "Creates the entry point of a Ruby application."
   },
-  "Ruby Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "# Recommended High-Level Ruby Project Structure:",
@@ -56,7 +56,7 @@
     ],
     "description": "Explains a high-level project structure for Ruby."
   },
-  "Ruby Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "# Ruby Mathematical Operators",
@@ -78,17 +78,17 @@
     ],
     "description": "Lists the mathematical operators in Ruby."
   },
-  "Ruby Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Ruby equal to operator."
+    "description": "FoolScript equal to operator."
   },
-  "Ruby Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "Ruby not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Ruby Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "# Ruby Boolean Operators",
@@ -104,17 +104,17 @@
     ],
     "description": "Lists the boolean operators in Ruby."
   },
-  "Ruby Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable}.class"],
     "description": "Gets the type of a variable in Ruby."
   },
-  "Ruby This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["$CLIPBOARD.class"],
     "description": "Gets the class of the variable in the clipboard in Ruby."
   },  
-  "Ruby Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "# Check if two variables have the same type:",
@@ -124,7 +124,7 @@
     ],
     "description": "Compares the types of two variables in Ruby."
   },
-  "Ruby Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "# Ruby Type Conversion:",
@@ -144,7 +144,7 @@
     "description": "Explains type conversion in Ruby."
   },
 
-  "Ruby Types": {
+  "FoolScript Types": {
     "prefix": [
       "foolsTypes",
       "types",
@@ -155,7 +155,7 @@
     ],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Ruby is a dynamically typed language.",
+      "FoolScript is a dynamically typed language.",
       "",
       "Some common types in Ruby include:",
       "- Integer: Integer",
@@ -179,77 +179,77 @@
     ],
     "description": "Lists some common types in Ruby."
   },
-  "Ruby String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["String"],
     "description": "The Ruby String type."
   },
-  "Ruby Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["Integer"],
     "description": "The Ruby Integer type."
   },
-  "Ruby Double Type": {
+  "FoolScript Double Type": {
     "prefix": ["foolsTypesNum", "foolsTypesDouble"],
     "body": ["double"],
     "description": "The Ruby double type."
   },
-  "Ruby Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNumAlt", "foolsTypesFloat"],
     "body": ["Float"],
     "description": "The Ruby Float type."
   },
-  "Ruby Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["# Ruby uses true and false for boolean values."],
-    "description": "Ruby uses true and false for boolean values."
+    "description": "FoolScript uses true and false for boolean values."
   },
-  "Ruby Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The Ruby true value."
   },
-  "Ruby Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The Ruby false value."
   },
-  "Ruby Character Type": {
+  "FoolScript Character Type": {
     "prefix": ["foolsTypesChar"],
     "body": ["# Ruby does not have a separate char type; use String instead."],
-    "description": "Ruby does not have a separate char type; use String instead."
+    "description": "FoolScript does not have a separate char type; use String instead."
   },
-  "Ruby Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": ["require 'date'", "", "Date"],
     "description": "The Ruby Date class."
   },
-  "Ruby Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["Hash"],
     "description": "The Ruby Hash type, equivalent to a map."
   },
-  "Ruby List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["Array"],
     "description": "The Ruby Array type, equivalent to a list."
   },
-  "Ruby Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["require 'date'", "", "Date.today"],
     "description": "Gets the current date in Ruby."
   },
-  "Ruby Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["nil"],
     "description": "The Ruby nil value."
   },
-  "Ruby Dynamic Type": {
+  "FoolScript Dynamic Type": {
         "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["# Ruby is a dynamically typed language."],
-    "description": "Ruby is a dynamically typed language."
+    "description": "FoolScript is a dynamically typed language."
   },
-  "Ruby Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["${1:my_var} = $2"],
     "description": "Creates a variable in Ruby."
@@ -269,7 +269,7 @@
     ],
     "description": "Explains Ruby variable declaration syntax"
   },
-  "Ruby Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": [
       "# Note: Ruby is dynamically typed; explicit type annotations are not used.",
@@ -277,43 +277,43 @@
     ],
     "description": "Creates a variable in Ruby with a comment about dynamic typing."
   },
-  "Ruby Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["\"Your string here \\#{${1:variable}}\""],
     "description": "Interpolates a variable into a string in Ruby."
   },
-  "Ruby Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["\"${1:string1}\" + \"${2:string2}\""],
     "description": "Concatenates two strings in Ruby."
   },
-  "Ruby Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["${1:my_string} = ${2:'Your string here'}"],
     "description": "Creates a string variable in Ruby."
   },
-  "Ruby Create Multiline String Variable": {
+  "FoolScript Create Multiline String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": ["${1:my_string} = <<~HEREDOC", "${2:Your string here}", "HEREDOC"],
     "description": "Creates a multi-line string variable in Ruby."
   },
-  "Ruby Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["${1:my_int} = ${2:0}"],
     "description": "Creates an integer variable in Ruby."
   },
-  "Ruby Create Float Variable": {
+  "FoolScript Create Float Variable": {
         "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
 
     "body": ["${1:my_float} = ${2:0.0}"],
     "description": "Creates a float variable in Ruby."
   },
-  "Ruby Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["${1:my_bool} = ${2:true}"],
     "description": "Creates a boolean variable in Ruby."
   },
-  "Ruby Create Array Variable": {
+  "FoolScript Create Array Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": [
       "${1:my_array} = [",
@@ -324,7 +324,7 @@
     ],
     "description": "Creates an array variable in Ruby."
   },
-  "Ruby Create Hash Variable": {
+  "FoolScript Create Hash Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "${1:my_hash} = {",
@@ -335,17 +335,17 @@
     ],
     "description": "Creates a hash variable in Ruby."
   },
-  "Ruby Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": ["${1:my_date} = Date.new(${2:year}, ${3:month}, ${4:day})"],
     "description": "Creates a date variable in Ruby."
   },
-  "Ruby Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["${1:MY_CONST} = $2"],
     "description": "Creates a constant variable in Ruby."
   },
-  "Ruby Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "@@${1:my_static_var} = ${2:value}",
@@ -355,40 +355,40 @@
     ],
     "description": "Creates a class variable in Ruby."
   },
-  "Ruby Generate Array": {
+  "FoolScript Generate Array": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "${1:my_array} = Array.new(${2:length}) { |i| ${3:'item'} + i.to_s }"
     ],
     "description": "Generates an array of a specific length in Ruby."
   },
-  "Ruby Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["puts ${1:'Your message here'}"],
     "description": "Prints a message to the console in Ruby."
   },
 
-  "Ruby Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": ["puts ${1:\"\"\"Line 1}", "${2:Line 2}", "${3:Line 3}\"\"\"}"],
     "description": "Prints a multi-line message to the console in Ruby."
   },
-  "Ruby For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": ["${1:10}.times do |${2:i}|", "  # Your code here", "end"],
     "descriptin": "Creates a for loop that iterates through a set of numbers with the index in Ruby."
   },
-  "Ruby For...In Loop": {
+  "FoolScript For...In Loop": {
     "prefix": ["foolsForInLoop", "forIn", "forOf"],
     "body": ["${1:iterable}.each do |item|", "  # Your code here", "end"],
     "description": "Iterates over an iterable object in Ruby."
   },
-  "Ruby While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while ${1:condition} do", "  # Your code here", "end"],
     "description": "Creates a while loop in Ruby."
   },
-  "Ruby Case Statement": {
+  "FoolScript Case Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "case ${1:variable}",
@@ -402,7 +402,7 @@
     ],
     "description": "Creates a case statement in Ruby."
   },
-  "Ruby Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "def ${2:my_function}(${3:})",
@@ -411,7 +411,7 @@
     ],
     "description": "Creates a function in Ruby."
   },
-  "Ruby Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "# In Ruby, functions can have arguments with default values.",
@@ -421,7 +421,7 @@
     ],
     "description": "Creates a function with arguments in Ruby, including an argument with a default value."
   },
-  "Ruby Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "def ${2:my_function}(${3:arg1}: ${4:value1}, ${5:arg2}: ${6:value2})",
@@ -430,7 +430,7 @@
     ],
     "description": "Creates a function with named arguments in Ruby."
   },
-  "Ruby Lambda Function": {
+  "FoolScript Lambda Function": {
     "prefix": ["foolsFuncLambda", "foolsLambda", "foolsFuncArrow"],
     "body": [
       "${2:my_function} = ->(${3:parameters}) {",
@@ -439,12 +439,12 @@
     ],
     "description": "Creates a lambda function in Ruby."
   },
-  "Ruby Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
     "body": ["lambda { |${1:parameters}|", "  ${2:# Your code here}", "}"],
     "description": "Creates an anonymous function (lambda) in Ruby."
   },
-  "Ruby Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "# Ruby Function Syntax",
@@ -454,12 +454,12 @@
     ],
     "description": "Outlines the syntax for functions in Ruby."
   },
-  "Ruby Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["# ${1:Your comment here}"],
     "description": "Creates a single-line comment in Ruby."
   },
-  "Ruby Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": [
       "foolsCommentMulti",
       "multiLineComment",
@@ -469,12 +469,12 @@
     "body": ["=begin", "${1:Your comment here}", "=end"],
     "description": "Creates a multi-line comment in Ruby."
   },
-  "Ruby Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["raise ${1:'Your message here'}"],
     "description": "Throws an exception in Ruby."
   },
-  "Ruby Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "begin",
@@ -485,7 +485,7 @@
     ],
     "description": "Creates a begin...rescue block in Ruby."
   },
-  "Ruby Enum (with Symbols)": {
+  "FoolScript Enum (with Symbols)": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "${1:MyEnum} = [:${2:value1}, :${3:value2}]",
@@ -494,17 +494,17 @@
     "description": "Simulates an enum in Ruby using symbols."
   },
 
-  "Ruby Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["class ${1:MyClass}", "  ${2:# Your code here}", "end"],
     "description": "Creates a class in Ruby."
   },
-  "Ruby If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if ${1:condition}", "  ${2:# Your code here}", "end"],
     "description": "Creates an if statement in Ruby."
   },
-  "Ruby If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if ${1:condition}",
@@ -517,7 +517,7 @@
     ],
     "description": "Creates an if...else statement in Ruby."
   },
-  "Ruby Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:true_value} : ${3:false_value}"],
     "description": "Creates a ternary operator in Ruby."

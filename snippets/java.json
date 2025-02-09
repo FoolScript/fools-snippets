@@ -1,5 +1,5 @@
 {
-  "Java Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "Typing: Statically typed",
@@ -9,7 +9,7 @@
     ],
     "description": "Provides general information about the Java programming language."
   },
-  "Java Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "// Java Entry Point",
@@ -23,7 +23,7 @@
     ],
     "description": "Creates the entry point of a Java application."
   },
-  "Java Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level Java Project Structure:",
@@ -62,7 +62,7 @@
     ],
     "description": "Explains a high-level project structure for Java."
   },
-  "Java Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "// Java Mathematical Operators",
@@ -83,17 +83,17 @@
     ],
     "description": "Lists the mathematical operators in Java."
   },
-  "Java Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Java equal to operator."
+    "description": "FoolScript equal to operator."
   },
-  "Java Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "Java not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Java Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "// Java Boolean Operators",
@@ -109,17 +109,17 @@
     ],
     "description": "Lists the boolean operators in Java."
   },
-  "Java Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable}.getClass()"],
     "description": "Gets the type of a variable in Java."
   },
-  "Java This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["$CLIPBOARD.getClass().getName()"],
     "description": "Gets the class name of the variable in the clipboard in Java."
   },  
-  "Java Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "// Check if two variables have the same type:",
@@ -129,7 +129,7 @@
     ],
     "description": "Compares the types of two variables in Java."
   },
-  "Java Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "// Java Type Conversion:",
@@ -150,11 +150,11 @@
     ],
     "description": "Explains type conversion in Java."
   },
-  "Java Types": {
+  "FoolScript Types": {
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Java is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in Java include:",
       "- int: Integer",
@@ -177,67 +177,67 @@
     ],
     "description": "Lists the types in Java."
   },
-  "Java String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["String"],
     "description": "The Java String type."
   },
-  "Java Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["int"],
     "description": "The Java int type."
   },
-  "Java Double Type": {
+  "FoolScript Double Type": {
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "body": ["double"],
     "description": "The Java double type."
   },
-  "Java Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "body": ["float"],
     "description": "The Java float type."
   },
-  "Java Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["boolean"],
     "description": "The Java boolean type."
   },
-  "Java Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The Java true value."
   },
-  "Java Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The Java false value."
   },
-  "Java Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": ["import java.time.LocalDate;"],
     "description": "The Java LocalDate class from the java.time package."
   },
-  "Java Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["Map<${1:keyType}, ${2:valueType}>"],
     "description": "The Java Map type."
   },
-  "Java List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["List<${1:type}>"],
     "description": "The Java List type."
   },
-  "Java Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The Java null value."
   },
-  "Java Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["Object"],
     "description": "The Java Object type."
   },
-  "Java Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": [
       "import java.time.LocalDate;",
@@ -246,17 +246,17 @@
     ],
     "description": "Gets the current date in Java."
   },
-  "Java Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["String.format(\"${1:%s}\", ${2:value})"],
     "description": "Interpolates a string in Java."
   },
-  "Java Concatenate String": {
+  "FoolScript Concatenate String": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["${1:\"String1\"} + ${2:\"String2\"}"],
     "description": "Concatenates two strings in Java."
   },
-  "Java Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["${1:Type} ${2:myVar} = ${3:value};"],
     "description": "Creates a variable in Java."
@@ -281,22 +281,22 @@
     ],
     "description": "Explains Java variable declaration syntax"
   },
-  "Java Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["${1:Type} ${2:myVar} = $3;"],
     "description": "Creates a typed variable in Java."
   },
-  "Java Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["${1:Type} ${2:myVar} = null;"],
     "description": "Creates a nullable variable in Java."
   },
-  "Java Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["String ${1:myString} = ${2:'Your string here'};"],
     "description": "Creates a string variable in Java."
   },
-  "Java Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": ["foolsVarMultiString", "multiString", "variableMultiString", "multiStringVariable", "multilineText"],
     "body": [
       "String ${1:myString} =",
@@ -306,22 +306,22 @@
     ],
     "description": "Creates a multi-line string variable in Java."
   },
-  "Java Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["int ${1:myInt} = ${2:0};"],
     "description": "Creates an integer variable in Java."
   },
-  "Java Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "prefix": ["foolsVarDouble", "double", "doubleVariable", "variableDouble", "createDouble"],
     "body": ["double ${1:myDouble} = ${2:0.0};"],
     "description": "Creates a double variable in Java."
   },
-  "Java Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["boolean ${1:myBool} = ${2:true};"],
     "description": "Creates a boolean variable in Java."
   },
-  "Java Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "import java.time.LocalDate;",
@@ -330,7 +330,7 @@
     ],
     "description": "Creates a date variable in Java."
   },
-  "Java Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": [
       "List<${1:Type}> ${2:myList} = new ArrayList<>();",
@@ -338,7 +338,7 @@
     ],
     "description": "Creates a list variable in Java."
   },
-  "Java Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "Map<${1:Key}, ${2:Value}> ${3:myMap} = new HashMap<>();",
@@ -346,12 +346,12 @@
     ],
     "description": "Creates a map variable in Java."
   },
-  "Java Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["final ${1:Type} ${2:myConst} = ${3:value};"],
     "description": "Creates a constant variable in Java."
   },
-  "Java Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "static ${2:Type} ${3:myStaticVar} = ${4:value};",
@@ -361,26 +361,26 @@
     ],
     "description": "Creates a static variable in a Java class."
   },
-  "Java Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "List<${1:Type}> ${2:myList} = IntStream.range(0, ${3:length}).mapToObj(i -> ${4:value}).collect(Collectors.toList());"
     ],
     "description": "Generates a list of a specific length in Java."
   },
-  "Java Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "Map<${1:Key}, ${2:Value}> ${3:myMap} = IntStream.range(0, ${4:length}).boxed().collect(Collectors.toMap(i -> ${5:key}, i -> ${6:value}));"
     ],
     "description": "Generates a map of a specific length in Java."
   },
-  "Java Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["System.out.println(${1:'Your message here'});"],
     "description": "Prints a message to the console in Java."
   },
-  "Java Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "System.out.println(${1:\"Line 1\"} +",
@@ -389,7 +389,7 @@
     ],
     "description": "Prints a multi-line message to the console in Java."
   },
-  "Java For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": [
       "for (int ${1:i} = 0; $1 < ${2:10}; $1++) {",
@@ -398,7 +398,7 @@
     ],
     "description": "Creates a for loop that iterates through a set of numbers with the index in Java."
   },
-  "Java For Each Loop": {
+  "FoolScript For Each Loop": {
     "prefix": ["foolsForEachLoop", "forEach"],
     "body": [
       "for (${1:Type} ${2:item} : ${3:iterable}) {",
@@ -407,17 +407,17 @@
     ],
     "description": "Iterates over an iterable object in Java."
   },
-  "Java While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates a while loop in Java."
   },
-  "Java Do While Loop": {
+  "FoolScript Do While Loop": {
     "prefix": ["foolsDoWhileLoop", "doWhile"],
     "body": ["do {", "  ${1:// Your code here}", "} while (${2:condition});"],
     "description": "Creates a do...while loop in Java."
   },
-  "Java Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "switch (${1:variable}) {",
@@ -433,7 +433,7 @@
     ],
     "description": "Creates a switch statement in Java."
   },
-  "Java Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "public ${1:void} ${2:myFunction}(${3:}) {",
@@ -442,7 +442,7 @@
     ],
     "description": "Creates a function in Java."
   },
-  "Java Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "// In Java, functions do not support default argument values in definitions.",
@@ -459,14 +459,14 @@
     ],
     "description": "Creates a function with arguments in Java, with a note about default argument values."
   },
-  "Java Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "// Note: Java does not support named arguments in function definitions."
     ],
     "description": "Note about named arguments in Java."
   },
-  "Java Arrow Function": {
+  "FoolScript Arrow Function": {
     "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
     "body": [
       "(${2:parameters}) -> ${1:returnType} {",
@@ -475,7 +475,7 @@
     ],
     "description": "Creates an arrow function (lambda) in Java."
   },
-  "Java Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
     "body": [
       "new ${1:InterfaceName}() {",
@@ -487,12 +487,12 @@
     ],
     "description": "Creates an anonymous function (anonymous inner class) in Java."
   },
-  "Java Lambda Function": {
+  "FoolScript Lambda Function": {
     "prefix": ["foolsFuncLambda", "foolsLambda"],
     "body": ["(${1:parameters}) -> ${2:expression}"],
     "description": "Creates a lambda function in Java."
   },
-  "Java Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "// Java Function Syntax",
@@ -502,22 +502,22 @@
     ],
     "description": "Outlines the syntax for functions in Java."
   },
-  "Java Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["// ${1:Your comment here}"],
     "description": "Creates a single-line comment in Java."
   },
-  "Java Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "body": ["/*", " * ${1:Your comment here}", " */"],
     "description": "Creates a multi-line comment in Java."
   },
-  "Java Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["throw new ${1:Exception}(${2:'Your message here'});"],
     "description": "Throws an exception in Java."
   },
-  "Java Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "try {",
@@ -528,7 +528,7 @@
     ],
     "description": "Creates a try...catch block in Java."
   },
-  "Java Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "enum ${1:MyEnum} {",
@@ -539,17 +539,17 @@
     ],
     "description": "Creates an enum in Java."
   },
-  "Java Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["public class ${1:MyClass} {", "  ${2:// Your code here}", "}"],
     "description": "Creates a class in Java."
   },
-  "Java If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates an if statement in Java."
   },
-  "Java If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if (${1:condition}) {",
@@ -562,7 +562,7 @@
     ],
     "description": "Creates an if...else statement in Java."
   },
-  "Java Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in Java."

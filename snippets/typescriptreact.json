@@ -1,5 +1,5 @@
 {
-  "TypeScript Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "Typing: Statically typed (superset of JavaScript)",
@@ -9,7 +9,7 @@
     ],
     "description": "Provides general information about the TypeScript programming language."
   },
-  "TypeScript Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "// TypeScript Entry Point",
@@ -20,7 +20,7 @@
     ],
     "description": "Describes the entry point of a TypeScript application."
   },
-  "TypeScript with React Project Structure (High-Level)": {
+  "FoolScript with React Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level TypeScript with React Project Structure:",
@@ -63,7 +63,7 @@
     ],
     "description": "Explains a high-level project structure for TypeScript with React."
   },
-  "TypeScript Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "// TypeScript Mathematical Operators",
@@ -85,17 +85,17 @@
     ],
     "description": "Lists the mathematical operators in TypeScript."
   },
-  "TypeScript Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["==="],
-    "description": "TypeScript strict equal to operator."
+    "description": "FoolScript strict equal to operator."
   },
-  "TypeScript Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!=="],
-    "description": "TypeScript strict not equal to operator."
+    "description": "FoolScript strict not equal to operator."
   },
-  "TypeScript Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "// TypeScript Boolean Operators",
@@ -113,19 +113,19 @@
     ],
     "description": "Lists the boolean operators in TypeScript."
   },
-  "TypeScript Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["typeof ${1:variable}  // Note: This checks the runtime type."],
     "description": "Gets the type of a variable in TypeScript."
   },
-  "TypeScript This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": [
       "typeof $CLIPBOARD // Note: This checks the runtime type."
     ],
     "description": "Gets the type of the variable in the clipboard in TypeScript."
   },
-  "TypeScript Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "// Check if two variables have the same type:",
@@ -135,7 +135,7 @@
     ],
     "description": "Compares the types of two variables in TypeScript."
   },
-  "TypeScript Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "// TypeScript Type Conversion:",
@@ -152,7 +152,7 @@
     ],
     "description": "Explains type conversion in TypeScript."
   },
-  "TypeScript Types": {
+  "FoolScript Types": {
     "prefix": [
       "foolsTypes",
       "types",
@@ -180,7 +180,7 @@
     ],
     "description": "Prints out all the basic types in TypeScript."
   },
-  "TypeScript String Type": {
+  "FoolScript String Type": {
     "prefix": [
       "foolsTypesString",
       "stringType",
@@ -191,7 +191,7 @@
     "body": ["string"],
     "description": "The TypeScript string type."
   },
-  "TypeScript Number Type": {
+  "FoolScript Number Type": {
     "prefix": [
       "foolsTypesNum",
       "numberType",
@@ -202,62 +202,62 @@
     "body": ["number"],
     "description": "The TypeScript number type."
   },
-  "TypeScript Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["boolean"],
     "description": "The TypeScript boolean type."
   },
-  "TypeScript Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The TypeScript true value."
   },
-  "TypeScript Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The TypeScript false value."
   },
-  "TypeScript Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": ["Date"],
     "description": "The TypeScript Date object."
   },
-  "TypeScript Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["Map<${1:KeyType}, ${2:ValueType}>"],
     "description": "The TypeScript Map type."
   },
-  "TypeScript List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["Array<${1:Type}>"],
     "description": "The TypeScript Array type, commonly used as a list."
   },
-  "TypeScript Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["new Date()"],
     "description": "Gets the current date and time in TypeScript."
   },
-  "TypeScript Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The TypeScript null type."
   },
-  "TypeScript Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["any"],
     "description": "The TypeScript any type."
   },
-  "TypeScript Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["`Hello, ${1:name}!`"],
     "description": "Interpolates a string in TypeScript."
   },
-  "TypeScript Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["'Hello, ' + ${1:name} + '!'"],
     "description": "Concatenates strings in TypeScript."
   },
-  "TypeScript Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["let ${1:myVar} = $2;"],
     "description": "Creates a variable in TypeScript using the let keyword."
@@ -285,22 +285,22 @@
     ],
     "description": "Explains TypeScript variable declaration syntax"
   },
-  "TypeScript Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["let ${1:myVar}: ${2:Type} = $3;"],
     "description": "Creates a typed variable in TypeScript."
   },
-  "TypeScript Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["let ${1:myVar}: ${2:Type} | null = $3;"],
     "description": "Creates a nullable variable in TypeScript."
   },
-  "TypeScript Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["let ${1:myString}: string = ${2:'myValue'};"],
     "description": "Creates a string variable in TypeScript."
   },
-  "TypeScript Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": [
       "let ${1:myString}: string = `",
@@ -311,17 +311,17 @@
     ],
     "description": "Creates a multi-line string variable in TypeScript."
   },
-  "TypeScript Create Number Variable": {
+  "FoolScript Create Number Variable": {
     "prefix": ["foolsVarNumber", "integer", "number", "createInt", "createNumber", "intVariable", "variableInt"],
     "body": ["let ${1:myNumber}: number = ${2:0};"],
     "description": "Creates a number variable in TypeScript."
   },
-  "TypeScript Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["let ${1:myBoolean}: boolean = ${2:true};"],
     "description": "Creates a boolean variable in TypeScript."
   },
-  "TypeScript Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": [
       "let ${1:myList}: ${2:type}[] = [",
@@ -332,14 +332,14 @@
     ],
     "description": "Creates an array (list) variable in TypeScript."
   },
-  "TypeScript Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "let ${1:myDate}: Date = new Date(${2:year}, ${3:month} - 1, ${4:day});"
     ],
     "description": "Creates a date variable in TypeScript."
   },
-  "TypeScript Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "let ${1:myMap}: { [key: string]: ${2:type} } = {",
@@ -350,7 +350,7 @@
     ],
     "description": "Creates a map variable in TypeScript."
   },
-  "TypeScript Create Map Variable (Map Class)": {
+  "FoolScript Create Map Variable (Map Class)": {
     "prefix": "foolsVarMapClass",
     "body": [
       "let ${1:myMap} = new Map<string, ${2:type}>([",
@@ -360,12 +360,12 @@
     ],
     "description": "Creates a map variable using the Map class in TypeScript."
   },
-  "TypeScript Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["const ${1:myConst} = $2;"],
     "description": "Creates a constant variable in TypeScript using the const keyword."
   },
-  "TypeScript Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "static ${3:myStaticVar}: ${2:type} = ${4:value};",
@@ -375,7 +375,7 @@
     ],
     "description": "Creates a static variable in a TypeScript class."
   },
-  "TypeScript Generate Object Map": {
+  "FoolScript Generate Object Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "const ${1:myMap} = Object.fromEntries(",
@@ -384,19 +384,19 @@
     ],
     "description": "Generates an object map with a specific number of key-value pairs in TypeScript."
   },
-  "TypeScript Generate Array": {
+  "FoolScript Generate Array": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "const ${1:myList} = Array.from({ length: ${2:length} }, (_, index) => ${3:'item'} + index);"
     ],
     "description": "Generates an array (list) of a specific length in TypeScript."
   },
-  "TypeScript Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["console.log(${1:'Your message here'});"],
     "description": "Prints a message to the console in TypeScript."
   },
-  "TypeScript Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "console.log(`",
@@ -407,7 +407,7 @@
     ],
     "description": "Prints a multi-line message to the console in TypeScript."
   },
-  "TypeScript For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": [
       "for (let ${1:i} = 0; $1 < ${2:10}; $1++) {",
@@ -416,7 +416,7 @@
     ],
     "description": "Creates a for loop that iterates through a set of numbers with the index in TypeScript."
   },
-  "TypeScript For...Of Loop": {
+  "FoolScript For...Of Loop": {
     "prefix": ["foolsForInLoop", "forIn", "forOf"],
     "body": [
       "for (const item of ${1:iterable}) {",
@@ -425,12 +425,12 @@
     ],
     "description": "Iterates over an iterable object in TypeScript."
   },
-  "TypeScript While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates a while loop in TypeScript."
   },
-  "TypeScript Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "switch (${1:variable}) {",
@@ -446,7 +446,7 @@
     ],
     "description": "Creates a switch statement in TypeScript."
   },
-  "TypeScript Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "function ${2:myFunction}(${3:}): ${1:void} {",
@@ -455,7 +455,7 @@
     ],
     "description": "Creates a function in TypeScript."
   },
-  "TypeScript Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "// In TypeScript, functions can have arguments with default values.",
@@ -465,7 +465,7 @@
     ],
     "description": "Creates a function with arguments in TypeScript, including an argument with a default value."
   },
-  "TypeScript Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "function ${2:myFunction}({${3:arg1}, ${4:arg2}}: {${3:arg1}: ${5:type1}, ${4:arg2}: ${6:type2}}): ${1:void} {",
@@ -474,7 +474,7 @@
     ],
     "description": "Creates a function with named arguments in TypeScript."
   },
-  "TypeScript Arrow Function": {
+  "FoolScript Arrow Function": {
     "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
     "body": [
       "const ${2:myFunction} = (${3:parameters}): ${1:void} => {",
@@ -483,7 +483,7 @@
     ],
     "description": "Creates an arrow function in TypeScript."
   },
-  "TypeScript Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
     "body": [
       "(${1:parameters}): ${2:void} => {",
@@ -492,12 +492,12 @@
     ],
     "description": "Creates an anonymous arrow function in TypeScript."
   },
-  "TypeScript Lambda": {
+  "FoolScript Lambda": {
     "prefix": ["foolsFuncLambda", "foolsLambda"],
     "body": ["const ${1:myLambda} = (${2:parameters}) => ${3:expression};"],
     "description": "Creates a lambda function in TypeScript."
   },
-  "TypeScript Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "// TypeScript Function Syntax",
@@ -544,7 +544,7 @@
     ],
     "description": "Creates a try...catch block in a TSX file."
   },
-  "TypeScript Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "enum ${1:MyEnum} {",
@@ -555,17 +555,17 @@
     ],
     "description": "Creates an enum in TypeScript."
   },
-  "TypeScript Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["class ${1:MyClass} {", "  ${2:// Your code here}", "}"],
     "description": "Creates a class in TypeScript."
   },
-  "TypeScript If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates an if statement in TypeScript."
   },
-  "TypeScript If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if (${1:condition}) {",
@@ -578,7 +578,7 @@
     ],
     "description": "Creates an if...else statement in TypeScript."
   },
-  "TypeScript Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in TypeScript."

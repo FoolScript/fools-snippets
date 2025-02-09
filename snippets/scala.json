@@ -1,5 +1,5 @@
 {
-  "Scala Info": {
+  "FoolScript Info": {
     "scope": "scala",
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
@@ -11,7 +11,7 @@
     "description": "Provides general information about the Scala programming language."
   },
 
-  "Scala Entry Point": {
+  "FoolScript Entry Point": {
     "scope": "scala",
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
@@ -25,7 +25,7 @@
     "description": "Creates the entry point of a Scala application."
   },
 
-  "Scala Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "scope": "scala",
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
@@ -62,7 +62,7 @@
     "description": "Explains a high-level project structure for Scala."
   },  
 
-  "Scala Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "scope": "scala",
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
@@ -84,19 +84,19 @@
     ],
     "description": "Lists the mathematical operators in Scala."
   },
-  "Scala Equal To": {
+  "FoolScript Equal To": {
     "scope": "scala",
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Scala equal to operator (structural equality for objects)."
+    "description": "FoolScript equal to operator (structural equality for objects)."
   },
-  "Scala Not Equal To": {
+  "FoolScript Not Equal To": {
     "scope": "scala",
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "Scala not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Scala Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "scope": "scala",
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
@@ -114,19 +114,19 @@
     "description": "Lists the boolean operators in Scala."
   }
 ,  
-  "Scala Type Check": {
+  "FoolScript Type Check": {
     "scope": "scala",
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable}.getClass"],
     "description": "Gets the type of a variable in Scala."
   },
-  "Scala This Type Check": {
+  "FoolScript This Type Check": {
     "scope": "scala",
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["$CLIPBOARD.getClass.getSimpleName"],
     "description": "Gets the simple name of the class of the variable in the clipboard in Scala."
   },  
-  "Scala Type Comparison": {
+  "FoolScript Type Comparison": {
     "scope": "scala",
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
@@ -137,7 +137,7 @@
     ],
     "description": "Compares the types of two variables in Scala."
   },
-  "Scala Type Conversion": {
+  "FoolScript Type Conversion": {
     "scope": "scala",
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
@@ -155,12 +155,12 @@
     ],
     "description": "Explains type conversion in Scala."
   },
-  "Scala Types": {
+  "FoolScript Types": {
     "scope": "scala",
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Scala is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in Scala include:",
       "- Int: Integer",
@@ -188,56 +188,56 @@
     "description": "Lists the types in Scala."
   },
 
-  "Scala String Type": {
+  "FoolScript String Type": {
     "scope": "scala",
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["String"],
     "description": "The Scala String type."
   },
 
-  "Scala Integer Type": {
+  "FoolScript Integer Type": {
     "scope": "scala",
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["Int"],
     "description": "The Scala Int type."
   },
 
-  "Scala Double Type": {
+  "FoolScript Double Type": {
     "scope": "scala",
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "body": ["Double"],
     "description": "The Scala Double type."
   },
 
-  "Scala Float Type": {
+  "FoolScript Float Type": {
     "scope": "scala",
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "body": ["Float"],
     "description": "The Scala Float type."
   },
 
-  "Scala Boolean Type": {
+  "FoolScript Boolean Type": {
     "scope": "scala",
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["Boolean"],
     "description": "The Scala Boolean type."
   },
 
-  "Scala Boolean True": {
+  "FoolScript Boolean True": {
     "scope": "scala",
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The Scala true value."
   },
 
-  "Scala Boolean False": {
+  "FoolScript Boolean False": {
     "scope": "scala",
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The Scala false value."
   },
 
-  "Scala Date Type": {
+  "FoolScript Date Type": {
     "scope": "scala",
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": [
@@ -246,49 +246,49 @@
     "description": "Explains the absence of a built-in Date type in Scala."
   },
 
-  "Scala Map Type": {
+  "FoolScript Map Type": {
     "scope": "scala",
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["Map[${1:keyType}, ${2:valueType}]"],
     "description": "The Scala Map type."
   },
 
-  "Scala List Type": {
+  "FoolScript List Type": {
     "scope": "scala",
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["List[${1:type}]"],
     "description": "The Scala List type."
   },
 
-  "Scala Date Now": {
+  "FoolScript Date Now": {
     "scope": "scala",
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["// Use java.time or ScalaTime to get the current date and time."],
     "description": "Explains how to get the current date and time in Scala."
   },
 
-  "Scala Null Type": {
+  "FoolScript Null Type": {
     "scope": "scala",
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The Scala null value."
   },
 
-  "Scala Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "scope": "scala",
         "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["Any"],
     "description": "The Scala Any type."
   },
 
-  "Scala Create Variable": {
+  "FoolScript Create Variable": {
     "scope": "scala",
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["var ${1:myVar}: ${2:Type} = $3"],
     "description": "Creates a variable in Scala."
   },
 
-  "Scala Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "scope": "scala",
     "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
     "body": [
@@ -309,42 +309,42 @@
     "description": "Explains Scala variable declaration syntax"
   },
 
-  "Scala Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "scope": "scala",
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["var ${1:myVar}: ${2:Type} = $3"],
     "description": "Creates a typed variable in Scala."
   },
 
-  "Scala Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "scope": "scala",
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["var ${1:myVar}: Option[${2:Type}] = None"],
     "description": "Creates a nullable variable in Scala using the Option type."
   },
 
-  "Scala Interpolate String": {
+  "FoolScript Interpolate String": {
     "scope": "scala",
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["s\"Your string here \\${${1:variable}}\""],
     "description": "Interpolates a variable into a string in Scala."
   },
 
-  "Scala Concatenate String": {
+  "FoolScript Concatenate String": {
     "scope": "scala",
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["${1:\"string1\"} + ${2:\"string2\"}"],
     "description": "Concatenates two strings in Scala."
   },
 
-  "Scala Create String Variable": {
+  "FoolScript Create String Variable": {
     "scope": "scala",
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["val ${1:myString} = \"${2:Your string here}\""],
     "description": "Creates a string variable in Scala."
   },
 
-  "Scala Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "scope": "scala",
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": [
@@ -357,55 +357,55 @@
     "description": "Creates a multi-line string variable in Scala."
   },
 
-  "Scala Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "scope": "scala",
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["val ${1:myInt} = ${2:0}"],
     "description": "Creates an integer variable in Scala."
   },
 
-  "Scala Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "scope": "scala",
     "prefix": ["foolsVarDouble", "double", "doubleVariable", "variableDouble", "createDouble"],
     "body": ["val ${1:myDouble} = ${2:0.0}"],
     "description": "Creates a double variable in Scala."
   },
 
-  "Scala Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "scope": "scala",
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["val ${1:myBool} = ${2:true}"],
     "description": "Creates a boolean variable in Scala."
   },
 
-  "Scala Create Array Variable": {
+  "FoolScript Create Array Variable": {
     "scope": "scala",
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": ["val ${1:myList} = List(${2:items})"],
     "description": "Creates a list variable in Scala."
   },
 
-  "Scala Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": ["val ${1:myMap} = Map(${2:key} -> ${3:value})"],
     "description": "Creates a map variable in Scala."
   },
 
-  "Scala Create Constant": {
+  "FoolScript Create Constant": {
     "scope": "scala",
     "prefix": ["foolsConst", "constant"],
     "body": ["val ${1:myConst} = $2"],
     "description": "Creates a constant variable in Scala using the val keyword."
   },
 
-  "Scala Print": {
+  "FoolScript Print": {
     "scope": "scala",
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["println(${1:'Your message here'})"],
     "description": "Prints a message to the console in Scala."
   },
 
-  "Scala Print Multi": {
+  "FoolScript Print Multi": {
     "scope": "scala",
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
@@ -418,32 +418,32 @@
     "description": "Prints a multi-line message to the console in Scala."
   },
 
-  "Scala For Loop": {
+  "FoolScript For Loop": {
     "scope": "scala",
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": ["for (i <- ${1:0 until 10}) {", "  // Your code here", "}"],
     "description": "Creates a for loop that iterates through a set of numbers with the index in Scala."
   },
 
-  "Scala For Each Loop": {
+  "FoolScript For Each Loop": {
     "prefix": ["foolsForEachLoop", "forEach"],
     "body": ["for (item <- ${1:iterable}) {", "  // Your code here", "}"],
     "description": "Iterates over an iterable object in Scala."
   },
 
-  "Scala While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  // Your code here", "}"],
     "description": "Creates a while loop in Scala."
   },
 
-  "Scala If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  // Your code here", "}"],
     "description": "Creates an if statement in Scala."
   },
 
-  "Scala If Else Statement": {
+  "FoolScript If Else Statement": {
     "scope": "scala",
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
@@ -468,7 +468,7 @@
     "description": "Provides an alternative to the ternary operator in Scala."
   },
 
-  "Scala Function": {
+  "FoolScript Function": {
     "scope": "scala",
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
@@ -497,7 +497,7 @@
     "description": "Outlines the syntax for functions in Scala."
   },
 
-  "Scala Function Args": {
+  "FoolScript Function Args": {
     "scope": "scala",
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
@@ -509,7 +509,7 @@
     "description": "Creates a function with arguments in Scala, including an argument with a default value."
   },
 
-  "Scala Function Named Args": {
+  "FoolScript Function Named Args": {
     "scope": "scala",
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
@@ -520,27 +520,27 @@
     "description": "Creates a function with named arguments and default values in Scala."
   },
 
-  "Scala Lambda": {
+  "FoolScript Lambda": {
     "scope": "scala",
     "prefix": ["foolsFuncLambda", "foolsLambda"],
     "body": ["(${1:parameters}) => ${2:expression}"],
     "description": "Creates a lambda function in Scala."
   },
 
-  "Scala Comment": {
+  "FoolScript Comment": {
     "scope": "scala",
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["// ${1:Your comment here}"],
     "description": "Creates a single-line comment in Scala."
   },
 
-  "Scala Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "scope": "scala",
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "body": ["/*", " * ${1:Your comment here}", " */"],
     "description": "Creates a multi-line comment in Scala."
   },
-  "Scala Class Syntax": {
+  "FoolScript Class Syntax": {
     "scope": "scala",
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["class ${1:MyClass} {", "  // Your code here", "}"],

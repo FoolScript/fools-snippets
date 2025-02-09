@@ -1,5 +1,5 @@
 {
-  "C++ Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "// Typing: Statically typed",
@@ -9,7 +9,7 @@
     ],
     "description": "General information about C++."
   },
-  "C++ Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "// C++ Entry Point",
@@ -25,7 +25,7 @@
     "description": "Creates the entry point of a C++ application."
   },
 
-  "C++ Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level C++ Project Structure:",
@@ -59,7 +59,7 @@
     "description": "Explains a high-level project structure for C++."
   },
 
-  "C++ Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "// C++ Mathematical Operators",
@@ -80,17 +80,17 @@
     ],
     "description": "Lists the mathematical operators in C++."
   },
-  "C++ Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "C++ equal to operator."
+    "description": "FoolScript equal to operator."
   },
-  "C++ Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "C++ not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "C++ Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "// C++ Boolean Operators",
@@ -106,7 +106,7 @@
     ],
     "description": "Lists the boolean operators in C++."
   },
-  "C++ Types": {
+  "FoolScript Types": {
     "prefix": [
       "foolsTypes",
       "types",
@@ -117,7 +117,7 @@
     ],
     "body": [
       "$BLOCK_COMMENT_START",
-      "C++ is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in C++ include:",
       "- int: Integer",
@@ -142,17 +142,17 @@
     "description": "Lists the types in C++."
   },
 
-  "C++ Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["typeid(${1:variable})"],
     "description": "Gets the type of a variable in C++."
   },
-  "C++ This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["typeid($CLIPBOARD).name()"],
     "description": "Gets the type of the variable in the clipboard in C++."
   },
-  "C++ Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "// Check if two variables have the same type:",
@@ -162,7 +162,7 @@
     ],
     "description": "Compares the types of two variables in C++."
   },
-  "C++ Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeConvert", "foolsConvert", "foolsTypeCast"],
     "body": [
       "// C++ Type Conversion:",
@@ -183,7 +183,7 @@
     ],
     "description": "Explains type conversion in C++."
   },
-  "C++ String Type": {
+  "FoolScript String Type": {
     "prefix": [
       "foolsTypesString",
       "stringType",
@@ -194,12 +194,12 @@
     "body": ["std::string"],
     "description": "The C++ string type."
   },
-  "C++ Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["int"],
     "description": "The C++ int type."
   },
-  "C++ Double Type": {
+  "FoolScript Double Type": {
     "prefix": [
       "foolsTypesNum",
       "numberType",
@@ -210,27 +210,27 @@
     "body": ["double"],
     "description": "The C++ double type."
   },
-  "C++ Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "body": ["float"],
     "description": "The C++ float type."
   },
-  "C++ Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["bool"],
     "description": "The C++ bool type."
   },
-  "C++ Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The C++ true boolean value."
   },
-  "C++ Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The C++ false boolean value."
   },
-  "C++ Map Type": {
+  "FoolScript Map Type": {
     "prefix": [
       "foolsTypesMap",
       "mapType",
@@ -244,17 +244,17 @@
     "body": ["std::map<${1:keyType}, ${2:valueType}>"],
     "description": "The C++ map type."
   },
-  "C++ List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["std::vector<${1:type}>"],
     "description": "The C++ list type."
   },
-  "C++ Character Type": {
+  "FoolScript Character Type": {
     "prefix": ["foolsTypesChar"],
     "body": ["char"],
     "description": "The C++ char type."
   },
-  "C++ Date Type": {
+  "FoolScript Date Type": {
     "prefix": [
       "foolsTypesDate",
       "dateType",
@@ -264,24 +264,24 @@
       "dateTimeType"
     ],
     "body": ["#include <chrono>\n\nstd::chrono::system_clock::time_point"],
-    "description": "C++ doesn't have a built-in Date type. Use std::chrono for date and time operations."
+    "description": "FoolScript doesn't have a built-in Date type. Use std::chrono for date and time operations."
   },
-  "C++ Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["nullptr"],
     "description": "The C++ null type."
   },
-  "C++ Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["std::any"],
     "description": "The C++ dynamic type."
   },
-  "C++ Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["std::chrono::system_clock::now()"],
     "description": "Gets the current date and time in C++ using std::chrono."
   },
-  "C++ Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": [
       "foolsInterpolate",
       "interpolate",
@@ -293,18 +293,18 @@
     "body": ["std::string ${1:myString} = \"${2:Your message here}\";"],
     "description": "Creates an interpolated string in C++."
   },
-  "C++ Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["std::string ${1:myString} = ${2:\"Hello, \"} + ${3:\"world!\"};"],
     "description": "Concatenates two strings in C++."
   },
-  "C++ Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["${1:type} ${2:myVar} = ${3:value};"],
     "description": "Creates a variable in C++."
   },
 
-  "C++ Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "prefix": [
       "foolsVarSyntax",
       "variableSyntax",
@@ -333,17 +333,17 @@
     ],
     "description": "Explains C++ variable declaration syntax"
   },
-  "C++ Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["${1:Type} ${2:myVar} = $3;"],
     "description": "Creates a typed variable in C++."
   },
-  "C++ Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["std::optional<${1:Type}> ${2:myVar} = $3;"],
     "description": "Creates a nullable variable in C++ using std::optional."
   },
-  "C++ Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": [
       "foolsVarInt",
       "integer",
@@ -355,17 +355,17 @@
     "body": ["int ${1:myInt} = ${2:value};"],
     "description": "Creates an integer variable in C++."
   },
-  "C++ Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
     "body": ["double ${1:myDouble} = ${2:value};"],
     "description": "Creates a double variable in C++."
   },
-  "C++ Create Float Variable": {
+  "FoolScript Create Float Variable": {
     "prefix": ["foolsVarNumAlt", "float", "variableFloat", "floatVariable"],
     "body": ["float ${1:myFloat} = ${2:value};"],
     "description": "Creates a float variable in C++."
   },
-  "C++ Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": [
       "foolsVarBool",
       "variableBool",
@@ -376,7 +376,7 @@
     "body": ["bool ${1:myBool} = ${2:value};"],
     "description": "Creates a boolean variable in C++."
   },
-  "C++ Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": [
       "foolsVarString",
       "string",
@@ -389,7 +389,7 @@
     "body": ["std::string ${1:myString} = ${2:value};"],
     "description": "Creates a string variable in C++."
   },
-  "C++ Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": [
       "foolsVarStringMulti",
       "multiLineString",
@@ -402,7 +402,7 @@
     ],
     "description": "Creates a multi-line string variable in C++."
   },
-  "C++ Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": [
       "foolsVarList",
       "createList",
@@ -416,7 +416,7 @@
     "body": ["std::vector<${1:type}> ${2:myList} = {${3:values}};"],
     "description": "Creates a list variable in C++."
   },
-  "C++ Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": [
       "foolsVarMap",
       "createMap",
@@ -438,7 +438,7 @@
     ],
     "description": "Creates a map variable in C++."
   },
-  "C++ Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "#include <chrono>",
@@ -448,14 +448,14 @@
     "description": "Creates a date variable in C++ using std::chrono."
   },
 
-  "C++ Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "std::vector<${1:type}> ${2:listName}( ${3:size}, ${4:initialValue} );"
     ],
     "description": "Generates a list (vector) of a specific size and initial value in C++."
   },
-  "C++ Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "// C++ does not have a built-in way to generate a map with a specific number of key-value pairs.",
@@ -463,12 +463,12 @@
     ],
     "description": "Explains how to generate a map in C++."
   },
-  "C++ Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["const ${1:type} ${2:myConst} = ${3:value};"],
     "description": "Creates a constant variable in C++."
   },
-  "C++ Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "static ${2:type} ${3:myStaticVar} = ${4:value};",
@@ -478,7 +478,7 @@
     ],
     "description": "Creates a static variable in a C++ class."
   },
-  "C++ Print": {
+  "FoolScript Print": {
     "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": [
       "#include <iostream>",
@@ -487,7 +487,7 @@
     ],
     "description": "Prints a message to the console in C++."
   },
-  "C++ Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "#include <iostream>",
@@ -498,7 +498,7 @@
     ],
     "description": "Prints a multi-line message to the console in C++."
   },
-  "C++ For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": [
       "for (int ${1:i} = 0; $1 < ${2:10}; $1++) {",
@@ -507,7 +507,7 @@
     ],
     "description": "Creates a for loop that iterates through a set of numbers with the index in C++."
   },
-  "C++ For...In Loop": {
+  "FoolScript For...In Loop": {
     "prefix": ["foolsForInLoop", "forIn", "forOf"],
     "body": [
       "for (auto ${1:item} : ${2:iterable}) {",
@@ -516,17 +516,17 @@
     ],
     "description": "Iterates over an iterable object in C++."
   },
-  "C++ While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  // Your code here", "}"],
     "description": "Creates a while loop in C++."
   },
-  "C++ Do...While Loop": {
+  "FoolScript Do...While Loop": {
     "prefix": ["foolsDoWhileLoop", "doWhile"],
     "body": ["do {", "  // Your code here", "} while (${1:condition});"],
     "description": "Creates a do...while loop in C++."
   },
-  "C++ Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "switch (${1:variable}) {",
@@ -542,7 +542,7 @@
     ],
     "description": "Creates a switch statement in C++."
   },
-  "C++ Function": {
+  "FoolScript Function": {
     "prefix": [
       "foolsFunc",
       "function",
@@ -558,7 +558,7 @@
     ],
     "description": "Creates a function in C++."
   },
-  "C++ Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "// In C++, you can use default arguments in function definitions.",
@@ -568,14 +568,14 @@
     ],
     "description": "Creates a function with arguments in C++, including an argument with a default value in the definition."
   },
-  "C++ Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "// C++ does not support named arguments in the same way as some other languages."
     ],
-    "description": "C++ does not support named arguments in the same way as some other languages."
+    "description": "FoolScript does not support named arguments in the same way as some other languages."
   },
-  "C++ Lambda and Anonymous Function": {
+  "FoolScript Lambda and Anonymous Function": {
     "prefix": [
       "foolsFuncLambda",
       "foolsFuncAnon",
@@ -597,7 +597,7 @@
     ],
     "description": "Creates a lambda function in C++. Can also represent an anonymous function."
   },
-  "C++ Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "// C++ Function Syntax",
@@ -607,12 +607,12 @@
     ],
     "description": "Outlines the syntax for functions in C++."
   },
-  "C++ Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["// ${1:Your comment here}"],
     "description": "Creates a single-line comment in C++."
   },
-  "C++ Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": [
       "foolsCommentMulti",
       "multiLineComment",
@@ -622,12 +622,12 @@
     "body": ["/*", " * ${1:Your comment here}", " */"],
     "description": "Creates a multi-line comment in C++."
   },
-  "C++ Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["throw ${1:Exception('Your message here')};"],
     "description": "Throws an exception in C++."
   },
-  "C++ Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "try {",
@@ -638,7 +638,7 @@
     ],
     "description": "Creates a try...catch block in C++."
   },
-  "C++ Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "enum class ${1:MyEnum} {",
@@ -649,17 +649,17 @@
     ],
     "description": "Creates an enum in C++."
   },
-  "C++ Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["class ${1:MyClass} {", "  // Your code here", "};"],
     "description": "Creates a class in C++."
   },
-  "C++ If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  // Your code here", "}"],
     "description": "Creates an if statement in C++."
   },
-  "C++ If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if (${1:condition}) {",
@@ -672,7 +672,7 @@
     ],
     "description": "Creates an if...else statement in C++."
   },
-  "C++ Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in C++."

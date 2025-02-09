@@ -1,5 +1,5 @@
 {
-  "Haskell Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "-- Typing: Statically typed, strong, inferred",
@@ -10,7 +10,7 @@
     "description": "Provides general information about the Haskell programming language."
   },
 
-  "Haskell Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "-- Haskell Entry Point",
@@ -24,7 +24,7 @@
     "description": "Creates the entry point of a Haskell application."
   },
 
-  "Haskell Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level Haskell Project Structure:",
@@ -60,7 +60,7 @@
     ],
     "description": "Explains a high-level project structure for Haskell."
   },
-  "Haskell Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "-- Haskell Mathematical Operators",
@@ -82,7 +82,7 @@
     "description": "Lists the mathematical operators in Haskell."
   },
 
-  "Haskell Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "-- Haskell Boolean Operators:",
@@ -94,7 +94,7 @@
     "description": "Lists the boolean operators in Haskell."
   },
 
-  "Haskell Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": [
       "-- Haskell does not have classes in the same sense as object-oriented languages.",
@@ -103,7 +103,7 @@
     "description": "Explains the absence of classes in Haskell."
   },
 
-  "Haskell Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "data MyEnum = Foo | Bar | Baz deriving (Enum)"
@@ -111,23 +111,23 @@
     "description": "Explains the absence of an enum keyword in Haskell."
   },
   
-  "Haskell Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Haskell equal to operator."
+    "description": "FoolScript equal to operator."
   },
 
-  "Haskell Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["/="],
-    "description": "Haskell not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Haskell Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable} :: ${2:Type}"],
     "description": "Checks the type of a variable in Haskell."
   },
-  "Haskell This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": [
       "import Data.Typeable",
@@ -136,7 +136,7 @@
     ],
     "description": "Gets the type of the variable in the clipboard in Haskell using Data.Typeable."
   },    
-  "Haskell Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "-- Haskell does not have a built-in function for comparing types directly.",
@@ -145,7 +145,7 @@
     "description": "Explains how to compare types in Haskell."
   },
 
-  "Haskell Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "-- Haskell emphasizes explicit type conversions for safety.",
@@ -161,11 +161,11 @@
     "description": "Explains type conversion in Haskell."
   },
 
-  "Haskell Types": {
+  "FoolScript Types": {
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Haskell is a statically typed language with strong type inference.",
+      "FoolScript is a statically typed language with strong type inference.",
       "",
       "Types in Haskell include:",
       "- Int: Integer",
@@ -187,49 +187,49 @@
     "description": "Lists the types in Haskell."
   },
 
-  "Haskell String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["String"],
     "description": "The Haskell String type."
   },
 
-  "Haskell Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["Int"],
     "description": "The Haskell Int type."
   },
 
-  "Haskell Double Type": {
+  "FoolScript Double Type": {
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "body": ["Double"],
     "description": "The Haskell Double type."
   },
 
-  "Haskell Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "body": ["Float"],
     "description": "The Haskell Float type."
   },
 
-  "Haskell Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["Bool"],
     "description": "The Haskell Bool type."
   },
 
-  "Haskell Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["True"],
     "description": "The Haskell True value."
   },
 
-  "Haskell Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["False"],
     "description": "The Haskell False value."
   },
 
-  "Haskell Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": [
       "-- Haskell does not have a built-in Date type. Use the 'time' package for date and time operations."
@@ -237,25 +237,25 @@
     "description": "Explains the absence of a built-in Date type in Haskell."
   },
 
-  "Haskell Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["Map k v"],
     "description": "The Haskell Map type."
   },
 
-  "Haskell List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["[a]"],
     "description": "The Haskell List type."
   },
 
-  "Haskell Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["-- Use the 'time' package to get the current date and time."],
     "description": "Explains how to get the current date and time in Haskell."
   },
 
-  "Haskell Dynamic Type": {
+  "FoolScript Dynamic Type": {
             "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": [
       "-- Haskell is statically typed, but you can use 'Any' for dynamic values."
@@ -263,30 +263,30 @@
     "description": "Explains the use of 'Any' for dynamic values in Haskell."
   },
 
-  "Haskell Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "foolsNull"],
     "body": ["Nothing"],
     "description": "The Haskell Nothing value, representing the absence of a value."
   },
-  "Haskell Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["show ${1:variable}"],
     "description": "Interpolates a variable into a string in Haskell."
   },
 
-  "Haskell Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["${1:string1} ++ ${2:string2}"],
     "description": "Concatenates two strings in Haskell."
   },
 
-  "Haskell Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["let ${1:myVar} = $2"],
     "description": "Creates a variable in Haskell."
   },
 
-  "Haskell Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
     "body": [
       "-- Haskell Variable Declaration Syntax:",
@@ -306,13 +306,13 @@
     "description": "Explains Haskell variable declaration syntax"
   },
 
-  "Haskell Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["let ${1:myVar} :: ${2:Type} = $3"],
     "description": "Creates a typed variable in Haskell."
   },
 
-  "Haskell Static Variable (Alternative)": {
+  "FoolScript Static Variable (Alternative)": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "-- Haskell does not have static variables in the same way as imperative languages.",
@@ -321,19 +321,19 @@
     "description": "Explains alternatives to static variables in Haskell."
   },
 
-  "Haskell Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["let ${1:myVar} :: Maybe ${2:Type} = Nothing"],
     "description": "Creates a nullable variable in Haskell using the Maybe type."
   },
 
-  "Haskell Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["let ${1:myString} = \"${2:Your string here}\""],
     "description": "Creates a string variable in Haskell."
   },
 
-  "Haskell Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": [
       "let ${1:myString} = \"\"\"",
@@ -345,31 +345,31 @@
     "description": "Creates a multi-line string variable in Haskell."
   },
 
-  "Haskell Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["let ${1:myInt} = ${2:0}"],
     "description": "Creates an integer variable in Haskell."
   },
 
-  "Haskell Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "prefix": ["foolsVarDouble", "double", "doubleVariable", "variableDouble", "createDouble"],
     "body": ["let ${1:myDouble} = ${2:0.0}"],
     "description": "Creates a double variable in Haskell."
   },
 
-  "Haskell Number Variable": {
+  "FoolScript Number Variable": {
     "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
     "body": ["let ${1:myNum} :: ${2:NumType} = $3"],
     "description": "Creates a number variable in Haskell."
   },
 
-  "Haskell Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["let ${1:myBool} = ${2:True}"],
     "description": "Creates a boolean variable in Haskell."
   },
 
-  "Haskell Date Variable": {
+  "FoolScript Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "-- Use the 'time' package to create a date variable:",
@@ -381,13 +381,13 @@
     "description": "Creates a date variable in Haskell using the 'time' package."
   },
 
-  "Haskell Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": ["let ${1:myList} = [${2:items}]"],
     "description": "Creates a list variable in Haskell."
   },
 
-  "Haskell Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "let ${1:myMap} = Map.fromList [(${2:key}, ${3:value})]",
@@ -396,13 +396,13 @@
     "description": "Creates a map variable in Haskell."
   },
 
-  "Haskell Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": ["[${1:start}..${2:end}]"],
     "description": "Generates a list of numbers in Haskell."
   },
 
-  "Haskell Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "-- Haskell does not have a built-in way to generate a map with a specific number of key-value pairs.",
@@ -411,7 +411,7 @@
     "description": "Explains how to generate a map in Haskell."
   },
 
-  "Haskell Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": [
       "-- Haskell does not have a 'const' keyword. Use 'let' for immutable values."
@@ -419,13 +419,13 @@
     "description": "Explains how to create constants in Haskell."
   },
 
-  "Haskell Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["putStrLn ${1:'Your message here'}"],
     "description": "Prints a message to the console in Haskell."
   },
 
-  "Haskell Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "putStrLn $ unlines [",
@@ -437,7 +437,7 @@
     "description": "Prints a multi-line message to the console in Haskell."
   },
 
-  "Haskell For...In Loop (Alternative)": {
+  "FoolScript For...In Loop (Alternative)": {
     "prefix": ["foolsForIn", "forIn"],
     "body": [
       "-- Haskell does not have a direct for...in loop.",
@@ -449,13 +449,13 @@
     "description": "Provides an alternative to the for...in loop in Haskell."
   },
 
-  "Haskell For Each Loop": {
+  "FoolScript For Each Loop": {
     "prefix": ["foolsForEachLoop", "forLoop", "forEach", "foolsForLoop"],
     "body": ["forM ${1:iterable} \\${2:item} -> do", "  -- Your code here"],
     "description": "Iterates over an iterable object in Haskell."
   },
 
-  "Haskell While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": [
       "-- Haskell does not have a traditional while loop. Use recursion or higher-order functions like 'until'."
@@ -463,7 +463,7 @@
     "description": "Explains how to create loops in Haskell."
   },
 
-  "Haskell Case Expression": {
+  "FoolScript Case Expression": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "case ${1:variable} of",
@@ -474,7 +474,7 @@
     "description": "Creates a case expression in Haskell."
   },
 
-  "Haskell Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "${1:functionName} :: ${2:parameterTypes} -> ${3:returnType}",
@@ -483,7 +483,7 @@
     "description": "Creates a function in Haskell."
   },
 
-  "Haskell Named Arguments (Alternative)": {
+  "FoolScript Named Arguments (Alternative)": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "-- Haskell does not have named arguments in the traditional sense.",
@@ -491,7 +491,7 @@
     ],
     "description": "Explains alternatives to named arguments in Haskell."
   },
-  "Haskell Function Arguments": {
+  "FoolScript Function Arguments": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "-- Haskell functions typically use pattern matching to handle arguments.",
@@ -502,7 +502,7 @@
     ],
     "description": "Explains how to pass arguments to functions in Haskell."
   },
-  "Haskell Lambda Function": {
+  "FoolScript Lambda Function": {
     "prefix": ["foolsFuncLambda", "foolsFuncAnon", "foolsFuncArrow", "lambda", "anonymous", "arrowFunc", "closure"],
     "body": [
       "\\${1:parameters} -> ${2:expression}",
@@ -513,7 +513,7 @@
     ],
     "description": "Creates a lambda (anonymous) function in Haskell."
   },  
-  "Haskell Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "-- Haskell Function Syntax:",
@@ -528,19 +528,19 @@
     "description": "Outlines the syntax for functions in Haskell."
   },
 
-  "Haskell Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["-- ${1:Your comment here}"],
     "description": "Creates a single-line comment in Haskell."
   },
 
-  "Haskell Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "body": ["{-", " ${1:Your comment here}", "-}"],
     "description": "Creates a multi-line comment in Haskell."
   },
 
-  "Haskell If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": [
       "if ${1:condition}",
@@ -550,7 +550,7 @@
     "description": "Creates an if statement in Haskell."
   },
 
-  "Haskell If-Else Statement": {
+  "FoolScript If-Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if ${1:condition}",
@@ -560,7 +560,7 @@
     "description": "Creates an if-else statement in Haskell."
   },
 
-  "Haskell Ternary Operator (Alternative)": {
+  "FoolScript Ternary Operator (Alternative)": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": [
       "-- Haskell does not have a ternary operator.",
@@ -573,13 +573,13 @@
     "description": "Provides an alternative to the ternary operator in Haskell."
   },
 
-  "Haskell Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["error \"${1:Your error message here}\""],
     "description": "Throws an exception in Haskell."
   },
 
-  "Haskell Try-Catch ": {
+  "FoolScript Try-Catch ": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "-- Haskell does not have a traditional try-catch mechanism.",

@@ -1,5 +1,5 @@
 {
-  "Bash Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "Typing: Dynamically typed",
@@ -9,17 +9,17 @@
     ],
     "description": "Provides general information about the Bash scripting language."
   },
-  "Bash Shebang": {
+  "FoolScript Shebang": {
     "prefix": "foolsShebang",
     "body": ["#!/bin/bash"],
     "description": "Defines the interpreter for the script."
   },
-  "Bash Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["# ${1:Your comment here}"],
     "description": "Creates a single-line comment."
   },
-  "Bash Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "body": [
       ": <<'END'",
@@ -30,27 +30,27 @@
     ],
     "description": "Creates a multi-line comment."
   },
-  "Bash Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["echo ${1:'Your message here'}"],
     "description": "Prints a message to the console."
   },
-  "Bash Variable": {
+  "FoolScript Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["${1:myVar}=${2:value}"],
     "description": "Creates a variable."
   },
-  "Bash Read Input": {
+  "FoolScript Read Input": {
     "prefix": "foolsRead",
     "body": ["read -p '${1:Prompt: }' ${2:varName}"],
     "description": "Reads user input and stores it in a variable."
   },
-  "Bash If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if [ ${1:condition} ]; then", "  ${2:// Your code here}", "fi"],
     "description": "Creates an if statement."
   },
-  "Bash If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if [ ${1:condition} ]; then",
@@ -61,12 +61,12 @@
     ],
     "description": "Creates an if...else statement."
   },
-  "Bash For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": ["for ${1:i} in ${2:list}; do", "  ${3:// Your code here}", "done"],
     "description": "Creates a for loop that iterates through a list."
   },
-  "Bash While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": [
       "while [ ${1:condition} ]; do",
@@ -75,12 +75,12 @@
     ],
     "description": "Creates a while loop."
   },
-  "Bash Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": ["${2:myFunction}() {", "  ${3:// Your code here}", "}"],
     "description": "Creates a function."
   },
-  "Bash Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "${2:myFunction}() {",
@@ -91,7 +91,7 @@
     ],
     "description": "Creates a function with arguments."
   },
-  "Bash Case Statement": {
+  "FoolScript Case Statement": {
     "prefix": ["foolsSwitch", "case", "switch"],
     "body": [
       "case ${1:variable} in",
@@ -108,7 +108,7 @@
     ],
     "description": "Creates a case statement."
   },
-  "Bash Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": [
       "# Bash uses string juxtaposition for concatenation:",
@@ -116,7 +116,7 @@
     ],
     "description": "Concatenates strings in Bash."
   },
-  "Bash Constant": {
+  "FoolScript Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": [
       "# Bash uses readonly variables for constants:",
@@ -124,7 +124,7 @@
     ],
     "description": "Creates a constant variable in Bash using the readonly keyword."
   },
-  "Bash Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "# Bash scripts typically start with the shebang line:",
@@ -132,7 +132,7 @@
     ],
     "description": "Defines the interpreter for the script."
   },
-  "Bash Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": [
       "# Bash uses '==' for string equality and '-eq' for numeric equality:",
@@ -140,7 +140,7 @@
     ],
     "description": "Checks for equality in Bash."
   },
-  "Bash For...In Loop": {
+  "FoolScript For...In Loop": {
     "prefix": "foolsForIn",
     "body": [
       "for ${1:item} in ${2:list}; do",
@@ -149,7 +149,7 @@
     ],
     "description": "Iterates over items in a list in Bash."
   },
-  "Bash Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
     "body": [
       "# Bash doesn't have true anonymous functions, but you can use function expressions:",
@@ -157,24 +157,24 @@
     ],
     "description": "Creates a function expression in Bash."
   },
-  "Bash Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "# Bash doesn't directly support named arguments, but you can simulate them using associative arrays or options parsing."
     ],
     "description": "Named arguments are not directly supported in Bash."
   },
-  "Bash Arrow Function": {
+  "FoolScript Arrow Function": {
     "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
     "body": ["# Bash doesn't have arrow functions."],
     "description": "Arrow functions are not supported in Bash."
   },
-  "Bash Lambda": {
+  "FoolScript Lambda": {
     "prefix": ["foolsFuncLambda", "foolsLambda"],
     "body": ["# Bash doesn't have lambda functions."],
     "description": "Lambda functions are not supported in Bash."
   },
-  "Bash Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "# Bash Function Syntax:",
@@ -184,7 +184,7 @@
     ],
     "description": "Outlines the syntax for functions in Bash."
   },
-  "Bash Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "# Bash doesn't have built-in list generation, but you can use loops or command substitution:",
@@ -192,7 +192,7 @@
     ],
     "description": "Explains how to generate a list in Bash using loops or command substitution."
   },
-  "Bash Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "# Bash doesn't have built-in map generation, but you can use associative arrays:",
@@ -200,7 +200,7 @@
     ],
     "description": "Explains how to generate a map in Bash using associative arrays."
   },
-  "Bash Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": [
       "# Bash uses double quotes for variable interpolation:",
@@ -208,7 +208,7 @@
     ],
     "description": "Interpolates a string in Bash."
   },
-  "Bash Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": [
       "# Bash uses '!=' for string inequality and '-ne' for numeric inequality:",
@@ -216,12 +216,12 @@
     ],
     "description": "Checks for inequality in Bash."
   },
-  "Bash Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["# Get the current date and time:", "now=$(date)"],
     "description": "Gets the current date and time in Bash."
   },
-  "Bash Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "# Bash Mathematical Operators:",
@@ -243,7 +243,7 @@
     ],
     "description": "Lists the mathematical operators in Bash."
   },
-  "Bash Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "# Bash Boolean Operators:",
@@ -259,7 +259,7 @@
     ],
     "description": "Lists the boolean operators in Bash."
   },
-  "Bash Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "# Use echo with -e for multi-line output:",
@@ -267,7 +267,7 @@
     ],
     "description": "Prints a multi-line message to the console in Bash."
   },
-  "Bash Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "# Recommended High-Level Bash Project Structure:",
@@ -286,7 +286,7 @@
     ],
     "description": "Explains a high-level project structure for Bash scripts."
   },
-  "Bash Project Structure (Feature/Module)": {
+  "FoolScript Project Structure (Feature/Module)": {
     "prefix": "foolsStructureFeatures",
     "body": [
       "# Organize source code by feature or module within src/:",
@@ -305,7 +305,7 @@
     ],
     "description": "Explains a feature/module-based source directory organization for Bash scripts."
   },
-  "Bash Project Structure (File Type)": {
+  "FoolScript Project Structure (File Type)": {
     "prefix": "foolsStructureFiles",
     "body": [
       "# Organize source code by file type within src/:",
@@ -324,7 +324,7 @@
     ],
     "description": "Explains a file type-based source directory organization for Bash scripts."
   },
-  "Bash Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "case ${1:variable} in",
@@ -341,7 +341,7 @@
     ],
     "description": "Creates a case statement in Bash."
   },
-  "Bash Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": [
       "# Bash doesn't have a ternary operator, but you can use an if statement:",
@@ -349,7 +349,7 @@
     ],
     "description": "Explains how to simulate a ternary operator in Bash using an if statement."
   },
-  "Bash Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": [
       "# Bash doesn't have exceptions, but you can exit with an error message:",
@@ -357,7 +357,7 @@
     ],
     "description": "Explains how to simulate exception throwing in Bash."
   },
-  "Bash Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "# Bash doesn't have try/catch, but you can use set -e and trap ERR:",
@@ -365,7 +365,7 @@
     ],
     "description": "Explains how to simulate try/catch in Bash using set -e and trap ERR."
   },
-  "Bash Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": [
       "# Bash is dynamically typed, but you can use file or grep for basic checks:",
@@ -373,7 +373,7 @@
     ],
     "description": "Explains how to perform basic type checks in Bash."
   },
-  "Bash This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": [
       "if [[ $CLIPBOARD =~ ^-?[0-9]+$ ]]; then",
@@ -386,14 +386,14 @@
     ],
     "description": "Infers the type of the variable in the clipboard in Bash."
   },  
-  "Bash Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "# Bash doesn't have direct type comparison, but you can use file or grep for basic checks."
     ],
-    "description": "Bash doesn't have direct type comparison."
+    "description": "FoolScript doesn't have direct type comparison."
   },
-  "Bash Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "# Bash is dynamically typed, so explicit conversion is often not needed.",
@@ -401,7 +401,7 @@
     ],
     "description": "Explains type conversion in Bash."
   },
-  "Bash Types": {
+  "FoolScript Types": {
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "body": [
       "# Bash is dynamically typed, but common data types include:",
@@ -413,46 +413,46 @@
     ],
     "description": "Describes common data types in Bash."
   },
-  "Bash Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["# Bash uses 0 for false and non-zero values for true."],
     "description": "Explains how Bash represents boolean values."
   },
-  "Bash Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["# Bash represents false as 0."],
     "description": "Indicates the representation of false in Bash."
   },
-  "Bash Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["# Bash represents true as any non-zero value."],
     "description": "Indicates the representation of true in Bash."
   },
-  "Bash Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": [
       "# Bash doesn't have a dedicated date type, but you can use the 'date' command for date manipulation."
     ],
     "description": "Explains how to work with dates in Bash."
   },
-  "Bash Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": [
       "# Bash is dynamically typed; variables can hold different types of values."
     ],
     "description": "Highlights the dynamic nature of Bash variables."
   },
-  "Bash Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["# Bash treats integers as numeric values without decimals."],
     "description": "Describes integer representation in Bash."
   },
-  "Bash List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["# Bash uses arrays for lists:", "myList=(item1 item2 item3)"],
     "description": "Describes list representation in Bash using arrays."
   },
-  "Bash Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": [
       "# Bash uses associative arrays for maps:",
@@ -460,26 +460,26 @@
     ],
     "description": "Describes map representation in Bash using associative arrays."
   },
-  "Bash Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": [
       "# Bash doesn't have a dedicated null type, but you can use an empty string or a special value like 'null' to represent null."
     ],
     "description": "Explains how to represent null values in Bash."
   },
-  "Bash Number Type": {
+  "FoolScript Number Type": {
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "body": [
       "# Bash treats numbers as either integers or floating-point values."
     ],
     "description": "Describes number representation in Bash."
   },
-  "Bash String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["# Bash represents strings as sequences of characters."],
     "description": "Describes string representation in Bash."
   },
-  "Bash Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": [
       "# Bash uses 0 for false and non-zero values for true:",
@@ -487,7 +487,7 @@
     ],
     "description": "Creates a boolean variable in Bash."
   },
-  "Bash Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "# Bash doesn't have a dedicated date type, but you can store date strings:",
@@ -495,7 +495,7 @@
     ],
     "description": "Creates a variable holding a date string in Bash."
   },
-  "Bash Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": [
       "# Create an array (list):",
@@ -503,7 +503,7 @@
     ],
     "description": "Creates an array (list) variable in Bash."
   },
-  "Bash Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "# Create an associative array (map):",
@@ -513,7 +513,7 @@
     ],
     "description": "Creates an associative array (map) variable in Bash."
   },
-  "Bash Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": [
       "# Bash doesn't have null, but you can use an empty string or a special value:",
@@ -521,24 +521,24 @@
     ],
     "description": "Creates a variable that can hold an empty string or a special value to represent null in Bash."
   },
-  "Bash Create Number Variable": {
+  "FoolScript Create Number Variable": {
     "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
     "body": ["# Assign a numeric value:", "${1:myNumber}=${2:10}"],
     "description": "Creates a number variable in Bash."
   },
-  "Bash Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "# Bash doesn't have static variables in the same way as some other languages."
     ],
-    "description": "Bash doesn't have static variables in the traditional sense."
+    "description": "FoolScript doesn't have static variables in the traditional sense."
   },
-  "Bash Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["# Assign a string value:", "${1:myString}=${2:'myValue'}"],
     "description": "Creates a string variable in Bash."
   },
-  "Bash Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": [
       "# Use a here document for multi-line strings:",
@@ -550,7 +550,7 @@
     ],
     "description": "Creates a multi-line string variable in Bash using a here document."
   },
-  "Bash Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
     "body": [
       "# Bash Variable Declaration Syntax:",
@@ -561,11 +561,11 @@
     ],
     "description": "Explains Bash variable declaration syntax."
   },
-  "Bash Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": [
       "# Bash is dynamically typed, so variables don't have explicit types."
     ],
-    "description": "Bash variables are dynamically typed."
+    "description": "FoolScript variables are dynamically typed."
   }
 }

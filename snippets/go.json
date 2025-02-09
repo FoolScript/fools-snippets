@@ -1,5 +1,5 @@
 {
-  "Go Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "Typing: Statically typed",
@@ -9,7 +9,7 @@
     ],
     "description": "Provides general information about the Go programming language."
   },
-  "Go Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "// Go Entry Point",
@@ -25,7 +25,7 @@
     ],
     "description": "Creates the entry point of a Go application."
   },
-  "Go Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "// Go Mathematical Operators:",
@@ -46,17 +46,17 @@
     ],
     "description": "Lists the mathematical operators in Go."
   },
-  "Go Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Go equal to operator."
+    "description": "FoolScript equal to operator."
   },
-  "Go Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "Go not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Go Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "// Go Boolean Operators:",
@@ -72,17 +72,17 @@
     ],
     "description": "Lists the boolean operators in Go."
   },
-  "Go Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["fmt.Printf(\"%T\", ${1:variable})"],
     "description": "Prints the type of a variable in Go."
   },
-  "Go This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["reflect.TypeOf($CLIPBOARD).String()"],
     "description": "Gets the type of the variable in the clipboard in Go."
   },  
-  "Go Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "// Check if two variables have the same type:",
@@ -92,7 +92,7 @@
     ],
     "description": "Compares the types of two variables in Go."
   },
-  "Go Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeConvert", "convert", "cast"],
     "body": [
       "// Go Type Conversion:",
@@ -110,11 +110,11 @@
     ],
     "description": "Explains type conversion in Go."
   },
-  "Go Types": {
+  "FoolScript Types": {
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Go is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in Go include:",
       "- int, int8, int16, int32, int64: Signed integers",
@@ -137,84 +137,84 @@
     ],
     "description": "Lists the types in Go."
   },
-  "Go String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["string"],
     "description": "The Go string type."
   },
-  "Go Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["int"],
     "description": "The Go int type."
   },
-  "Go Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "body": ["float64"],
     "description": "The Go float64 type."
   },
-  "Go Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["bool"],
     "description": "The Go bool type."
   },
-  "Go Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The Go true boolean value."
   },
-  "Go Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The Go false boolean value."
   },
-  "Go Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": ["time.Time"],
     "description": "The Go time.Time type."
   },
-  "Go Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["map[${1:keyType}]${2:valueType}"],
     "description": "The Go map type."
   },
-  "Go List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["[]${1:type}"],
     "description": "The Go slice type, commonly used as a list."
   },
-  "Go Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["nil"],
     "description": "The Go nil value, representing the absence of a value."
   },
-  "Go Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["interface{}"],
     "description": "The Go interface{} type, representing any type."
   },
-  "Go Date Now": {
+  "FoolScript Date Now": {
     "prefix": "foolsTypesDateNow",
     "body": ["time.Now()"],
     "description": "The Go time.Now() function."
   },
-  "Go Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": [
       "fmt.Sprintf(\"${1:Your string here}\", ${2:variable1}, ${3:variable2})"
     ],
     "description": "Interpolates a string in Go."
   },
-  "Go Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["${1:string1} + ${2:string2}"],
     "description": "Concatenates two strings in Go."
   },
-  "Go Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["var ${1:variableName} ${2:variableType} = ${3:variableValue}"],
     "description": "Creates a variable in Go using the var keyword"
   },
-  "Go Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
     "body": [
       "// Go Variable Declaration Syntax:",
@@ -238,7 +238,7 @@
     ],
     "description": "Explains Go variable declaration syntax"
   },
-  "Go Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level Go Project Structure:",
@@ -284,22 +284,22 @@
     ],
     "description": "Explains a high-level project structure for Go."
   },
-  "Go Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["var ${1:myVar} ${2:Type} = $3"],
     "description": "Creates a typed variable in Go."
   },
-  "Go Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["var ${1:myVar} *${2:Type} = $3"],
     "description": "Creates a nullable variable in Go using pointers."
   },
-  "Go Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["var ${1:variableName} string = ${2:variableValue}"],
     "description": "Creates a string variable in Go using the var keyword"
   },
-  "Go Create Multi-line String Variable": {
+  "FoolScript Create Multi-line String Variable": {
     "prefix": ["foolsVarMultiString", "multiString", "variableMultiString", "multiStringVariable", "multilineText"],
     "body": [
       "var ${1:variableName} = `",
@@ -310,22 +310,22 @@
     ],
     "description": "Creates a multi-line string variable in Go using the var keyword"
   },
-  "Go Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["var ${1:variableName} int = ${2:variableValue}"],
     "description": "Creates an integer variable in Go using the var keyword"
   },
-  "Go Create Float Variable": {
+  "FoolScript Create Float Variable": {
     "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
     "body": ["var ${1:variableName} float64 = ${2:variableValue}"],
     "description": "Creates a float variable in Go using the var keyword"
   },
-  "Go Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["var ${1:variableName} bool = ${2:variableValue}"],
     "description": "Creates a boolean variable in Go using the var keyword"
   },
-  "Go Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "// import \"time\"",
@@ -333,7 +333,7 @@
     ],
     "description": "Creates a date variable in Go."
   },
-  "Go Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": [
       "var ${1:variableName} = []${2:variableType}{",
@@ -343,7 +343,7 @@
     ],
     "description": "Creates a list variable in Go using the var keyword"
   },
-  "Go Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "var ${1:mapName} = map[${2:keyType}]${3:valueType}{",
@@ -353,12 +353,12 @@
     ],
     "description": "Creates a map variable in Go using the var keyword"
   },
-  "Go Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["const ${1:variableName} ${2:variableType} = ${3:variableValue}"],
     "description": "Creates a constant variable in Go using the const keyword"
   },
-  "Go Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "var ${1:mapName} = make(map[${2:keyType}]${3:valueType})",
@@ -367,7 +367,7 @@
     ],
     "description": "Generates a map in Go"
   },
-  "Go Generate Array": {
+  "FoolScript Generate Array": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "var ${1:arrayName} = []${2:arrayType}{",
@@ -377,12 +377,12 @@
     ],
     "description": "Generates an array in Go"
   },
-  "Go Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["fmt.Println(${1:message})"],
     "description": "Prints a message to the console in Go"
   },
-  "Go Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "fmt.Println(`",
@@ -393,7 +393,7 @@
     ],
     "description": "Prints a multi-line message to the console in Go."
   },
-  "Go For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": [
       "for ${1:i} := ${2:0}; $1 < ${3:10}; $1++ {",
@@ -402,7 +402,7 @@
     ],
     "description": "Creates a for loop that iterates through a set of numbers with the index in Go"
   },
-  "Go For...Range Loop": {
+  "FoolScript For...Range Loop": {
     "prefix": "foolsForRangeLoop",
     "body": [
       "for ${1:index}, ${2:value} := range ${3:iterable} {",
@@ -411,12 +411,12 @@
     ],
     "description": "Iterates over an iterable object in Go"
   },
-  "Go While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["for ${1:condition} {", "    ${2:// Your code here}", "}"],
     "description": "Creates a while loop in Go"
   },
-  "Go Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "switch ${1:variable} {",
@@ -432,7 +432,7 @@
     ],
     "description": "Creates a switch statement in Go"
   },
-  "Go Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "func ${2:MyFunction}(${3:}) ${1:void} {",
@@ -441,7 +441,7 @@
     ],
     "description": "Creates a function in Go."
   },
-  "Go Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "// In Go, functions do not support default argument values in definitions.",
@@ -451,12 +451,12 @@
     ],
     "description": "Creates a function with arguments in Go, with a note about default argument values."
   },
-  "Go Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": ["// Go does not support named arguments in function definitions."],
-    "description": "Go does not support named arguments in function definitions."
+    "description": "FoolScript does not support named arguments in function definitions."
   },
-  "Go Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda", "foolsFuncArrow"],
     "body": [
       "var ${1:myFunc} = func(${2:parameters}) ${3:returnType} {",
@@ -469,7 +469,7 @@
     ],
     "description": "Creates an anonymous function or closure in Go."
   },  
-  "Go Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "// Go Function Syntax",
@@ -479,22 +479,22 @@
     ],
     "description": "Outlines the syntax for functions in Go."
   },
-  "Go Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["// ${1:comment}"],
     "description": "Creates a single-line comment in Go"
   },
-  "Go Multi-line Comment": {
+  "FoolScript Multi-line Comment": {
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "body": ["/*", " * ${1:comment}", " */"],
     "description": "Creates a multi-line comment in Go"
   },
-  "Go Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["panic('Your message here')"],
     "description": "Throws an exception in Go."
   },
-  "Go Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "defer func() {",
@@ -506,7 +506,7 @@
     ],
     "description": "Creates a try...catch block in Go."
   },
-  "Go Iota": {
+  "FoolScript Iota": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "const (",
@@ -518,7 +518,7 @@
     ],
     "description": "Creates an iota in Go."
   },
-  "Go Struct": {
+  "FoolScript Struct": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": [
       "type ${1:MyStruct} struct {",
@@ -529,12 +529,12 @@
     ],
     "description": "Creates a struct in Go."
   },
-  "Go If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if ${1:condition} {", "  ${2:// Your code here}", "}"],
     "description": "Creates an if statement in Go."
   },
-  "Go If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if ${1:condition} {",
@@ -547,7 +547,7 @@
     ],
     "description": "Creates an if...else statement in Go."
   },
-  "Go Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in Go."

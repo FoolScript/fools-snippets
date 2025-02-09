@@ -1,5 +1,5 @@
 {
-  "Rust Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "Typing: Statically typed",
@@ -9,7 +9,7 @@
     ],
     "description": "Provides general information about the Rust programming language."
   },
-  "Rust Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "// Rust Entry Point",
@@ -22,7 +22,7 @@
     ],
     "description": "Creates the entry point of a Rust application."
   },
-  "Rust Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level Rust Project Structure:",
@@ -55,7 +55,7 @@
     ],
     "description": "Explains a high-level project structure for Rust."
   },
-  "Rust Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "// Rust Mathematical Operators",
@@ -76,17 +76,17 @@
     ],
     "description": "Lists the mathematical operators in Rust."
   },
-  "Rust Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Rust equal to operator."
+    "description": "FoolScript equal to operator."
   },
-  "Rust Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "Rust not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Rust Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "// Rust Boolean Operators",
@@ -102,18 +102,18 @@
     ],
     "description": "Lists the boolean operators in Rust."
   },
-  "Rust Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable}.type()"],
     "description": "Gets the type of a variable in Rust."
   },
-  "Rust This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["$CLIPBOARD.type_id()"],
     "description": "Gets the type of the variable in the clipboard in Rust."
   },
 
-  "Rust Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "// Check if two variables have the same type:",
@@ -123,7 +123,7 @@
     ],
     "description": "Compares the types of two variables in Rust."
   },
-  "Rust Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "// Rust Type Conversion:",
@@ -139,7 +139,7 @@
     ],
     "description": "Explains type conversion in Rust."
   },
-  "Rust Types": {
+  "FoolScript Types": {
     "prefix": [
       "foolsTypes",
       "types",
@@ -150,7 +150,7 @@
     ],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Rust is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in Rust include:",
       "- i8, i16, i32, i64, i128: Signed integers",
@@ -176,7 +176,7 @@
     ],
     "description": "Lists the types in Rust."
   },
-  "Rust String Type (String)": {
+  "FoolScript String Type (String)": {
     "prefix": [
       "foolsTypesString",
       "stringType",
@@ -187,17 +187,17 @@
     "body": ["String"],
     "description": "The Rust String type."
   },
-  "Rust String Type (&str)": {
+  "FoolScript String Type (&str)": {
     "prefix": "foolsTypesStringAlt",
     "body": ["&str"],
     "description": "The Rust &str type."
   },
-  "Rust Integer Type (i32)": {
+  "FoolScript Integer Type (i32)": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["i32"],
     "description": "The integer type in Rust."
   },
-  "Rust Float Type (f32)": {
+  "FoolScript Float Type (f32)": {
     "prefix": [
       "foolsTypesNum",
       "numberType",
@@ -208,27 +208,27 @@
     "body": ["f32"],
     "description": "The Rust f32 type."
   },
-  "Rust Float Type (f64)": {
+  "FoolScript Float Type (f64)": {
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "body": ["f64"],
     "description": "The Rust f64 type."
   },
-  "Rust Boolean Type (bool)": {
+  "FoolScript Boolean Type (bool)": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["bool"],
     "description": "The Rust bool type."
   },
-  "Rust Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The Rust true value."
   },
-  "Rust Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The Rust false value."
   },
-  "Rust Date Type": {
+  "FoolScript Date Type": {
     "prefix": [
       "foolsTypesDate",
       "dateType",
@@ -244,7 +244,7 @@
     ],
     "description": "Explains the absence of a built-in Date type in Rust."
   },
-  "Rust Map Type": {
+  "FoolScript Map Type": {
     "prefix": [
       "foolsTypesMap",
       "mapType",
@@ -258,12 +258,12 @@
     "body": ["std::collections::HashMap<${1:KeyType}, ${2:ValueType}>"],
     "description": "The Rust HashMap type, equivalent to a map."
   },
-  "Rust List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["Vec<${1:Type}>"],
     "description": "The Rust Vec type, commonly used as a list."
   },
-  "Rust Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": [
       "// Rust does not have a built-in Date type.",
@@ -274,22 +274,22 @@
     ],
     "description": "Gets the current date and time in Rust using the chrono crate."
   },
-  "Rust Character Type": {
+  "FoolScript Character Type": {
     "prefix": ["foolsTypesChar"],
     "body": ["char"],
     "description": "The Rust char type."
   },
-  "Rust Null Type (Option)": {
+  "FoolScript Null Type (Option)": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["None"],
     "description": "The Rust Option type."
   },
-  "Rust Dynamic Type (Any)": {
+  "FoolScript Dynamic Type (Any)": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["dyn Any // There is no built-in Any type in Rust."],
     "description": "The Rust dyn Any type."
   },
-  "Rust Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": [
       "foolsInterpolate",
       "interpolate",
@@ -301,12 +301,12 @@
     "body": ["format!(\"${1:Your message here}\")"],
     "description": "Interpolates a string in Rust."
   },
-  "Rust Concatenate String": {
+  "FoolScript Concatenate String": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["format!(\"${1:Your message here} ${2:and} ${3:more}\")"],
     "description": "Concatenates strings in Rust."
   },
-  "Rust Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["let mut ${1:myVar} = $2;"],
     "description": "Creates a variable in Rust using the let keyword."
@@ -341,17 +341,17 @@
     ],
     "description": "Explains Rust variable declaration syntax"
   },
-  "Rust Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["let ${1:my_var}: ${2:Type} = $3;"],
     "description": "Creates a typed variable in Rust."
   },
-  "Rust Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["let ${1:my_var}: Option<${2:Type}> = $3;"],
     "description": "Creates a nullable variable in Rust using the Option type."
   },
-  "Rust Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": [
       "foolsVarString",
       "string",
@@ -364,7 +364,7 @@
     "body": ["let ${1:myStr} = String::from(${2:\"myString\"});"],
     "description": "Creates a string variable in Rust using the String class."
   },
-  "Rust Create Multi-line String Variable": {
+  "FoolScript Create Multi-line String Variable": {
     "prefix": [
       "foolsVarStringMulti",
       "multiLineString",
@@ -393,12 +393,12 @@
     "body": ["let ${1:myInt} = ${2:0};"],
     "description": "Creates an integer variable in Rust."
   },
-  "Rust Create Float Variable": {
+  "FoolScript Create Float Variable": {
     "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
     "body": ["let ${1:myFloat} = ${2:0.0};"],
     "description": "Creates a float variable in Rust."
   },
-  "Rust Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": [
       "foolsVarBool",
       "variableBool",
@@ -409,7 +409,7 @@
     "body": ["let ${1:myBool} = ${2:true};"],
     "description": "Creates a boolean variable in Rust."
   },
-  "Rust Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "// Rust does not have a built-in Date type.",
@@ -420,7 +420,7 @@
     ],
     "description": "Creates a date variable in Rust using the chrono crate."
   },
-  "Rust Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": [
       "foolsVarList",
       "createList",
@@ -440,7 +440,7 @@
     ],
     "description": "Creates a list variable in Rust."
   },
-  "Rust Create Map Variable (Hashmap)": {
+  "FoolScript Create Map Variable (Hashmap)": {
     "prefix": [
       "foolsVarMap",
       "createMap",
@@ -460,7 +460,7 @@
     ],
     "description": "Creates a map variable in Rust using the HashMap class."
   },
-  "Rust Create Map Variable (BTreeMap)": {
+  "FoolScript Create Map Variable (BTreeMap)": {
     "prefix": "foolsVarMapAlt",
     "body": [
       "use std::collections::BTreeMap;",
@@ -469,12 +469,12 @@
     ],
     "description": "Creates a map variable in Rust using the BTreeMap class."
   },
-  "Rust Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["const ${1:myConst}: ${2:type} = $3;"],
     "description": "Creates a constant variable in Rust using the const keyword."
   },
-  "Rust Generate Object Map": {
+  "FoolScript Generate Object Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "let ${1:myMap} = [",
@@ -485,7 +485,7 @@
     ],
     "description": "Generates an object map with a specific number of key-value pairs in Rust."
   },
-  "Rust Generate Array": {
+  "FoolScript Generate Array": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "let ${1:myList} = [",
@@ -496,12 +496,12 @@
     ],
     "description": "Generates an array (list) of a specific length in Rust."
   },
-  "Rust Print": {
+  "FoolScript Print": {
     "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["println!(\"{${1:'Your message here'}}\");"],
     "description": "Prints a message to the console in Rust."
   },
-  "Rust Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "println!(\"{}",
@@ -514,22 +514,22 @@
     ],
     "description": "Prints a multi-line message to the console in Rust."
   },
-  "Rust For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": ["for ${1:i} in ${2:0..10} {", "  // Your code here", "}"],
     "description": "Creates a for loop that iterates through a set of numbers with the index in Rust."
   },
-  "Rust For...Of Loop": {
+  "FoolScript For...Of Loop": {
     "prefix": ["foolsForInLoop", "forIn", "forOf"],
     "body": ["for ${1:item} in ${2:iterable} {", "  // Your code here", "}"],
     "description": "Iterates over an iterable object in Rust."
   },
-  "Rust While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while ${1:condition} {", "  // Your code here", "}"],
     "description": "Creates a while loop in Rust."
   },
-  "Rust Match Statement": {
+  "FoolScript Match Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "match ${1:variable} {",
@@ -546,7 +546,7 @@
     ],
     "description": "Creates a match statement in Rust."
   },
-  "Rust Function": {
+  "FoolScript Function": {
     "prefix": [
       "foolsFunc",
       "function",
@@ -562,7 +562,7 @@
     ],
     "description": "Creates a function in Rust."
   },
-  "Rust Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "// In Rust, default arguments are not supported but you can set default values using patterns like Option<T> or custom types.",
@@ -572,14 +572,14 @@
     ],
     "description": "Creates a function with arguments in Rust, including an argument with an optional default value."
   },
-  "Rust Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "// Note: Rust does not support named arguments in function definitions."
     ],
     "description": "Note about named arguments in Rust."
   },
-  "Rust Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": [
       "foolsFuncAnon",
       "anonFunc",
@@ -596,7 +596,7 @@
     ],
     "description": "Creates an anonymous closure in Rust."
   },
-  "Rust Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "// Rust Function Syntax",
@@ -606,12 +606,12 @@
     ],
     "description": "Outlines the syntax for functions in Rust."
   },
-  "Rust Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["// ${1:comment}"],
     "description": "Creates a single line comment in Rust."
   },
-  "Rust Multi-line Comment": {
+  "FoolScript Multi-line Comment": {
     "prefix": [
       "foolsCommentMulti",
       "multiLineComment",
@@ -621,12 +621,12 @@
     "body": ["/*", " * ${1:comment}", " */"],
     "description": "Creates a multi-line comment in Rust."
   },
-  "Rust Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["panic!(\"Your message here\")"],
     "description": "Throws an exception in Rust."
   },
-  "Rust Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "let result = std::panic::catch_unwind(|| {",
@@ -638,7 +638,7 @@
     ],
     "description": "Creates a try...catch block in Rust."
   },
-  "Rust Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "enum ${1:MyEnum} {",
@@ -649,7 +649,7 @@
     ],
     "description": "Creates an enum in Rust."
   },
-  "Rust Struct": {
+  "FoolScript Struct": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": [
       "struct ${1:MyStruct} {",
@@ -660,12 +660,12 @@
     ],
     "description": "Creates a struct in Rust."
   },
-  "Rust If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if ${1:condition} {", "  ${2:// Your code here}", "}"],
     "description": "Creates an if statement in Rust."
   },
-  "Rust If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if ${1:condition} {",
@@ -678,7 +678,7 @@
     ],
     "description": "Creates an if...else statement in Rust."
   },
-  "Rust Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in Rust."

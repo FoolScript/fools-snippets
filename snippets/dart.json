@@ -1,5 +1,5 @@
 {
-  "Dart Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "Typing: Statically typed",
@@ -9,7 +9,7 @@
     ],
     "description": "Provides general information about the Dart programming language."
   },
-  "Dart Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "// Dart Entry Point",
@@ -21,7 +21,7 @@
     ],
     "description": "Creates the entry point of a Dart application."
   },
-  "Dart Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level Dart Project Structure:",
@@ -57,7 +57,7 @@
     "description": "Explains a high-level project structure for Dart."
   },
 
-  "Dart Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "// Dart Mathematical Operators",
@@ -78,17 +78,17 @@
     ],
     "description": "Lists the mathematical operators in Dart."
   },
-  "Dart Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Dart equal to operator (structural equality for objects)."
+    "description": "FoolScript equal to operator (structural equality for objects)."
   },
-  "Dart Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "Dart not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Dart Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "// Dart Boolean Operators",
@@ -104,17 +104,17 @@
     ],
     "description": "Lists the boolean operators in Dart."
   },
-  "Dart Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable}.runtimeType"],
     "description": "Gets the type of a variable in Dart."
   },
-  "Dart This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["$CLIPBOARD.runtimeType"],
     "description": "Gets the type of the variable in the clipboard in Dart."
   },  
-  "Dart Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "// Check if two variables have the same type:",
@@ -124,7 +124,7 @@
     ],
     "description": "Compares the types of two variables in Dart."
   },
-  "Dart Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "// Dart Type Conversion:",
@@ -141,11 +141,11 @@
     ],
     "description": "Explains type conversion in Dart."
   },
-  "Dart Types": {
+  "FoolScript Types": {
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Dart is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in Dart include:",
       "- num: A number type that can be either an int or a double",
@@ -165,77 +165,77 @@
     ],
     "description": "Prints out all the basic types in Dart."
   },
-  "Dart String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["String"],
     "description": "The Dart String type."
   },
-  "Dart Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["int"],
     "description": "The Dart int type."
   },
-  "Dart Double Type": {
+  "FoolScript Double Type": {
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "body": ["double"],
     "description": "The Dart double type."
   },
-  "Dart Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "body": ["float"],
     "description": "The Dart float type."
   },
-  "Dart Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["bool"],
     "description": "The Dart bool type."
   },
-  "Dart Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The Dart true value."
   },
-  "Dart Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The Dart false value."
   },
-  "Dart Character Type": {
+  "FoolScript Character Type": {
     "prefix": ["foolsTypesChar"],
     "body": ["char"],
     "description": "The Dart char type."
   },
-  "Dart Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": ["DateTime"],
     "description": "The Dart DateTime type."
   },
-  "Dart Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["Map<${1:keyType}, ${2:valueType}>"],
     "description": "The Dart Map type."
   },
-  "Dart List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["List<${1:type}>"],
     "description": "The Dart List type."
   },
-  "Dart Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["dynamic"],
     "description": "The Dart dynamic type."
   },
-  "Dart Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["DateTime.now()"],
     "description": "The Dart DateTime.now() method."
   },
-  "Dart Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The Dart null value."
   },
-  "Dart Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["${1|var,bool,String,int,double,num,List<Map<String\\, dynamic>>,Map<String\\, dynamic>,dynamic,Set<String>|} = $2;"],
     "description": "Creates a variable in Dart using the var keyword."
@@ -268,57 +268,57 @@
     ],
     "description": "Explains Dart variable declaration syntax"
   },
-  "Dart Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["${1:Type} ${2:myVar} = $3;"],
     "description": "Creates a typed variable in Dart."
   },
-  "Dart Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["${1:Type}? ${2:myVar} = $3;"],
     "description": "Creates a nullable variable in Dart."
   },
-  "Dart Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["'Your string here \\${${1:variable}}'"],
     "description": "Interpolates a variable into a string in Dart."
   },
-  "Dart Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["'Your string here ' + ${1:variable}"],
     "description": "Concatenates two strings in Dart."
   },
-  "Dart Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["String ${1:myString} = ${2:'Your string here'};"],
     "description": "Creates a string variable in Dart."
   },
-  "Dart Create Multiline String Variable": {
+  "FoolScript Create Multiline String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": ["String ${1:myString} = '''", "${2:Your string here}", "''';"],
     "description": "Creates a multi-line string variable in Dart."
   },
-  "Dart Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["int ${1:myInt} = ${2:0};"],
     "description": "Creates an integer variable in Dart."
   },
-  "Dart Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "prefix": ["foolsVarDouble", "double", "doubleVariable", "variableDouble", "createDouble"],
     "body": ["double ${1:myDouble} = ${2:0.0};"],
     "description": "Creates a double variable in Dart."
   },
-  "Dart Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["bool ${1:myBool} = ${2:true};"],
     "description": "Creates a boolean variable in Dart."
   },
-  "Dart Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": ["List<${1:Type}> ${2:myList} = [${3:items}];"],
     "description": "Creates a list variable in Dart."
   },
-  "Dart Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "Map<${1:KeyType}, ${2:ValueType}> ${3:myMap} = {",
@@ -328,19 +328,19 @@
     ],
     "description": "Creates a map variable in Dart."
   },
-  "Dart Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "DateTime ${1:myDate} = DateTime(${2:year}, ${3:month}, ${4:day});"
     ],
     "description": "Creates a date variable in Dart."
   },
-  "Dart Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["const ${1:myConst} = $2;"],
     "description": "Creates a constant variable in Dart using the const keyword."
   },
-  "Dart Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "static ${2:var} ${3:myStaticVar} = ${4:value};",
@@ -350,7 +350,7 @@
     ],
     "description": "Creates a static variable in a Dart class."
   },
-  "Dart Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "var ${1:myMap} = Map.fromIterable(List.generate(${2:length}, (index) => index),",
@@ -360,24 +360,24 @@
     ],
     "description": "Generates a map with a specific number of key-value pairs in Dart."
   },
-  "Dart Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "var ${1:myList} = List.generate(${2:length}, (index) => ${3:'item'} + index.toString());"
     ],
     "description": "Generates a list of a specific length in Dart."
   },
-  "Dart Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["print(${1:'Your message here'});"],
     "description": "Prints a message to the console in Dart."
   },
-  "Dart Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": ["print('''", "${1:Line 1}", "${2:Line 2}", "${3:Line 3}", "''');"],
     "description": "Prints a multi-line message to the console in Dart."
   },
-  "Dart For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": [
       "for (int ${1:i} = 0; $1 < ${2:10}; $1++) {",
@@ -386,7 +386,7 @@
     ],
     "description": "Creates a for loop that iterates through a set of numbers with the index in Dart."
   },
-  "Dart For...In Loop": {
+  "FoolScript For...In Loop": {
     "prefix": ["foolsForInLoop", "forIn", "forOf"],
     "body": [
       "for (var item in ${1:iterable}) {",
@@ -395,12 +395,12 @@
     ],
     "description": "Iterates over an iterable object in Dart."
   },
-  "Dart While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates a while loop in Dart."
   },
-  "Dart Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "switch (${1:variable}) {",
@@ -416,7 +416,7 @@
     ],
     "description": "Creates a switch statement in Dart."
   },
-  "Dart Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "${1:void} ${2:myFunction}(${3:}) {",
@@ -425,7 +425,7 @@
     ],
     "description": "Creates a function in Dart."
   },
-  "Dart Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "// In Dart, functions can have optional named or positional parameters with default values.",
@@ -435,7 +435,7 @@
     ],
     "description": "Creates a function with arguments in Dart, including an optional positional argument with a default value."
   },
-  "Dart Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "${1:void} ${2:myFunction}({${3:arg1}, ${4:arg2}}) {",
@@ -444,17 +444,17 @@
     ],
     "description": "Creates a function with named arguments in Dart."
   },
-  "Dart Function Arrow": {
+  "FoolScript Function Arrow": {
     "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
     "body": ["${1:Type} ${2:myFunction}(${3:parameters}) => ${4:expression};"],
     "description": "Creates a function using the arrow syntax in Dart."
   },
-  "Dart Function Anonymous": {
+  "FoolScript Function Anonymous": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
     "body": ["(${1:parameters}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates an anonymous function in Dart."
   },
-  "Dart Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "// Dart Function Syntax",
@@ -464,22 +464,22 @@
     ],
     "description": "Outlines the syntax for functions in Dart."
   },
-  "Dart Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["// ${1:Your comment here}"],
     "description": "Creates a single-line comment in Dart."
   },
-  "Dart Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "body": ["/*", " * ${1:Your comment here}", " */"],
     "description": "Creates a multi-line comment in Dart."
   },
-  "Dart Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["throw ${1:Exception('Your message here')};"],
     "description": "Throws an exception in Dart."
   },
-  "Dart Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "try {",
@@ -490,7 +490,7 @@
     ],
     "description": "Creates a try...catch block in Dart."
   },
-  "Dart Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "enum ${1:MyEnum} {",
@@ -501,17 +501,17 @@
     ],
     "description": "Creates an enum in Dart."
   },
-  "Dart Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["class ${1:MyClass} {", "  ${2:// Your code here}", "}"],
     "description": "Creates a class in Dart."
   },
-  "Dart If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates an if statement in Dart."
   },
-  "Dart If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if (${1:condition}) {",
@@ -524,12 +524,12 @@
     ],
     "description": "Creates an if...else statement in Dart."
   },
-  "Dart Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in Dart."
   },
-  "Dart Lambda Function": {
+  "FoolScript Lambda Function": {
     "prefix": "foolsLambda",
     "body": ["(${1:parameters}) => ${2:expression}"],
     "description": "Creates a lambda function in Dart."

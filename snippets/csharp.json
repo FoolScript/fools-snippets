@@ -1,5 +1,5 @@
 {
-  "C# Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "// Typing: Statically typed",
@@ -9,7 +9,7 @@
     ],
     "description": "General information about C#."
   },
-  "C# Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "// C# Entry Point",
@@ -26,7 +26,7 @@
     "description": "Creates the entry point of a C# application."
   },
 
-  "C# Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "// Recommended High-Level C# Project Structure:",
@@ -63,7 +63,7 @@
     ],
     "description": "Explains a high-level project structure for C#."
   },
-  "C# Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "// C# Mathematical Operators",
@@ -84,17 +84,17 @@
     ],
     "description": "Lists the mathematical operators in C#."
   },
-  "C# Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "C# equal to operator."
+    "description": "FoolScript equal to operator."
   },
-  "C# Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "C# not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "C# Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "// C# Boolean Operators",
@@ -110,17 +110,17 @@
     ],
     "description": "Lists the boolean operators in C#."
   },
-  "C# Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["${1:variable}.GetType()"],
     "description": "Gets the type of a variable in C#."
   },
-  "C# This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["$CLIPBOARD.GetType().Name"],
     "description": "Gets the type of the variable in the clipboard in C#."
   },  
-  "C# Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "// Check if two variables have the same type:",
@@ -130,7 +130,7 @@
     ],
     "description": "Compares the types of two variables in C#."
   },
-  "C# Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeConvert", "foolsTypeCast", "foolsConvert"],
     "body": [
       "// C# Type Conversion:",
@@ -148,7 +148,7 @@
     ],
     "description": "Explains type conversion in C#."
   },
-  "C# Types": {
+  "FoolScript Types": {
     "prefix": [
       "foolsTypes",
       "types",
@@ -159,7 +159,7 @@
     ],
     "body": [
       "$BLOCK_COMMENT_START",
-      "C# is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in C# include:",
       "- int: Integer",
@@ -186,7 +186,7 @@
     ],
     "description": "Lists the types in C#."
   },
-  "C# String Type": {
+  "FoolScript String Type": {
     "prefix": [
       "foolsTypesString",
       "stringType",
@@ -197,12 +197,12 @@
     "body": ["string"],
     "description": "The C# string type."
   },
-  "C# Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["int"],
     "description": "The C# int type."
   },
-  "C# Double Type": {
+  "FoolScript Double Type": {
     "prefix": [
       "foolsTypesNum",
       "number",
@@ -215,32 +215,32 @@
     "body": ["double"],
     "description": "The C# double type."
   },
-  "C# Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "body": ["float"],
     "description": "The C# float type."
   },
-  "C# Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["bool"],
     "description": "The C# boolean type."
   },
-  "C# Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["true"],
     "description": "The C# true value."
   },
-  "C# Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["false"],
     "description": "The C# false value."
   },
-  "C# Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": ["DateTime"],
     "description": "The C# DateTime type."
   },
-  "C# Map Type": {
+  "FoolScript Map Type": {
     "prefix": [
       "foolsTypesMap",
       "map",
@@ -255,7 +255,7 @@
     "body": ["Dictionary<${1:keyType}, ${2:valueType}>"],
     "description": "The C# Dictionary type, equivalent to a map."
   },
-  "C# List Type": {
+  "FoolScript List Type": {
     "prefix": [
       "foolsTypesList",
       "list",
@@ -267,40 +267,40 @@
     "body": ["List<${1:type}>"],
     "description": "The C# List type."
   },
-  "C# Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The C# null value."
   },
-  "C# Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["dynamic"],
     "description": "The C# dynamic type."
   },
-  "C# Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["DateTime.Now"],
     "description": "The C# DateTime.Now property."
   },
-  "C# Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["$\"${1:Your string here}\""],
     "description": "Interpolates a string in C#."
   },
-  "C# Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": [
       "string result = string.Concat(${1:First string}, ${2:Second string});"
     ],
     "description": "Concatenates two strings in C#."
   },
-  "C# Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["${1:Type} ${2:myVar} = ${3:value};"],
     "description": "Creates a variable in C#."
   },
 
-  "C# Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "prefix": [
       "foolsVarSyntax",
       "variableSyntax",
@@ -329,22 +329,22 @@
     ],
     "description": "Explains C# variable declaration syntax"
   },
-  "C# Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": ["${1:Type} ${2:myVar} = $3;"],
     "description": "Creates a typed variable in C#."
   },
-  "C# Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["${1:Type}? ${2:myVar} = $3;"],
     "description": "Creates a nullable variable in C#."
   },
-  "C# Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["string ${1:myString} = ${2:'Your string here'};"],
     "description": "Creates a string variable in C#."
   },
-  "C# Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": [
       "string ${1:myString} = @\"\"\"",
@@ -355,60 +355,60 @@
     ],
     "description": "Creates a multi-line string variable in C#."
   },
-  "C# Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["int ${1:myInt} = ${2:0};"],
     "description": "Creates an integer variable in C#."
   },
-  "C# Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "prefix": ["foolsVarDouble", "double", "doubleVariable", "variableDouble", "createDouble"],
     "body": ["double ${1:myDouble} = ${2:0.0};"],
     "description": "Creates a double variable in C#."
   },
-  "C# Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["bool ${1:myBool} = ${2:true};"],
     "description": "Creates a boolean variable in C#."
   },
-  "C# Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "DateTime ${1:myDate} = new DateTime(${2:year}, ${3:month}, ${4:day});"
     ],
     "description": "Creates a date variable in C#."
   },
-  "C# Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": ["List<${1:Type}> ${2:myList} = new List<${1:Type}>();"],
     "description": "Creates a list variable in C#."
   },
-  "C# Create Dictionary Variable": {
+  "FoolScript Create Dictionary Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": [
       "Dictionary<${1:Key}, ${2:Value}> ${3:myDict} = new Dictionary<${1:Key}, ${2:Value}>();"
     ],
     "description": "Creates a dictionary variable in C#."
   },
-  "C# Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": [
       "var ${1:myList} = Enumerable.Range(0, ${2:length}).Select(i => ${3:'item'} + i.ToString()).ToList();"
     ],
     "description": "Generates a list of a specific length in C#."
   },
-  "C# Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "var ${1:myMap} = Enumerable.Range(0, ${2:length}).ToDictionary(i => i, i => ${3:'item'} + i.ToString());"
     ],
     "description": "Generates a dictionary of a specific length in C#."
   },
-  "C# Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["const ${1:Type} ${2:myConst} = ${3:value};"],
     "description": "Creates a constant variable in C#."
   },
-  "C# Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "static ${2:Type} ${3:myStaticVar} = ${4:value};",
@@ -418,12 +418,12 @@
     ],
     "description": "Creates a static variable in a C# class."
   },
-  "C# Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["Console.WriteLine(${1:'Your message here'});"],
     "description": "Prints a message to the console in C#."
   },
-  "C# Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "Console.WriteLine(@\"\"\"",
@@ -434,7 +434,7 @@
     ],
     "description": "Prints a multi-line message to the console in C#."
   },
-  "C# For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": [
       "for (int ${1:i} = 0; $1 < ${2:10}; $1++) {",
@@ -443,7 +443,7 @@
     ],
     "description": "Creates a for loop that iterates through a set of numbers with the index in C#."
   },
-  "C# For Each Loop": {
+  "FoolScript For Each Loop": {
     "prefix": ["foolsForEachLoop", "forEach"],
     "body": [
       "foreach (${1:Type} ${2:item} in ${3:iterable}) {",
@@ -452,17 +452,17 @@
     ],
     "description": "Iterates over an iterable object in C#."
   },
-  "C# While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates a while loop in C#."
   },
-  "C# Do While Loop": {
+  "FoolScript Do While Loop": {
     "prefix": ["foolsDoWhileLoop", "doWhile"],
     "body": ["do {", "  ${1:// Your code here}", "} while (${2:condition});"],
     "description": "Creates a do...while loop in C#."
   },
-  "C# Switch Statement": {
+  "FoolScript Switch Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "switch (${1:variable}) {",
@@ -478,7 +478,7 @@
     ],
     "description": "Creates a switch statement in C#."
   },
-  "C# Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "public ${1:void} ${2:MyFunction}(${3:})",
@@ -488,7 +488,7 @@
     ],
     "description": "Creates a function in C#."
   },
-  "C# Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "// In C#, functions can have arguments with default values.",
@@ -499,7 +499,7 @@
     ],
     "description": "Creates a function with arguments in C#, including an argument with a default value."
   },
-  "C# Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "// Note: C# does not have named arguments in function definitions.",
@@ -511,7 +511,7 @@
     ],
     "description": "Note about named arguments in C#."
   },
-  "C# Arrow Function": {
+  "FoolScript Arrow Function": {
     "prefix": ["foolsFuncArrow", "arrowFunction", "functionArrow"],
     "body": [
       "Func<${2:parameters}, ${1:returnType}> ${3:myFunction} = (${4:parameters}) => {",
@@ -520,17 +520,17 @@
     ],
     "description": "Creates an arrow function (lambda) in C#."
   },
-  "C# Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"functionLiteral"],
     "body": ["(${1:parameters}) => {", "    ${2:// Your code here}", "};"],
     "description": "Creates an anonymous function (lambda) in C#."
   },
-  "C# Lambda Function": {
+  "FoolScript Lambda Function": {
     "prefix": ["foolsFuncLambda", "foolsLambda", "lambda"],
     "body": ["(${1:parameters}) => ${2:expression}"],
     "description": "Creates a lambda function in C#."
   },
-  "C# Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "// C# Function Syntax",
@@ -540,12 +540,12 @@
     ],
     "description": "Outlines the syntax for functions in C#."
   },
-  "C# Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["// ${1:Your comment here}"],
     "description": "Creates a single-line comment in C#."
   },
-  "C# Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": [
       "foolsCommentMulti",
       "multiLineComment",
@@ -555,12 +555,12 @@
     "body": ["/*", " * ${1:Your comment here}", " */"],
     "description": "Creates a multi-line comment in C#."
   },
-  "C# Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["throw new ${1:Exception}(${2:'Your message here'});"],
     "description": "Throws an exception in C#."
   },
-  "C# Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "try {",
@@ -571,7 +571,7 @@
     ],
     "description": "Creates a try...catch block in C#."
   },
-  "C# Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "enum ${1:MyEnum} {",
@@ -582,17 +582,17 @@
     ],
     "description": "Creates an enum in C#."
   },
-  "C# Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["public class ${1:MyClass} {", "  ${2:// Your code here}", "}"],
     "description": "Creates a class in C#."
   },
-  "C# If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  ${2:// Your code here}", "}"],
     "description": "Creates an if statement in C#."
   },
-  "C# If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if (${1:condition}) {",
@@ -605,7 +605,7 @@
     ],
     "description": "Creates an if...else statement in C#."
   },
-  "C# Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in C#."

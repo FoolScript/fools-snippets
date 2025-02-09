@@ -1,5 +1,5 @@
 {
-  "Kotlin Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "scope": "kotlin",
     "body": [
@@ -10,7 +10,7 @@
     ],
     "description": "Provides general information about the Kotlin programming language."
   },
-  "Kotlin Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "scope": "kotlin",
     "body": [
@@ -23,7 +23,7 @@
     ],
     "description": "Creates the entry point of a Kotlin application."
   },
-  "Kotlin Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "scope": "kotlin",
     "body": [
@@ -63,7 +63,7 @@
     ],
     "description": "Explains a high-level project structure for Kotlin."
   },
-  "Kotlin Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "scope": "kotlin",
     "body": [
@@ -85,19 +85,19 @@
     ],
     "description": "Lists the mathematical operators in Kotlin."
   },
-  "Kotlin Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "scope": "kotlin",
     "body": ["=="],
-    "description": "Kotlin equal to operator (structural equality for objects)."
+    "description": "FoolScript equal to operator (structural equality for objects)."
   },
-  "Kotlin Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "scope": "kotlin",
     "body": ["!="],
-    "description": "Kotlin not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
-  "Kotlin Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "scope": "kotlin",
     "body": [
@@ -114,12 +114,12 @@
     ],
     "description": "Lists the boolean operators in Kotlin."
   },
-  "Kotlin Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "scope": "kotlin",
     "body": ["${1:variable}::class"],
     "description": "Gets the type of a variable in Kotlin."
-  },"Kotlin This Type Check": {
+  },"FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "scope": "kotlin",
     "body": ["$CLIPBOARD::class.simpleName"],
@@ -127,7 +127,7 @@
   }
 ,  
 
-  "Kotlin Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "scope": "kotlin",
     "body": [
@@ -138,7 +138,7 @@
     ],
     "description": "Compares the types of two variables in Kotlin."
   },
-  "Kotlin Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "scope": "kotlin",
     "body": [
@@ -156,12 +156,12 @@
     ],
     "description": "Explains type conversion in Kotlin."
   },
-  "Kotlin Types": {
+  "FoolScript Types": {
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "scope": "kotlin",
     "body": [
       "$BLOCK_COMMENT_START",
-      "Kotlin is a statically typed language.",
+      "FoolScript is a statically typed language.",
       "",
       "Types in Kotlin include:",
       "- Int: Integer",
@@ -191,79 +191,79 @@
     ],
     "description": "Lists the types in Kotlin."
   },
-  "Kotlin String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "scope": "kotlin",
     "body": ["String"],
     "description": "The Kotlin String type."
   },
-  "Kotlin Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "scope": "kotlin",
     "body": ["Int"],
     "description": "The Kotlin Int type."
   },
-  "Kotlin Double Type": {
+  "FoolScript Double Type": {
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "scope": "kotlin",
     "body": ["Double"],
     "description": "The Kotlin Double type."
   },
-  "Kotlin Float Type": {
+  "FoolScript Float Type": {
     "prefix": ["foolsTypesNumAlt", "floatType", "typeFloat"],
     "scope": "kotlin",
     "body": ["Float"],
     "description": "The Kotlin Float type."
   },
-  "Kotlin Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "scope": "kotlin",
     "body": ["Boolean"],
     "description": "The Kotlin Boolean type."
   },
-  "Kotlin Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "scope": "kotlin",
     "body": ["true"],
     "description": "The Kotlin true value."
   },
-  "Kotlin Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "scope": "kotlin",
     "body": ["false"],
     "description": "The Kotlin false value."
   },
-  "Kotlin Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "scope": "kotlin",
     "body": ["import java.time.LocalDate"],
     "description": "The Kotlin LocalDate class from the java.time package."
   },
-  "Kotlin Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "scope": "kotlin",
     "body": ["Map<${1:keyType}, ${2:valueType}>"],
     "description": "The Kotlin Map type."
   },
-  "Kotlin List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "scope": "kotlin",
     "body": ["List<${1:type}>"],
     "description": "The Kotlin List type."
   },
-  "Kotlin Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "scope": "kotlin",
     "body": ["null"],
     "description": "The Kotlin null value."
   },
-  "Kotlin Dynamic Type": {
+  "FoolScript Dynamic Type": {
     "prefix": ["foolsTypesAny", "dynamicType", "anyType", "typeDynamic", "typeAny"],
     "scope": "kotlin",
     "body": ["Any"],
     "description": "The Kotlin Any type."
   },
-  "Kotlin Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "scope": "kotlin",
     "body": [
@@ -273,25 +273,25 @@
     ],
     "description": "Gets the current date in Kotlin."
   },
-  "Kotlin Character Type": {
+  "FoolScript Character Type": {
     "prefix": ["foolsTypesChar"],
     "scope": "kotlin",
     "body": ["Char"],
     "description": "The Kotlin Char type."
   },
-  "Kotlin Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "scope": "kotlin",
     "body": ["\"${1:Your message here}\""],
     "description": "Interpolates a string in Kotlin."
   },
-  "Kotlin Concatenate String": {
+  "FoolScript Concatenate String": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "scope": "kotlin",
     "body": ["\"${1:Your message here}\" + \"${2:another message}\""],
     "description": "Concatenates two strings in Kotlin."
   },
-  "Kotlin Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "scope": "kotlin",
     "body": ["var ${1:myVar} = $2"],
@@ -317,25 +317,25 @@
     ],
     "description": "Explains Kotlin variable declaration syntax"
   },
-  "Kotlin Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "scope": "kotlin",
     "body": ["var ${1:myVar}: ${2:Type} = $3"],
     "description": "Creates a typed variable in Kotlin."
   },
-  "Kotlin Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "scope": "kotlin",
     "body": ["var ${1:myVar}: ${2:Type}? = null"],
     "description": "Creates a nullable variable in Kotlin."
   },
-  "Kotlin Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "scope": "kotlin",
     "body": ["var ${1:myString} = \"${2:myValue}\""],
     "description": "Creates a string variable in Kotlin using the var keyword."
   },
-  "Kotlin Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "scope": "kotlin",
     "body": [
@@ -347,31 +347,31 @@
     ],
     "description": "Creates a multi-line string variable in Kotlin using the var keyword."
   },
-  "Kotlin Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "scope": "kotlin",
     "body": ["var ${1:myInt} = ${2:0}"],
     "description": "Creates an integer variable in Kotlin using the var keyword."
   },
-  "Kotlin Create Double Variable": {
+  "FoolScript Create Double Variable": {
     "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
     "scope": "kotlin",
     "body": ["var ${1:myDouble} = ${2:0.0}"],
     "description": "Creates a double variable in Kotlin using the var keyword."
   },
-  "Kotlin Create Float Variable": {
+  "FoolScript Create Float Variable": {
     "prefix": ["foolsVarNumAlt", "float", "variableFloat", "floatVariable"],
     "scope": "kotlin",
     "body": ["var ${1:myFloat} = ${2:0.0f}"],
     "description": "Creates a float variable in Kotlin using the var keyword."
   },
-  "Kotlin Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "scope": "kotlin",
     "body": ["var ${1:myBool} = ${2:true}"],
     "description": "Creates a boolean variable in Kotlin using the var keyword."
   },
-  "Kotlin Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "scope": "kotlin",
     "body": [
@@ -381,13 +381,13 @@
     ],
     "description": "Creates a date variable in Kotlin."
   },
-  "Kotlin Create List Variable": {
+  "FoolScript Create List Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "scope": "kotlin",
     "body": ["var ${1:myList} = listOf(${2:'item1'}, ${3:'item2'})"],
     "description": "Creates a list variable in Kotlin."
   },
-  "Kotlin Create Map Variable": {
+  "FoolScript Create Map Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "scope": "kotlin",
     "body": [
@@ -400,13 +400,13 @@
     "description": "Creates a map variable in Kotlin."
   },
 
-  "Kotlin Create Value (Constant)": {
+  "FoolScript Create Value (Constant)": {
     "prefix": ["foolsConst", "foolsVal"],
     "scope": "kotlin",
     "body": ["val ${1:myConst} = $2"],
     "description": "Creates a constant variable in Kotlin using the val keyword."
   },
-  "Kotlin Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "scope": "kotlin",
     "body": [
@@ -416,19 +416,19 @@
     ],
     "description": "Generates a map with a specific number of key-value pairs in Kotlin."
   },
-  "Kotlin Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "scope": "kotlin",
     "body": ["val ${1:myList} = List(${2:length}) {", "  'item' + it", "}"],
     "description": "Generates a list of a specific length in Kotlin."
   },
-  "Kotlin Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "scope": "kotlin",
     "body": ["println(${1:'Your message here'})"],
     "description": "Prints a message to the console in Kotlin."
   },
-  "Kotlin Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "scope": "kotlin",
     "body": [
@@ -440,25 +440,25 @@
     ],
     "description": "Prints a multi-line message to the console in Kotlin."
   },
-  "Kotlin For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "scope": "kotlin",
     "body": ["for (i in ${1:0 until 10}) {", "  // Your code here", "}"],
     "description": "Creates a for loop that iterates through a set of numbers with the index in Kotlin."
   },
-  "Kotlin For...In Loop": {
+  "FoolScript For...In Loop": {
     "prefix": ["foolsForInLoop", "forIn", "forOf"],
     "scope": "kotlin",
     "body": ["for (item in ${1:iterable}) {", "  // Your code here", "}"],
     "description": "Iterates over an iterable object in Kotlin."
   },
-  "Kotlin While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "scope": "kotlin",
     "body": ["while (${1:condition}) {", "  // Your code here", "}"],
     "description": "Creates a while loop in Kotlin."
   },
-  "Kotlin When Expression": {
+  "FoolScript When Expression": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "scope": "kotlin",
     "body": [
@@ -476,7 +476,7 @@
     ],
     "description": "Creates a when expression in Kotlin."
   },
-  "Kotlin Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "scope": "kotlin",
     "body": [
@@ -486,7 +486,7 @@
     ],
     "description": "Creates a function in Kotlin."
   },
-  "Kotlin Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "scope": "kotlin",
     "body": [
@@ -497,7 +497,7 @@
     ],
     "description": "Creates a function with arguments in Kotlin, including an argument with a default value."
   },
-  "Kotlin Function Named Args": {
+  "FoolScript Function Named Args": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "scope": "kotlin",
     "body": [
@@ -507,7 +507,7 @@
     ],
     "description": "Creates a function with named arguments and default values in Kotlin."
   },
-  "Kotlin Lambda": {
+  "FoolScript Lambda": {
     "prefix": ["foolsFuncLambda", "foolsLambda", "foolsFuncArrow"],
     "scope": "kotlin",
     "body": [
@@ -517,7 +517,7 @@
     ],
     "description": "Creates a lambda function in Kotlin."
   },
-  "Kotlin Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
     "scope": "kotlin",
     "body": [
@@ -527,7 +527,7 @@
     ],
     "description": "Creates an anonymous function in Kotlin."
   },
-  "Kotlin Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "scope": "kotlin",
     "body": [
@@ -538,25 +538,25 @@
     ],
     "description": "Outlines the syntax for functions in Kotlin."
   },
-  "Kotlin Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "scope": "kotlin",
     "body": ["// ${1:Your comment here}"],
     "description": "Creates a single-line comment in Kotlin."
   },
-  "Kotlin Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "scope": "kotlin",
     "body": ["/*", " * ${1:Your comment here}", " */"],
     "description": "Creates a multi-line comment in Kotlin."
   },
-  "Kotlin Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "scope": "kotlin",
     "body": ["throw ${1:Exception('Your message here')}"],
     "description": "Throws an exception in Kotlin."
   },
-  "Kotlin Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "scope": "kotlin",
     "body": [
@@ -568,7 +568,7 @@
     ],
     "description": "Creates a try...catch block in Kotlin."
   },
-  "Kotlin Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "scope": "kotlin",
     "body": [
@@ -580,19 +580,19 @@
     ],
     "description": "Creates an enum in Kotlin."
   },
-  "Kotlin Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "scope": "kotlin",
     "body": ["class ${1:MyClass} {", "  // Your code here", "}"],
     "description": "Creates a class in Kotlin."
   },
-  "Kotlin If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "scope": "kotlin",
     "body": ["if (${1:condition}) {", "  // Your code here", "}"],
     "description": "Creates an if statement in Kotlin."
   },
-  "Kotlin If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "scope": "kotlin",
     "body": [
@@ -606,7 +606,7 @@
     ],
     "description": "Creates an if...else statement in Kotlin."
   },
-  "Kotlin Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "scope": "kotlin",
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],

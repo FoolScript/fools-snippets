@@ -1,5 +1,5 @@
 {
-  "Perl Info": {
+  "FoolScript Info": {
     "prefix": ["foolsInfo", "languageInfo", "info"],
     "body": [
       "# Typing: Dynamically typed",
@@ -10,7 +10,7 @@
     "description": "Provides general information about the Perl programming language."
   },
 
-  "Perl Entry Point": {
+  "FoolScript Entry Point": {
     "prefix": ["foolsEntry", "entry", "start", "startingPoint"],
     "body": [
       "# Perl Entry Point",
@@ -24,7 +24,7 @@
     "description": "Creates the entry point of a Perl script."
   },
 
-  "Perl Project Structure (High-Level)": {
+  "FoolScript Project Structure (High-Level)": {
     "prefix": ["foolsStructure", "structure", "architecture"],
     "body": [
       "# Recommended High-Level Perl Project Structure:",
@@ -56,7 +56,7 @@
     "description": "Explains a high-level project structure for Perl."
   }
 ,  
-  "Perl Mathematical Operators": {
+  "FoolScript Mathematical Operators": {
     "prefix": ["foolsOperators", "operators", "mathDocs"],
     "body": [
       "# Perl Mathematical Operators",
@@ -79,19 +79,19 @@
     "description": "Lists the mathematical operators in Perl."
   },
 
-  "Perl Equal To": {
+  "FoolScript Equal To": {
     "prefix": ["foolsEqual", "equal"],
     "body": ["=="],
-    "description": "Perl equal to operator."
+    "description": "FoolScript equal to operator."
   },
 
-  "Perl Not Equal To": {
+  "FoolScript Not Equal To": {
     "prefix": ["foolsNotEqual", "notEqual", "doesNotEqual"],
     "body": ["!="],
-    "description": "Perl not equal to operator."
+    "description": "FoolScript not equal to operator."
   },
 
-  "Perl Boolean Operators": {
+  "FoolScript Boolean Operators": {
     "prefix": ["foolsOperatorsBool", "booleanOperators", "logic"],
     "body": [
       "# Perl Boolean Operators",
@@ -108,18 +108,18 @@
     "description": "Lists the boolean operators in Perl."
   },
 
-  "Perl Type Check": {
+  "FoolScript Type Check": {
     "prefix": ["foolsTypeCheck", "checkType", "getType", "typeOf"],
     "body": ["ref ${1:variable}"],
     "description": "Gets the type of a variable in Perl."
   },
-  "Perl This Type Check": {
+  "FoolScript This Type Check": {
     "prefix": ["thisTypeCheck", "thisType", "getThisType"],
     "body": ["ref($CLIPBOARD)"],
     "description": "Gets the type of the reference in the clipboard in Perl."
   },  
 
-  "Perl Type Comparison": {
+  "FoolScript Type Comparison": {
     "prefix": ["foolsTypeCompare", "compareTypes"],
     "body": [
       "# Check if two variables have the same type:",
@@ -130,7 +130,7 @@
     "description": "Compares the types of two variables in Perl."
   },
 
-  "Perl Type Conversion": {
+  "FoolScript Type Conversion": {
     "prefix": ["foolsTypeCast", "convert", "cast"],
     "body": [
       "# Perl Type Conversion:",
@@ -149,11 +149,11 @@
     "description": "Explains type conversion in Perl."
   },
 
-  "Perl Types": {
+  "FoolScript Types": {
     "prefix": ["foolsTypes", "types", "allTypes", "languageTypes", "builtInTypes", "dataTypes"],
     "body": [
       "$BLOCK_COMMENT_START",
-      "Perl is a dynamically typed language.",
+      "FoolScript is a dynamically typed language.",
       "",
       "Some common types in Perl include:",
       "- Scalar: Single value (numbers, strings, references)",
@@ -168,85 +168,85 @@
     "description": "Lists some common types in Perl."
   },
 
-  "Perl String Type": {
+  "FoolScript String Type": {
     "prefix": ["foolsTypesString", "stringType", "typeString", "textType", "typeText"],
     "body": ["# Perl uses scalars for strings."],
-    "description": "Perl uses scalars for strings."
+    "description": "FoolScript uses scalars for strings."
   },
 
-  "Perl Integer Type": {
+  "FoolScript Integer Type": {
     "prefix": ["foolsTypesInt", "intType", "typeInt"],
     "body": ["# Perl uses scalars for integers."],
-    "description": "Perl uses scalars for integers."
+    "description": "FoolScript uses scalars for integers."
   },
 
-  "Perl Double Type": {
+  "FoolScript Double Type": {
     "prefix": ["foolsTypesNum", "numberType", "typeNumber", "doubleType", "typeDouble"],
     "body": ["# Perl uses scalars for floating-point numbers."],
-    "description": "Perl uses scalars for floating-point numbers."
+    "description": "FoolScript uses scalars for floating-point numbers."
   },
 
-  "Perl Boolean Type": {
+  "FoolScript Boolean Type": {
     "prefix": ["foolsTypesBool", "booleanType", "typeBool"],
     "body": ["# Perl uses 1 and 0 for boolean values."],
-    "description": "Perl uses 1 and 0 for boolean values."
+    "description": "FoolScript uses 1 and 0 for boolean values."
   },
 
-  "Perl Boolean True": {
+  "FoolScript Boolean True": {
     "prefix": ["foolsTypesBoolTrue", "true", "booleanTrue", "on"],
     "body": ["1"],
     "description": "The Perl true value."
   },
 
-  "Perl Boolean False": {
+  "FoolScript Boolean False": {
     "prefix": ["foolsTypesBoolFalse", "false", "off", "booleanFalse"],
     "body": ["0"],
     "description": "The Perl false value."
   },
 
-  "Perl Date Type": {
+  "FoolScript Date Type": {
     "prefix": ["foolsTypesDate", "dateType", "typeDate", "timeType", "timestampType", "dateTimeType"],
     "body": ["use DateTime"],
     "description": "The Perl DateTime module."
   },
 
-  "Perl Map Type": {
+  "FoolScript Map Type": {
     "prefix": ["foolsTypesMap", "mapType", "typeMap", "hashmapType", "structType", "dictType", "typeDict", "typeScruct"],
     "body": ["%hash"],
     "description": "The Perl hash type, equivalent to a map."
   },
 
-  "Perl List Type": {
+  "FoolScript List Type": {
     "prefix": ["foolsTypesList", "listType", "typeList", "typeArray"],
     "body": ["@array"],
     "description": "The Perl array type, equivalent to a list."
   },
 
-  "Perl Date Now": {
+  "FoolScript Date Now": {
     "prefix": ["foolsNow", "now", "currentTime", "dateNow"],
     "body": ["use DateTime", "", "DateTime->now"],
     "description": "Gets the current date and time in Perl."
   },
 
-  "Perl Null Type": {
+  "FoolScript Null Type": {
     "prefix": ["foolsTypesNull", "foolsNull"],
     "body": ["undef"],
     "description": "The Perl undef value."
   },
 
-  "Perl Dynamic Type": {
+  "FoolScript Dynamic Type": {
             "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["# Perl is a dynamically typed language."],
-    "description": "Perl is a dynamically typed language."
+    "description": "FoolScript is a dynamically typed language."
   },
 
-  "Perl Create Variable": {
+  "FoolScript Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
     "body": ["my $${1:myVar} = $2;"],
     "description": "Creates a variable in Perl."
   },
 
-  "Perl Variable Declaration Syntax": {
+  "FoolScript Variable Declaration Syntax": {
     "prefix": ["foolsVarSyntax", "variableSyntax", "howToVariables", "letSyntax"],
     "body": [
       "# Perl Variable Declaration Syntax:",
@@ -271,13 +271,13 @@
     "description": "Explains Perl variable declaration syntax"
   },
 
-  "Perl Create Nullable Variable": {
+  "FoolScript Create Nullable Variable": {
     "prefix": ["foolsVarNullable", "variableNullable", "nullableVariable", "nil", "none", "nothing", "null", "option"],
     "body": ["my $${1:myVar};  # Variable can be undefined (undef)."],
     "description": "Creates a nullable variable in Perl."
   },
 
-  "Perl Static Variable": {
+  "FoolScript Static Variable": {
     "prefix": ["foolsVarStatic", "staticVariable", "associatedConstant"],
     "body": [
       "our $${1:myStaticVar} = ${2:value};",
@@ -289,7 +289,7 @@
     "description": "Creates a package variable in Perl."
   },
 
-  "Perl Create Typed Variable": {
+  "FoolScript Create Typed Variable": {
     "prefix": ["foolsVarTyped", "typedVariable", "variableWithType"],
     "body": [
       "# Note: Perl is dynamically typed; explicit type annotations are not used.",
@@ -298,25 +298,25 @@
     "description": "Creates a variable in Perl with a comment about dynamic typing."
   },
 
-  "Perl Interpolate String": {
+  "FoolScript Interpolate String": {
     "prefix": ["foolsInterpolate", "interpolate", "variableExpansion", "variableSubstitution", "stringPlaceholders", "stringInterpolation"],
     "body": ["\"Your string here $${1:variable}\""],
     "description": "Interpolates a variable into a string in Perl."
   },
 
-  "Perl Concatenate Strings": {
+  "FoolScript Concatenate Strings": {
     "prefix": ["foolsConcat", "concatenate", "combine"],
     "body": ["\"${1:string1}\" . \"${2:string2}\""],
     "description": "Concatenates two strings in Perl."
   },
 
-  "Perl Create String Variable": {
+  "FoolScript Create String Variable": {
     "prefix": ["foolsVarString", "string", "stringVariable", "variableString", "text", "createString", "createText"],
     "body": ["my $${1:myString} = \"${2:Your string here}\";"],
     "description": "Creates a string variable in Perl."
   },
 
-  "Perl Create Multi-Line String Variable": {
+  "FoolScript Create Multi-Line String Variable": {
     "prefix": ["foolsVarStringMulti", "multiLineString", "varStringMulti", "stringVariableMulti", "createMultiLineString"],
     "body": [
       "my $${1:myString} = <<'END_STRING';",
@@ -328,37 +328,37 @@
     "description": "Creates a multi-line string variable in Perl."
   },
 
-  "Perl Create Integer Variable": {
+  "FoolScript Create Integer Variable": {
     "prefix": ["foolsVarInt", "integer", "int", "variableInt", "intVariable", "createInt"],
     "body": ["my $${1:myInt} = ${2:0};"],
     "description": "Creates an integer variable in Perl."
   },
 
-  "Perl Create Float Variable": {
+  "FoolScript Create Float Variable": {
     "prefix": ["foolsVarNum", "number",  "float", "floatVariable", "variableFloat", "variableNumber", "numberVariable"],
     "body": ["my $${1:myFloat} = ${2:0.0};"],
     "description": "Creates a float variable in Perl."
   },
 
-  "Perl Create Boolean Variable": {
+  "FoolScript Create Boolean Variable": {
     "prefix": ["foolsVarBool", "variableBool", "bool", "boolVariable", "createBool"],
     "body": ["my $${1:myBool} = ${2:1};"],
     "description": "Creates a boolean variable in Perl."
   },
 
-  "Perl Create Array Variable": {
+  "FoolScript Create Array Variable": {
     "prefix": ["foolsVarList", "createList", "listVariable", "arrayVariable", "variableList", "variableArray", "list", "array"],
     "body": ["my @${1:myArray} = (${2:items});"],
     "description": "Creates an array variable in Perl."
   },
 
-  "Perl Create Hash Variable": {
+  "FoolScript Create Hash Variable": {
     "prefix": ["foolsVarMap", "createMap", "createStruct", "variableMap", "variableStruct", "mapVariable", "structVariable", "dictVariable", "variableDict", "createDict"],
     "body": ["my %${1:myHash} = (${2:key} => ${3:value});"],
     "description": "Creates a hash variable in Perl."
   },
 
-  "Perl Create Date Variable": {
+  "FoolScript Create Date Variable": {
     "prefix": ["foolsVarDate", "dateVariable", "variableDate", "date"],
     "body": [
       "my $${1:myDate} = DateTime->new( year => ${2:year}, month => ${3:month}, day => ${4:day} );"
@@ -366,19 +366,19 @@
     "description": "Creates a date variable in Perl."
   },
 
-  "Perl Create Constant": {
+  "FoolScript Create Constant": {
     "prefix": ["foolsConst", "constant"],
     "body": ["use constant ${1:MY_CONST} => $2;"],
     "description": "Creates a constant variable in Perl using the constant pragma."
   },
 
-  "Perl Print": {
+  "FoolScript Print": {
    "prefix": ["foolsPrint", "print", "log", "systemOut", "write", "consoleLog"],
     "body": ["print '${1:Your message here}\\n';"],
     "description": "Prints a message to the console in Perl."
   },
 
-  "Perl Print Multi": {
+  "FoolScript Print Multi": {
     "prefix": ["foolsPrintMulti", "printMultiLine"],
     "body": [
       "print <<'END_STRING';",
@@ -390,7 +390,7 @@
     "description": "Prints a multi-line message to the console in Perl."
   },
 
-  "Perl For Loop": {
+  "FoolScript For Loop": {
     "prefix": ["foolsForLoop", "forLoop", "forX"],
     "body": [
       "for (my $${1:i} = 0; $1 < ${2:10}; $1++) {",
@@ -400,7 +400,7 @@
     "description": "Creates a for loop that iterates through a set of numbers with the index in Perl."
   },
 
-  "Perl For Each Loop": {
+  "FoolScript For Each Loop": {
     "prefix": ["foolsForEach", "foolsForIn"],
     "body": [
       "foreach my $${1:item} (@${2:iterable}) {",
@@ -410,13 +410,13 @@
     "description": "Iterates over an iterable object in Perl."
   },
 
-  "Perl While Loop": {
+  "FoolScript While Loop": {
     "prefix": ["foolsWhileLoop", "whileLoop", "whileTrue"],
     "body": ["while (${1:condition}) {", "  # Your code here", "}"],
     "description": "Creates a while loop in Perl."
   },
 
-  "Perl Case Statement": {
+  "FoolScript Case Statement": {
     "prefix": ["foolsSwitch", "switch", "switchStatement", "select", "case", "when"],
     "body": [
       "case ${1:variable} {",
@@ -431,13 +431,13 @@
     "description": "Creates a case statement in Perl."
   },
 
-  "Perl If Statement": {
+  "FoolScript If Statement": {
     "prefix": ["foolsIf", "ifStatement"],
     "body": ["if (${1:condition}) {", "  # Your code here", "}"],
     "description": "Creates an if statement in Perl."
   },
 
-  "Perl If Else Statement": {
+  "FoolScript If Else Statement": {
     "prefix": ["foolsIfElse", "ifElseStatement"],
     "body": [
       "if (${1:condition}) {",
@@ -449,13 +449,13 @@
     "description": "Creates an if...else statement in Perl."
   },
 
-  "Perl Ternary Operator": {
+  "FoolScript Ternary Operator": {
     "prefix": ["foolsTernary", "ternary", "conditionalOperator"],
     "body": ["${1:condition} ? ${2:trueValue} : ${3:falseValue}"],
     "description": "Creates a ternary operator in Perl."
   },
 
-  "Perl Function": {
+  "FoolScript Function": {
     "prefix": ["foolsFunc", "function", "subprogram", "procedure", "subroutine", "method"],
     "body": [
       "sub ${2:myFunction} {",
@@ -467,7 +467,7 @@
     "description": "Creates a function in Perl."
   },
 
-  "Perl Function Syntax": {
+  "FoolScript Function Syntax": {
     "prefix": ["foolsFuncSyntax", "functionSyntax", "functionDocs"],
     "body": [
       "# Perl Function Syntax",
@@ -486,7 +486,7 @@
     "description": "Outlines the syntax for functions in Perl."
   },
 
-  "Perl Function Args": {
+  "FoolScript Function Args": {
     "prefix": ["foolsFuncArgs", "functionArgs", "functionWithArgs"],
     "body": [
       "# In Perl, you can use default arguments in function definitions.",
@@ -499,7 +499,7 @@
     "description": "Creates a function with arguments in Perl, including an argument with a default value."
   },
 
-  "Perl Named Arguments (Alternative)": {
+  "FoolScript Named Arguments (Alternative)": {
     "prefix": ["foolsFuncArgsNamed", "functionNamedArgs"],
     "body": [
       "# Perl does not have named arguments in the traditional sense.",
@@ -507,7 +507,7 @@
     ],
     "description": "Explains alternatives to named arguments in Perl."
   },
-  "Perl Arrow Function": {
+  "FoolScript Arrow Function": {
     "prefix": ["foolsFuncArrow", "arrowFunction"],
     "body": [
       "${2:my_function} = ->(${3:}) {",
@@ -517,31 +517,31 @@
     "description": "Creates an arrow function (lambda) in Perl."
   },
 
-  "Perl Anonymous Function": {
+  "FoolScript Anonymous Function": {
     "prefix": ["foolsFuncAnon", "anonFunc", "anonymous", "closure" ,"lambda", "functionLiteral", "foolsFuncLambda"],
     "body": ["lambda { |${1:parameters}|", "  # Your code here", "}"],
     "description": "Creates an anonymous function (lambda) in Perl."
   },
 
-  "Perl Comment": {
+  "FoolScript Comment": {
     "prefix": ["foolsComment", "comment", "note"],
     "body": ["# ${1:Your comment here}"],
     "description": "Creates a single-line comment in Perl."
   },
 
-  "Perl Multi-Line Comment": {
+  "FoolScript Multi-Line Comment": {
     "prefix": ["foolsCommentMulti", "multiLineComment", "commentMultiLine", "blockComment"],
     "body": ["=begin", "${1:Your comment here}", "=end"],
     "description": "Creates a multi-line comment in Perl."
   },
 
-  "Perl Throw Exception": {
+  "FoolScript Throw Exception": {
     "prefix": ["foolsThrow", "throwError", "throwException"],
     "body": ["die '${1:Your message here}';"],
     "description": "Throws an exception in Perl."
   },
 
-  "Perl Try Catch": {
+  "FoolScript Try Catch": {
     "prefix": ["foolsTryCatch", "tryCatch"],
     "body": [
       "eval {",
@@ -554,13 +554,13 @@
     "description": "Creates a try...catch block in Perl."
   },
 
-  "Perl Class": {
+  "FoolScript Class": {
     "prefix": ["foolsClass", "class", "objectTemplate"],
     "body": ["package ${1:MyClass};", "", "# Your code here"],
     "description": "Creates a class in Perl."
   },
 
-  "Perl Enum": {
+  "FoolScript Enum": {
     "prefix": ["foolsEnum", "enum"],
     "body": [
       "# Perl does not have a built-in enum type. Use a list or hash instead."
@@ -568,13 +568,13 @@
     "description": "Explains the absence of a built-in enum type in Perl."
   },
 
-  "Perl Generate List": {
+  "FoolScript Generate List": {
     "prefix": ["foolsGenList", "generateList", "listGen"],
     "body": ["my @${1:listName} = (${2:initialValue}) x ${3:length};"],
     "description": "Generates a list (array) of a specific length and initial value in Perl."
   },
 
-  "Perl Generate Map": {
+  "FoolScript Generate Map": {
     "prefix": ["foolsGenMap", "generateMap"],
     "body": [
       "# Perl does not have a built-in way to generate a map (hash) with a specific number of key-value pairs.",
