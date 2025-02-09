@@ -221,7 +221,7 @@
     "description": "The Dart List type."
   },
   "Dart Dynamic Type": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["dynamic"],
     "description": "The Dart dynamic type."
   },
@@ -231,13 +231,13 @@
     "description": "The Dart DateTime.now() method."
   },
   "Dart Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The Dart null value."
   },
   "Dart Create Variable": {
     "prefix": ["foolsVar", "variable", "createVariable", "newVariable"],
-    "body": ["var ${1:myVar} = $2;"],
+    "body": ["${1|var,bool,String,int,double,num,List<Map<String\\, dynamic>>,Map<String\\, dynamic>,dynamic,Set<String>|} = $2;"],
     "description": "Creates a variable in Dart using the var keyword."
   },
   "Variable Declaration Syntax": {

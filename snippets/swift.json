@@ -230,7 +230,7 @@
     "description": "Gets the current date and time in Swift."
   },
   "Swift Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["nil"],
     "description": "The Swift nil value."
   },
@@ -240,7 +240,7 @@
     "description": "The Swift Character type."
   },
   "Swift Dynamic Type": {
-    "prefix": ["foolsTypesAny", "dynamicType", "anyType", "typesDynamic", "typesAny"],
+    "prefix": ["foolsTypesAny", "dynamicType", "anyType", "typeDynamic", "typeAny"],
     "body": ["Any"],
     "description": "The Swift Any type."
   },

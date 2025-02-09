@@ -269,14 +269,14 @@
 
   "Scala Null Type": {
     "scope": "scala",
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The Scala null value."
   },
 
   "Scala Dynamic Type": {
     "scope": "scala",
-        "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+        "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["Any"],
     "description": "The Scala Any type."
   },

@@ -240,12 +240,12 @@
     "description": "Gets the current date in Ruby."
   },
   "Ruby Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["nil"],
     "description": "The Ruby nil value."
   },
   "Ruby Dynamic Type": {
-        "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+        "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["# Ruby is a dynamically typed language."],
     "description": "Ruby is a dynamically typed language."
   },

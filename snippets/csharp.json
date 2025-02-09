@@ -268,12 +268,12 @@
     "description": "The C# List type."
   },
   "C# Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The C# null value."
   },
   "C# Dynamic Type": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["dynamic"],
     "description": "The C# dynamic type."
   },

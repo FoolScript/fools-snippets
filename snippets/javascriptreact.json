@@ -191,7 +191,7 @@
     "description": "JavaScript does not have types."
   },
   "JavaScript Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "JavaScript does not have types."
   },
@@ -221,7 +221,7 @@
     "description": "The JavaScript array type, commonly used as a list."
   },
   "JavaScript Dynamic Type": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": [
       "// There is no specific syntax for declaring a variable with a dynamic type in JavaScript."
     ],

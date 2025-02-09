@@ -183,12 +183,12 @@
     "description": "The Go slice type, commonly used as a list."
   },
   "Go Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["nil"],
     "description": "The Go nil value, representing the absence of a value."
   },
   "Go Dynamic Type": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["interface{}"],
     "description": "The Go interface{} type, representing any type."
   },

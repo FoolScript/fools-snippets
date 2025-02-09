@@ -234,13 +234,13 @@
   },
 
   "R Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["NULL"],
     "description": "The R NULL value."
   },
 
   "R Dynamic Type": {
-        "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+        "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["# R is a dynamically typed language."],
     "description": "R is a dynamically typed language."
   },

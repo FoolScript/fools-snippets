@@ -211,7 +211,7 @@
     "description": "The PHP false value."
   },
   "PHP Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["null"],
     "description": "The PHP null value."
   },
@@ -231,7 +231,7 @@
     "description": "Explains the use of indexed arrays as lists in PHP."
   },
   "PHP Dynamic Type": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["// PHP is a dynamically typed language."],
     "description": "Explains that PHP is a dynamically typed language."
   },

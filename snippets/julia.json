@@ -238,8 +238,8 @@
   "Julia Any Type": {
     "prefix": [
       "foolsTypesDynamic",
-      "typesDynamic",
-      "typesAny",
+      "typeDynamic",
+      "typeAny",
       "dynamicType",
       "anyType"
     ],
@@ -252,7 +252,7 @@
     "description": "The Julia Dates.now() function to get the current date and time."
   },
   "Julia Nothing Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["nothing"],
     "description": "The Julia nothing value, similar to null in other languages."
   },

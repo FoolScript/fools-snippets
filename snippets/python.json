@@ -223,7 +223,7 @@
     "description": "Gets the current date and time in Python."
   },
   "Python Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["None"],
     "description": "The Python None type."
   },
@@ -238,7 +238,7 @@
     "description": "The Python dictionary type."
   },
   "Python Dynamic Type": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": [
       "Any # Note: Python is dynamically typed. Use the Typing module to specify types."
     ],

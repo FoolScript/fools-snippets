@@ -436,7 +436,7 @@
     "description": "Explains how to work with dates in Bash."
   },
   "Bash Dynamic Type": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": [
       "# Bash is dynamically typed; variables can hold different types of values."
     ],
@@ -461,7 +461,7 @@
     "description": "Describes map representation in Bash using associative arrays."
   },
   "Bash Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": [
       "# Bash doesn't have a dedicated null type, but you can use an empty string or a special value like 'null' to represent null."
     ],

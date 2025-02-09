@@ -280,12 +280,12 @@
     "description": "The Rust char type."
   },
   "Rust Null Type (Option)": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "body": ["None"],
     "description": "The Rust Option type."
   },
   "Rust Dynamic Type (Any)": {
-    "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+    "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": ["dyn Any // There is no built-in Any type in Rust."],
     "description": "The Rust dyn Any type."
   },

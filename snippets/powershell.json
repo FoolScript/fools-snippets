@@ -241,8 +241,8 @@
   "PowerShell Dynamic Type": {
     "prefix": [
       "foolsTypesDynamic",
-      "typesDynamic",
-      "typesAny",
+      "typeDynamic",
+      "typeAny",
       "dynamicType",
       "anyType"
     ],

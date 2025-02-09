@@ -256,7 +256,7 @@
   },
 
   "Haskell Dynamic Type": {
-            "prefix": ["foolsTypesDynamic", "typesDynamic", "typesAny", "dynamicType", "anyType"],
+            "prefix": ["foolsTypesDynamic", "typeDynamic", "typeAny", "dynamicType", "anyType"],
     "body": [
       "-- Haskell is statically typed, but you can use 'Any' for dynamic values."
     ],

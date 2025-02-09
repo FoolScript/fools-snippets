@@ -1,6 +1,6 @@
 {
   "C++ Null Type": {
-    "prefix": ["foolsTypesNull", "typesNull"],
+    "prefix": ["foolsTypesNull", "typeNull"],
     "body": ["nullptr"],
     "description": "The null type in C++."
   }

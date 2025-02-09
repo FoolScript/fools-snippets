@@ -252,13 +252,13 @@
     "description": "The Kotlin List type."
   },
   "Kotlin Null Type": {
-    "prefix": ["foolsTypesNull", "nullType", "typesNull"],
+    "prefix": ["foolsTypesNull", "nullType", "typeNull"],
     "scope": "kotlin",
     "body": ["null"],
     "description": "The Kotlin null value."
   },
   "Kotlin Dynamic Type": {
-    "prefix": ["foolsTypesAny", "dynamicType", "anyType", "typesDynamic", "typesAny"],
+    "prefix": ["foolsTypesAny", "dynamicType", "anyType", "typeDynamic", "typeAny"],
     "scope": "kotlin",
     "body": ["Any"],
     "description": "The Kotlin Any type."
