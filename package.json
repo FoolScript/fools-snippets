@@ -120,9 +120,5 @@
         "path": "./snippets/powershell.json"
       }
     ]
-  },
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "pretest": "npm run compile && npm run lint"
   }
 }
