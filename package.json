@@ -119,23 +119,10 @@
         "language": "powershell",
         "path": "./snippets/powershell.json"
       }
-    ],
-    "menus": {
-      "editor/context": [
-        {
-          "when": "editorHasSelection",
-          "command": "fools.saveSnippet",
-          "group": "navigation"
-        }
-      ]
-    }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "vscode-test"
+    "pretest": "npm run compile && npm run lint"
   }
 }
