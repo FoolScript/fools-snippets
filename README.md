@@ -25,7 +25,7 @@ Each snippet is implemented separately in each language. This means that if you 
 
 Check out the [official docs](https://foolscript.com/) for more information.
 
-![FoolScript Snippets](./fools_snippets.png)
+![FoolScript Snippets](./example.png)
 
 ## Supported Languages
 
